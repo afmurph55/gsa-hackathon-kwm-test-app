@@ -1,0 +1,9 @@
+{
+  "name": "FuelSupply MCP",
+  "version": "0.1.0",
+  "status": "local-only prototype; not a registry submission",
+  "transport": "stdio",
+  "command": "/workspace/fuelsupply-mcp/.venv/bin/fuelsupply-mcp",
+  "working_directory": "/workspace/fuelsupply-mcp",
+  "public_deployment": false
+}

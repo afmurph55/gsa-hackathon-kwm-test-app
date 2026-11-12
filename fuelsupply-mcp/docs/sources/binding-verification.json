@@ -1,0 +1,1484 @@
+{
+  "retrieved_at": "2026-11-12T04:22:20.194029+00:00",
+  "results": [
+    {
+      "series": "WDIUPUS2",
+      "frequency": "weekly",
+      "capture": "weekly-national-sample.json",
+      "route": "petroleum/sum/sndw/data/",
+      "metric": "product_supplied",
+      "rows": [
+        {
+          "period": "2026-10-30",
+          "duoarea": "NUS",
+          "area-name": "U.S.",
+          "product": "EPD0",
+          "product-name": "Distillate Fuel Oil",
+          "process": "VPP",
+          "process-name": "Product Supplied",
+          "series": "WDIUPUS2",
+          "series-description": "U.S. Product Supplied of Distillate Fuel Oil (Thousand Barrels per Day)",
+          "value": "4439",
+          "units": "MBBL/D"
+        },
+        {
+          "period": "2026-10-23",
+          "duoarea": "NUS",
+          "area-name": "U.S.",
+          "product": "EPD0",
+          "product-name": "Distillate Fuel Oil",
+          "process": "VPP",
+          "process-name": "Product Supplied",
+          "series": "WDIUPUS2",
+          "series-description": "U.S. Product Supplied of Distillate Fuel Oil (Thousand Barrels per Day)",
+          "value": "4207",
+          "units": "MBBL/D"
+        }
+      ],
+      "verified": true,
+      "checks": [
+        {
+          "period": "2026-10-30",
+          "api_value": 4439.0,
+          "table_value": 4439.0
+        },
+        {
+          "period": "2026-10-23",
+          "api_value": 4207.0,
+          "table_value": 4207.0
+        }
+      ],
+      "table_title": "Weekly U.S. Product Supplied of Distillate Fuel Oil  (Thousand Barrels per Day)",
+      "source_url": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=WDIUPUS2&f=W",
+      "table_sha256": "6e93b78e3140e98c0329d02083f933b5524265d259558b696a13400d71844da3"
+    },
+    {
+      "series": "WGFSTUS1",
+      "frequency": "weekly",
+      "capture": "weekly-national-sample.json",
+      "route": "petroleum/sum/sndw/data/",
+      "metric": "stocks",
+      "rows": [
+        {
+          "period": "2026-10-30",
+          "duoarea": "NUS",
+          "area-name": "U.S.",
+          "product": "EPM0F",
+          "product-name": "Finished Motor Gasoline",
+          "process": "SAE",
+          "process-name": "Ending Stocks",
+          "series": "WGFSTUS1",
+          "series-description": "U.S. Ending Stocks of Finished Motor Gasoline (Thousand Barrels)",
+          "value": "13940",
+          "units": "MBBL"
+        },
+        {
+          "period": "2026-10-23",
+          "duoarea": "NUS",
+          "area-name": "U.S.",
+          "product": "EPM0F",
+          "product-name": "Finished Motor Gasoline",
+          "process": "SAE",
+          "process-name": "Ending Stocks",
+          "series": "WGFSTUS1",
+          "series-description": "U.S. Ending Stocks of Finished Motor Gasoline (Thousand Barrels)",
+          "value": "14125",
+          "units": "MBBL"
+        }
+      ],
+      "verified": true,
+      "checks": [
+        {
+          "period": "2026-10-30",
+          "api_value": 13940.0,
+          "table_value": 13940.0
+        },
+        {
+          "period": "2026-10-23",
+          "api_value": 14125.0,
+          "table_value": 14125.0
+        }
+      ],
+      "table_title": "Weekly U.S. Ending Stocks of Finished Motor Gasoline  (Thousand Barrels)",
+      "source_url": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=WGFSTUS1&f=W",
+      "table_sha256": "d61e8599597ecc6f6247d0b74bbea6565f8c9f243a1ab70a2000bdc807159aa0"
+    },
+    {
+      "series": "WKJUPUS2",
+      "frequency": "weekly",
+      "capture": "weekly-national-sample.json",
+      "route": "petroleum/sum/sndw/data/",
+      "metric": "product_supplied",
+      "rows": [
+        {
+          "period": "2026-10-30",
+          "duoarea": "NUS",
+          "area-name": "U.S.",
+          "product": "EPJK",
+          "product-name": "Kerosene-Type Jet Fuel",
+          "process": "VPP",
+          "process-name": "Product Supplied",
+          "series": "WKJUPUS2",
+          "series-description": "U.S. Product Supplied of Kerosene-Type Jet Fuel (Thousand Barrels per Day)",
+          "value": "1728",
+          "units": "MBBL/D"
+        },
+        {
+          "period": "2026-10-23",
+          "duoarea": "NUS",
+          "area-name": "U.S.",
+          "product": "EPJK",
+          "product-name": "Kerosene-Type Jet Fuel",
+          "process": "VPP",
+          "process-name": "Product Supplied",
+          "series": "WKJUPUS2",
+          "series-description": "U.S. Product Supplied of Kerosene-Type Jet Fuel (Thousand Barrels per Day)",
+          "value": "1679",
+          "units": "MBBL/D"
+        }
+      ],
+      "verified": true,
+      "checks": [
+        {
+          "period": "2026-10-30",
+          "api_value": 1728.0,
+          "table_value": 1728.0
+        },
+        {
+          "period": "2026-10-23",
+          "api_value": 1679.0,
+          "table_value": 1679.0
+        }
+      ],
+      "table_title": "Weekly U.S. Product Supplied of Kerosene-Type Jet Fuel  (Thousand Barrels per Day)",
+      "source_url": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=WKJUPUS2&f=W",
+      "table_sha256": "3b421409398a40f53da471dbc5559b2982553d07ef239a74f7f300b43d14c6ff"
+    },
+    {
+      "series": "WGFUPUS2",
+      "frequency": "weekly",
+      "capture": "weekly-national-sample.json",
+      "route": "petroleum/sum/sndw/data/",
+      "metric": "product_supplied",
+      "rows": [
+        {
+          "period": "2026-10-30",
+          "duoarea": "NUS",
+          "area-name": "U.S.",
+          "product": "EPM0F",
+          "product-name": "Finished Motor Gasoline",
+          "process": "VPP",
+          "process-name": "Product Supplied",
+          "series": "WGFUPUS2",
+          "series-description": "U.S. Product Supplied of Finished Motor Gasoline (Thousand Barrels per Day)",
+          "value": "8808",
+          "units": "MBBL/D"
+        },
+        {
+          "period": "2026-10-23",
+          "duoarea": "NUS",
+          "area-name": "U.S.",
+          "product": "EPM0F",
+          "product-name": "Finished Motor Gasoline",
+          "process": "VPP",
+          "process-name": "Product Supplied",
+          "series": "WGFUPUS2",
+          "series-description": "U.S. Product Supplied of Finished Motor Gasoline (Thousand Barrels per Day)",
+          "value": "8358",
+          "units": "MBBL/D"
+        }
+      ],
+      "verified": true,
+      "checks": [
+        {
+          "period": "2026-10-30",
+          "api_value": 8808.0,
+          "table_value": 8808.0
+        },
+        {
+          "period": "2026-10-23",
+          "api_value": 8358.0,
+          "table_value": 8358.0
+        }
+      ],
+      "table_title": "Weekly U.S. Product Supplied of Finished Motor Gasoline  (Thousand Barrels per Day)",
+      "source_url": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=WGFUPUS2&f=W",
+      "table_sha256": "54e192c8c9219db95baad0b898074a953c546aae482de12bd4a91adbc767f0fe"
+    },
+    {
+      "series": "WDIRPUS2",
+      "frequency": "weekly",
+      "capture": "weekly-national-sample.json",
+      "route": "petroleum/sum/sndw/data/",
+      "metric": "production",
+      "rows": [
+        {
+          "period": "2026-10-30",
+          "duoarea": "NUS",
+          "area-name": "U.S.",
+          "product": "EPD0",
+          "product-name": "Distillate Fuel Oil",
+          "process": "YPR",
+          "process-name": "Refinery and Blender Net Production",
+          "series": "WDIRPUS2",
+          "series-description": "U.S. Refiner and Blender Net Production of Distillate Fuel Oil (Thousand Barrels per Day)",
+          "value": "5154",
+          "units": "MBBL/D"
+        },
+        {
+          "period": "2026-10-23",
+          "duoarea": "NUS",
+          "area-name": "U.S.",
+          "product": "EPD0",
+          "product-name": "Distillate Fuel Oil",
+          "process": "YPR",
+          "process-name": "Refinery and Blender Net Production",
+          "series": "WDIRPUS2",
+          "series-description": "U.S. Refiner and Blender Net Production of Distillate Fuel Oil (Thousand Barrels per Day)",
+          "value": "5161",
+          "units": "MBBL/D"
+        }
+      ],
+      "verified": true,
+      "checks": [
+        {
+          "period": "2026-10-30",
+          "api_value": 5154.0,
+          "table_value": 5154.0
+        },
+        {
+          "period": "2026-10-23",
+          "api_value": 5161.0,
+          "table_value": 5161.0
+        }
+      ],
+      "table_title": "Weekly U.S. Refiner and Blender Net Production of Distillate Fuel Oil  (Thousand Barrels per Day)",
+      "source_url": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=WDIRPUS2&f=W",
+      "table_sha256": "2645801087d88d0eca5f1d94161d62428190563807c21b1569bfccae5a66785c"
+    },
+    {
+      "series": "WKJRPUS2",
+      "frequency": "weekly",
+      "capture": "weekly-national-sample.json",
+      "route": "petroleum/sum/sndw/data/",
+      "metric": "production",
+      "rows": [
+        {
+          "period": "2026-10-30",
+          "duoarea": "NUS",
+          "area-name": "U.S.",
+          "product": "EPJK",
+          "product-name": "Kerosene-Type Jet Fuel",
+          "process": "YPR",
+          "process-name": "Refinery and Blender Net Production",
+          "series": "WKJRPUS2",
+          "series-description": "U.S. Refiner and Blender Net Production of Kerosene-Type Jet Fuel (Thousand Barrels per Day)",
+          "value": "1969",
+          "units": "MBBL/D"
+        },
+        {
+          "period": "2026-10-23",
+          "duoarea": "NUS",
+          "area-name": "U.S.",
+          "product": "EPJK",
+          "product-name": "Kerosene-Type Jet Fuel",
+          "process": "YPR",
+          "process-name": "Refinery and Blender Net Production",
+          "series": "WKJRPUS2",
+          "series-description": "U.S. Refiner and Blender Net Production of Kerosene-Type Jet Fuel (Thousand Barrels per Day)",
+          "value": "1820",
+          "units": "MBBL/D"
+        }
+      ],
+      "verified": true,
+      "checks": [
+        {
+          "period": "2026-10-30",
+          "api_value": 1969.0,
+          "table_value": 1969.0
+        },
+        {
+          "period": "2026-10-23",
+          "api_value": 1820.0,
+          "table_value": 1820.0
+        }
+      ],
+      "table_title": "Weekly U.S. Refiner and Blender Net Production of Kerosene-Type Jet Fuel  (Thousand Barrels per Day)",
+      "source_url": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=WKJRPUS2&f=W",
+      "table_sha256": "c85b2fa0ec832dfbb153bf89f4b721a88c7632a3175fac0699ed7ade480fe499"
+    },
+    {
+      "series": "WGFRPUS2",
+      "frequency": "weekly",
+      "capture": "weekly-national-sample.json",
+      "route": "petroleum/sum/sndw/data/",
+      "metric": "production",
+      "rows": [
+        {
+          "period": "2026-10-30",
+          "duoarea": "NUS",
+          "area-name": "U.S.",
+          "product": "EPM0F",
+          "product-name": "Finished Motor Gasoline",
+          "process": "YPT",
+          "process-name": "Production",
+          "series": "WGFRPUS2",
+          "series-description": "U.S. Refiner and Blender Adjusted Net Production of Finished Motor Gasoline (Thousand Barrels per Day)",
+          "value": "9704",
+          "units": "MBBL/D"
+        },
+        {
+          "period": "2026-10-23",
+          "duoarea": "NUS",
+          "area-name": "U.S.",
+          "product": "EPM0F",
+          "product-name": "Finished Motor Gasoline",
+          "process": "YPT",
+          "process-name": "Production",
+          "series": "WGFRPUS2",
+          "series-description": "U.S. Refiner and Blender Adjusted Net Production of Finished Motor Gasoline (Thousand Barrels per Day)",
+          "value": "9241",
+          "units": "MBBL/D"
+        }
+      ],
+      "verified": true,
+      "checks": [
+        {
+          "period": "2026-10-30",
+          "api_value": 9704.0,
+          "table_value": 9704.0
+        },
+        {
+          "period": "2026-10-23",
+          "api_value": 9241.0,
+          "table_value": 9241.0
+        }
+      ],
+      "table_title": "Weekly U.S. Refiner and Blender Adjusted Net Production of Finished Motor Gasoline  (Thousand Barrels per Day)",
+      "source_url": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=WGFRPUS2&f=W",
+      "table_sha256": "e1c7d6d53db85868538386bd277bb8c97113918f3108f186ef14a53ded249d73"
+    },
+    {
+      "series": "WDISTUS1",
+      "frequency": "weekly",
+      "capture": "weekly-national-sample.json",
+      "route": "petroleum/sum/sndw/data/",
+      "metric": "stocks",
+      "rows": [
+        {
+          "period": "2026-10-30",
+          "duoarea": "NUS",
+          "area-name": "U.S.",
+          "product": "EPD0",
+          "product-name": "Distillate Fuel Oil",
+          "process": "SAE",
+          "process-name": "Ending Stocks",
+          "series": "WDISTUS1",
+          "series-description": "U.S. Ending Stocks of Distillate Fuel Oil (Thousand Barrels)",
+          "value": "99259",
+          "units": "MBBL"
+        },
+        {
+          "period": "2026-10-23",
+          "duoarea": "NUS",
+          "area-name": "U.S.",
+          "product": "EPD0",
+          "product-name": "Distillate Fuel Oil",
+          "process": "SAE",
+          "process-name": "Ending Stocks",
+          "series": "WDISTUS1",
+          "series-description": "U.S. Ending Stocks of Distillate Fuel Oil (Thousand Barrels)",
+          "value": "102824",
+          "units": "MBBL"
+        }
+      ],
+      "verified": true,
+      "checks": [
+        {
+          "period": "2026-10-30",
+          "api_value": 99259.0,
+          "table_value": 99259.0
+        },
+        {
+          "period": "2026-10-23",
+          "api_value": 102824.0,
+          "table_value": 102824.0
+        }
+      ],
+      "table_title": "Weekly U.S. Ending Stocks of Distillate Fuel Oil  (Thousand Barrels)",
+      "source_url": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=WDISTUS1&f=W",
+      "table_sha256": "93a0eebbb108b95851db9cbac4dd4f2deb5f8c755147866bf4f1e4f794aa0a60"
+    },
+    {
+      "series": "WKJSTUS1",
+      "frequency": "weekly",
+      "capture": "weekly-national-sample.json",
+      "route": "petroleum/sum/sndw/data/",
+      "metric": "stocks",
+      "rows": [
+        {
+          "period": "2026-10-30",
+          "duoarea": "NUS",
+          "area-name": "U.S.",
+          "product": "EPJK",
+          "product-name": "Kerosene-Type Jet Fuel",
+          "process": "SAE",
+          "process-name": "Ending Stocks",
+          "series": "WKJSTUS1",
+          "series-description": "U.S. Ending Stocks of Kerosene-Type Jet Fuel (Thousand Barrels)",
+          "value": "41782",
+          "units": "MBBL"
+        },
+        {
+          "period": "2026-10-23",
+          "duoarea": "NUS",
+          "area-name": "U.S.",
+          "product": "EPJK",
+          "product-name": "Kerosene-Type Jet Fuel",
+          "process": "SAE",
+          "process-name": "Ending Stocks",
+          "series": "WKJSTUS1",
+          "series-description": "U.S. Ending Stocks of Kerosene-Type Jet Fuel (Thousand Barrels)",
+          "value": "42217",
+          "units": "MBBL"
+        }
+      ],
+      "verified": true,
+      "checks": [
+        {
+          "period": "2026-10-30",
+          "api_value": 41782.0,
+          "table_value": 41782.0
+        },
+        {
+          "period": "2026-10-23",
+          "api_value": 42217.0,
+          "table_value": 42217.0
+        }
+      ],
+      "table_title": "Weekly U.S. Ending Stocks of Kerosene-Type Jet Fuel  (Thousand Barrels)",
+      "source_url": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=WKJSTUS1&f=W",
+      "table_sha256": "bef141b027d5c2bcccec9bbd45822718045d924c6ad9c44657ccb5cdf51243d4"
+    },
+    {
+      "series": "WDIEXUS2",
+      "frequency": "weekly",
+      "capture": "weekly-trade-sample.json",
+      "route": "petroleum/move/wkly/data/",
+      "metric": "exports",
+      "rows": [
+        {
+          "period": "2026-10-30",
+          "duoarea": "NUS-Z00",
+          "area-name": "U.S.",
+          "product": "EPD0",
+          "product-name": "Distillate Fuel Oil",
+          "process": "EEX",
+          "process-name": "Exports",
+          "series": "WDIEXUS2",
+          "series-description": "U.S. Exports of Total Distillate (Thousand Barrels per Day)",
+          "value": "1341",
+          "units": "MBBL/D"
+        },
+        {
+          "period": "2026-10-23",
+          "duoarea": "NUS-Z00",
+          "area-name": "U.S.",
+          "product": "EPD0",
+          "product-name": "Distillate Fuel Oil",
+          "process": "EEX",
+          "process-name": "Exports",
+          "series": "WDIEXUS2",
+          "series-description": "U.S. Exports of Total Distillate (Thousand Barrels per Day)",
+          "value": "1320",
+          "units": "MBBL/D"
+        }
+      ],
+      "verified": true,
+      "checks": [
+        {
+          "period": "2026-10-30",
+          "api_value": 1341.0,
+          "table_value": 1341.0
+        },
+        {
+          "period": "2026-10-23",
+          "api_value": 1320.0,
+          "table_value": 1320.0
+        }
+      ],
+      "table_title": "Weekly U.S. Exports of Total Distillate  (Thousand Barrels per Day)",
+      "source_url": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=WDIEXUS2&f=W",
+      "table_sha256": "48114d0436e57f2e8d35a579b34277f126cf6b4a3a4d61b52444328b13d039a2"
+    },
+    {
+      "series": "W_EPM0F_IM0_NUS-Z00_MBBLD",
+      "frequency": "weekly",
+      "capture": "weekly-trade-sample.json",
+      "route": "petroleum/move/wkly/data/",
+      "metric": "imports",
+      "rows": [
+        {
+          "period": "2026-10-30",
+          "duoarea": "NUS-Z00",
+          "area-name": "U.S.",
+          "product": "EPM0F",
+          "product-name": "Finished Motor Gasoline",
+          "process": "IM0",
+          "process-name": "Imports",
+          "series": "W_EPM0F_IM0_NUS-Z00_MBBLD",
+          "series-description": "U.S. Imports of Finished Motor Gasoline (Thousand Barrels per Day)",
+          "value": "94",
+          "units": "MBBL/D"
+        },
+        {
+          "period": "2026-10-23",
+          "duoarea": "NUS-Z00",
+          "area-name": "U.S.",
+          "product": "EPM0F",
+          "product-name": "Finished Motor Gasoline",
+          "process": "IM0",
+          "process-name": "Imports",
+          "series": "W_EPM0F_IM0_NUS-Z00_MBBLD",
+          "series-description": "U.S. Imports of Finished Motor Gasoline (Thousand Barrels per Day)",
+          "value": "18",
+          "units": "MBBL/D"
+        }
+      ],
+      "verified": true,
+      "checks": [
+        {
+          "period": "2026-10-30",
+          "api_value": 94.0,
+          "table_value": 94.0
+        },
+        {
+          "period": "2026-10-23",
+          "api_value": 18.0,
+          "table_value": 18.0
+        }
+      ],
+      "table_title": "Weekly U.S. Imports of Finished Motor Gasoline  (Thousand Barrels per Day)",
+      "source_url": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=W_EPM0F_IM0_NUS-Z00_MBBLD&f=W",
+      "table_sha256": "bb5f781de455ff2db5811b09b968d46494b4d46691e54ba0ce803e9d381d87f5"
+    },
+    {
+      "series": "WKJIMUS2",
+      "frequency": "weekly",
+      "capture": "weekly-trade-sample.json",
+      "route": "petroleum/move/wkly/data/",
+      "metric": "imports",
+      "rows": [
+        {
+          "period": "2026-10-30",
+          "duoarea": "NUS-Z00",
+          "area-name": "U.S.",
+          "product": "EPJK",
+          "product-name": "Kerosene-Type Jet Fuel",
+          "process": "IM0",
+          "process-name": "Imports",
+          "series": "WKJIMUS2",
+          "series-description": "U.S. Imports of Kerosene-Type Jet Fuel (Thousand Barrels per Day)",
+          "value": "8",
+          "units": "MBBL/D"
+        },
+        {
+          "period": "2026-10-23",
+          "duoarea": "NUS-Z00",
+          "area-name": "U.S.",
+          "product": "EPJK",
+          "product-name": "Kerosene-Type Jet Fuel",
+          "process": "IM0",
+          "process-name": "Imports",
+          "series": "WKJIMUS2",
+          "series-description": "U.S. Imports of Kerosene-Type Jet Fuel (Thousand Barrels per Day)",
+          "value": "76",
+          "units": "MBBL/D"
+        }
+      ],
+      "verified": true,
+      "checks": [
+        {
+          "period": "2026-10-30",
+          "api_value": 8.0,
+          "table_value": 8.0
+        },
+        {
+          "period": "2026-10-23",
+          "api_value": 76.0,
+          "table_value": 76.0
+        }
+      ],
+      "table_title": "Weekly U.S. Imports of Kerosene-Type Jet Fuel  (Thousand Barrels per Day)",
+      "source_url": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=WKJIMUS2&f=W",
+      "table_sha256": "72fa0c204f3940e45816d292cd3a42262d2ce7bd226f5a13f46976a22d466c3e"
+    },
+    {
+      "series": "WDIIMUS2",
+      "frequency": "weekly",
+      "capture": "weekly-trade-sample.json",
+      "route": "petroleum/move/wkly/data/",
+      "metric": "imports",
+      "rows": [
+        {
+          "period": "2026-10-30",
+          "duoarea": "NUS-Z00",
+          "area-name": "U.S.",
+          "product": "EPD0",
+          "product-name": "Distillate Fuel Oil",
+          "process": "IM0",
+          "process-name": "Imports",
+          "series": "WDIIMUS2",
+          "series-description": "U.S. Imports of Distillate Fuel Oil (Thousand Barrels per Day)",
+          "value": "117",
+          "units": "MBBL/D"
+        },
+        {
+          "period": "2026-10-23",
+          "duoarea": "NUS-Z00",
+          "area-name": "U.S.",
+          "product": "EPD0",
+          "product-name": "Distillate Fuel Oil",
+          "process": "IM0",
+          "process-name": "Imports",
+          "series": "WDIIMUS2",
+          "series-description": "U.S. Imports of Distillate Fuel Oil (Thousand Barrels per Day)",
+          "value": "157",
+          "units": "MBBL/D"
+        }
+      ],
+      "verified": true,
+      "checks": [
+        {
+          "period": "2026-10-30",
+          "api_value": 117.0,
+          "table_value": 117.0
+        },
+        {
+          "period": "2026-10-23",
+          "api_value": 157.0,
+          "table_value": 157.0
+        }
+      ],
+      "table_title": "Weekly U.S. Imports of Distillate Fuel Oil  (Thousand Barrels per Day)",
+      "source_url": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=WDIIMUS2&f=W",
+      "table_sha256": "c854d22b267b4c13e1368c288b0ad1d5910a1c43f00c5a6f2a331696997caf90"
+    },
+    {
+      "series": "WKJEXUS2",
+      "frequency": "weekly",
+      "capture": "weekly-trade-sample.json",
+      "route": "petroleum/move/wkly/data/",
+      "metric": "exports",
+      "rows": [
+        {
+          "period": "2026-10-30",
+          "duoarea": "NUS-Z00",
+          "area-name": "U.S.",
+          "product": "EPJK",
+          "product-name": "Kerosene-Type Jet Fuel",
+          "process": "EEX",
+          "process-name": "Exports",
+          "series": "WKJEXUS2",
+          "series-description": "U.S. Exports of Kerosene-Type Jet Fuel (Thousand Barrels per Day)",
+          "value": "311",
+          "units": "MBBL/D"
+        },
+        {
+          "period": "2026-10-23",
+          "duoarea": "NUS-Z00",
+          "area-name": "U.S.",
+          "product": "EPJK",
+          "product-name": "Kerosene-Type Jet Fuel",
+          "process": "EEX",
+          "process-name": "Exports",
+          "series": "WKJEXUS2",
+          "series-description": "U.S. Exports of Kerosene-Type Jet Fuel (Thousand Barrels per Day)",
+          "value": "272",
+          "units": "MBBL/D"
+        }
+      ],
+      "verified": true,
+      "checks": [
+        {
+          "period": "2026-10-30",
+          "api_value": 311.0,
+          "table_value": 311.0
+        },
+        {
+          "period": "2026-10-23",
+          "api_value": 272.0,
+          "table_value": 272.0
+        }
+      ],
+      "table_title": "Weekly U.S. Exports of Kerosene-Type Jet Fuel  (Thousand Barrels per Day)",
+      "source_url": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=WKJEXUS2&f=W",
+      "table_sha256": "6f996f827e13e8af1a9c1bec2e6341b6d46b2fae4aacdd9fe53ddaa97c563886"
+    },
+    {
+      "series": "MDIUPUS1",
+      "frequency": "monthly",
+      "capture": "monthly-distillate-sample.json",
+      "route": "petroleum/sum/snd/data/",
+      "metric": "product_supplied",
+      "rows": [
+        {
+          "period": "2026-08",
+          "duoarea": "NUS",
+          "area-name": "U.S.",
+          "product": "EPD0",
+          "product-name": "Distillate Fuel Oil",
+          "process": "VPP",
+          "process-name": "Product Supplied",
+          "series": "MDIUPUS1",
+          "series-description": "U.S. Product Supplied of Distillate Fuel Oil (Thousand Barrels)",
+          "value": "114846",
+          "units": "MBBL"
+        },
+        {
+          "period": "2026-07",
+          "duoarea": "NUS",
+          "area-name": "U.S.",
+          "product": "EPD0",
+          "product-name": "Distillate Fuel Oil",
+          "process": "VPP",
+          "process-name": "Product Supplied",
+          "series": "MDIUPUS1",
+          "series-description": "U.S. Product Supplied of Distillate Fuel Oil (Thousand Barrels)",
+          "value": "114248",
+          "units": "MBBL"
+        }
+      ],
+      "verified": true,
+      "checks": [
+        {
+          "period": "2026-08",
+          "api_value": 114846.0,
+          "table_value": 114846.0
+        },
+        {
+          "period": "2026-07",
+          "api_value": 114248.0,
+          "table_value": 114248.0
+        }
+      ],
+      "table_title": "U.S. Product Supplied of Distillate Fuel Oil (Thousand Barrels)",
+      "source_url": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=MDIUPUS1&f=M",
+      "table_sha256": "c947114353c31890746722153e62ae6b0221ee1ea4b5e81f89be3424ff09d62f"
+    },
+    {
+      "series": "MDIUPP11",
+      "frequency": "monthly",
+      "capture": "monthly-distillate-sample.json",
+      "route": "petroleum/sum/snd/data/",
+      "metric": "product_supplied",
+      "rows": [
+        {
+          "period": "2026-08",
+          "duoarea": "R10",
+          "area-name": "PADD 1",
+          "product": "EPD0",
+          "product-name": "Distillate Fuel Oil",
+          "process": "VPP",
+          "process-name": "Product Supplied",
+          "series": "MDIUPP11",
+          "series-description": "East Coast (PADD 1) Product Supplied of Distillate Fuel Oil (Thousand Barrels)",
+          "value": "32137",
+          "units": "MBBL"
+        },
+        {
+          "period": "2026-07",
+          "duoarea": "R10",
+          "area-name": "PADD 1",
+          "product": "EPD0",
+          "product-name": "Distillate Fuel Oil",
+          "process": "VPP",
+          "process-name": "Product Supplied",
+          "series": "MDIUPP11",
+          "series-description": "East Coast (PADD 1) Product Supplied of Distillate Fuel Oil (Thousand Barrels)",
+          "value": "28484",
+          "units": "MBBL"
+        }
+      ],
+      "verified": true,
+      "checks": [
+        {
+          "period": "2026-08",
+          "api_value": 32137.0,
+          "table_value": 32137.0
+        },
+        {
+          "period": "2026-07",
+          "api_value": 28484.0,
+          "table_value": 28484.0
+        }
+      ],
+      "table_title": "East Coast (PADD 1) Product Supplied of Distillate Fuel Oil (Thousand Barrels)",
+      "source_url": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=MDIUPP11&f=M",
+      "table_sha256": "c13c02bfaf4c1f5e243603bb3b61cbdd79258406cebe4d112416723ee6e38df8"
+    },
+    {
+      "series": "M_EPD0_YNP_NUS_MBBL",
+      "frequency": "monthly",
+      "capture": "monthly-distillate-sample.json",
+      "route": "petroleum/sum/snd/data/",
+      "metric": "biofuels_production",
+      "rows": [
+        {
+          "period": "2026-08",
+          "duoarea": "NUS",
+          "area-name": "U.S.",
+          "product": "EPD0",
+          "product-name": "Distillate Fuel Oil",
+          "process": "YNP",
+          "process-name": "Renewable Fuels Plant and Oxygenate Plant Net Production",
+          "series": "M_EPD0_YNP_NUS_MBBL",
+          "series-description": "U.S. Biofuels Plant Net Production of Distillate Fuel Oil (Thousand Barrels)",
+          "value": "8",
+          "units": "MBBL"
+        },
+        {
+          "period": "2026-07",
+          "duoarea": "NUS",
+          "area-name": "U.S.",
+          "product": "EPD0",
+          "product-name": "Distillate Fuel Oil",
+          "process": "YNP",
+          "process-name": "Renewable Fuels Plant and Oxygenate Plant Net Production",
+          "series": "M_EPD0_YNP_NUS_MBBL",
+          "series-description": "U.S. Biofuels Plant Net Production of Distillate Fuel Oil (Thousand Barrels)",
+          "value": "8",
+          "units": "MBBL"
+        }
+      ],
+      "verified": true,
+      "checks": [
+        {
+          "period": "2026-08",
+          "api_value": 8.0,
+          "table_value": 8.0
+        },
+        {
+          "period": "2026-07",
+          "api_value": 8.0,
+          "table_value": 8.0
+        }
+      ],
+      "table_title": "U.S. Biofuels Plant Net Production of Distillate Fuel Oil (Thousand Barrels)",
+      "source_url": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=M_EPD0_YNP_NUS_MBBL&f=M",
+      "table_sha256": "6b06beb7dae5dba026f3814ef37eb036a78bd4c03632850f3555d68f735a3643"
+    },
+    {
+      "series": "M_EPD0_YNP_R10_MBBL",
+      "frequency": "monthly",
+      "capture": "monthly-distillate-sample.json",
+      "route": "petroleum/sum/snd/data/",
+      "metric": "biofuels_production",
+      "rows": [
+        {
+          "period": "2026-08",
+          "duoarea": "R10",
+          "area-name": "PADD 1",
+          "product": "EPD0",
+          "product-name": "Distillate Fuel Oil",
+          "process": "YNP",
+          "process-name": "Renewable Fuels Plant and Oxygenate Plant Net Production",
+          "series": "M_EPD0_YNP_R10_MBBL",
+          "series-description": "East Coast (PADD 1) Biofuels Plant Net Production of Distillate Fuel Oil (Thousand Barrels)",
+          "value": "0",
+          "units": "MBBL"
+        },
+        {
+          "period": "2026-07",
+          "duoarea": "R10",
+          "area-name": "PADD 1",
+          "product": "EPD0",
+          "product-name": "Distillate Fuel Oil",
+          "process": "YNP",
+          "process-name": "Renewable Fuels Plant and Oxygenate Plant Net Production",
+          "series": "M_EPD0_YNP_R10_MBBL",
+          "series-description": "East Coast (PADD 1) Biofuels Plant Net Production of Distillate Fuel Oil (Thousand Barrels)",
+          "value": "0",
+          "units": "MBBL"
+        }
+      ],
+      "verified": true,
+      "checks": [
+        {
+          "period": "2026-08",
+          "api_value": 0.0,
+          "table_value": 0.0
+        },
+        {
+          "period": "2026-07",
+          "api_value": 0.0,
+          "table_value": 0.0
+        }
+      ],
+      "table_title": "East Coast (PADD 1) Biofuels Plant Net Production of Distillate Fuel Oil (Thousand Barrels)",
+      "source_url": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=M_EPD0_YNP_R10_MBBL&f=M",
+      "table_sha256": "0cb00779112b513114de43d8d8a0f4f09f85ef7c9464c844365e4778d608a665"
+    },
+    {
+      "series": "MDIRPUS1",
+      "frequency": "monthly",
+      "capture": "monthly-distillate-sample.json",
+      "route": "petroleum/sum/snd/data/",
+      "metric": "refinery_blender_production",
+      "rows": [
+        {
+          "period": "2026-08",
+          "duoarea": "NUS",
+          "area-name": "U.S.",
+          "product": "EPD0",
+          "product-name": "Distillate Fuel Oil",
+          "process": "YPR",
+          "process-name": "Refinery and Blender Net Production",
+          "series": "MDIRPUS1",
+          "series-description": "U.S. Refinery and Blender Net Production of Distillate Fuel Oil (Thousand Barrels)",
+          "value": "162153",
+          "units": "MBBL"
+        },
+        {
+          "period": "2026-07",
+          "duoarea": "NUS",
+          "area-name": "U.S.",
+          "product": "EPD0",
+          "product-name": "Distillate Fuel Oil",
+          "process": "YPR",
+          "process-name": "Refinery and Blender Net Production",
+          "series": "MDIRPUS1",
+          "series-description": "U.S. Refinery and Blender Net Production of Distillate Fuel Oil (Thousand Barrels)",
+          "value": "163382",
+          "units": "MBBL"
+        }
+      ],
+      "verified": true,
+      "checks": [
+        {
+          "period": "2026-08",
+          "api_value": 162153.0,
+          "table_value": 162153.0
+        },
+        {
+          "period": "2026-07",
+          "api_value": 163382.0,
+          "table_value": 163382.0
+        }
+      ],
+      "table_title": "U.S. Refinery and Blender Net Production of Distillate Fuel Oil (Thousand Barrels)",
+      "source_url": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=MDIRPUS1&f=M",
+      "table_sha256": "5a49137ab5d6a58435a8010663aa8eda1c2b3ac21065d5bb110e4c68dc376cb4"
+    },
+    {
+      "series": "MDIRPP11",
+      "frequency": "monthly",
+      "capture": "monthly-distillate-sample.json",
+      "route": "petroleum/sum/snd/data/",
+      "metric": "refinery_blender_production",
+      "rows": [
+        {
+          "period": "2026-08",
+          "duoarea": "R10",
+          "area-name": "PADD 1",
+          "product": "EPD0",
+          "product-name": "Distillate Fuel Oil",
+          "process": "YPR",
+          "process-name": "Refinery and Blender Net Production",
+          "series": "MDIRPP11",
+          "series-description": "East Coast (PADD 1) Refinery and Blender Net Production of Distillate Fuel Oil (Thousand Barrels)",
+          "value": "7764",
+          "units": "MBBL"
+        },
+        {
+          "period": "2026-07",
+          "duoarea": "R10",
+          "area-name": "PADD 1",
+          "product": "EPD0",
+          "product-name": "Distillate Fuel Oil",
+          "process": "YPR",
+          "process-name": "Refinery and Blender Net Production",
+          "series": "MDIRPP11",
+          "series-description": "East Coast (PADD 1) Refinery and Blender Net Production of Distillate Fuel Oil (Thousand Barrels)",
+          "value": "7419",
+          "units": "MBBL"
+        }
+      ],
+      "verified": true,
+      "checks": [
+        {
+          "period": "2026-08",
+          "api_value": 7764.0,
+          "table_value": 7764.0
+        },
+        {
+          "period": "2026-07",
+          "api_value": 7419.0,
+          "table_value": 7419.0
+        }
+      ],
+      "table_title": "East Coast (PADD 1) Refinery and Blender Net Production of Distillate Fuel Oil (Thousand Barrels)",
+      "source_url": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=MDIRPP11&f=M",
+      "table_sha256": "eb3f9372351e9fb8c00c1593b1e9e25d7bc7675281a97a173a6d9006dbc3a4ac"
+    },
+    {
+      "series": "MDISTUS1",
+      "frequency": "monthly",
+      "capture": "monthly-distillate-sample.json",
+      "route": "petroleum/sum/snd/data/",
+      "metric": "stocks",
+      "rows": [
+        {
+          "period": "2026-08",
+          "duoarea": "NUS",
+          "area-name": "U.S.",
+          "product": "EPD0",
+          "product-name": "Distillate Fuel Oil",
+          "process": "SAE",
+          "process-name": "Ending Stocks",
+          "series": "MDISTUS1",
+          "series-description": "U.S. Ending Stocks of Distillate Fuel Oil (Thousand Barrels)",
+          "value": "106426",
+          "units": "MBBL"
+        },
+        {
+          "period": "2026-07",
+          "duoarea": "NUS",
+          "area-name": "U.S.",
+          "product": "EPD0",
+          "product-name": "Distillate Fuel Oil",
+          "process": "SAE",
+          "process-name": "Ending Stocks",
+          "series": "MDISTUS1",
+          "series-description": "U.S. Ending Stocks of Distillate Fuel Oil (Thousand Barrels)",
+          "value": "108797",
+          "units": "MBBL"
+        }
+      ],
+      "verified": true,
+      "checks": [
+        {
+          "period": "2026-08",
+          "api_value": 106426.0,
+          "table_value": 106426.0
+        },
+        {
+          "period": "2026-07",
+          "api_value": 108797.0,
+          "table_value": 108797.0
+        }
+      ],
+      "table_title": "U.S. Ending Stocks of Distillate Fuel Oil (Thousand Barrels)",
+      "source_url": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=MDISTUS1&f=M",
+      "table_sha256": "09a320aaa6192ed6456550f6a74b2b9f9a08a7cb00160daf4cc4a5e1049e6937"
+    },
+    {
+      "series": "MDISTP11",
+      "frequency": "monthly",
+      "capture": "monthly-distillate-sample.json",
+      "route": "petroleum/sum/snd/data/",
+      "metric": "stocks",
+      "rows": [
+        {
+          "period": "2026-08",
+          "duoarea": "R10",
+          "area-name": "PADD 1",
+          "product": "EPD0",
+          "product-name": "Distillate Fuel Oil",
+          "process": "SAE",
+          "process-name": "Ending Stocks",
+          "series": "MDISTP11",
+          "series-description": "East Coast (PADD 1) Ending Stocks of Distillate Fuel Oil (Thousand Barrels)",
+          "value": "20885",
+          "units": "MBBL"
+        },
+        {
+          "period": "2026-07",
+          "duoarea": "R10",
+          "area-name": "PADD 1",
+          "product": "EPD0",
+          "product-name": "Distillate Fuel Oil",
+          "process": "SAE",
+          "process-name": "Ending Stocks",
+          "series": "MDISTP11",
+          "series-description": "East Coast (PADD 1) Ending Stocks of Distillate Fuel Oil (Thousand Barrels)",
+          "value": "25085",
+          "units": "MBBL"
+        }
+      ],
+      "verified": true,
+      "checks": [
+        {
+          "period": "2026-08",
+          "api_value": 20885.0,
+          "table_value": 20885.0
+        },
+        {
+          "period": "2026-07",
+          "api_value": 25085.0,
+          "table_value": 25085.0
+        }
+      ],
+      "table_title": "East Coast (PADD 1) Ending Stocks of Distillate Fuel Oil (Thousand Barrels)",
+      "source_url": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=MDISTP11&f=M",
+      "table_sha256": "fcbc47db2a609d76fb07a6b94242aa3e82530445019c67522dbcc892fbbc72ae"
+    },
+    {
+      "series": "MDISCUS1",
+      "frequency": "monthly",
+      "capture": "monthly-distillate-sample.json",
+      "route": "petroleum/sum/snd/data/",
+      "metric": "stock_change",
+      "rows": [
+        {
+          "period": "2026-08",
+          "duoarea": "NUS",
+          "area-name": "U.S.",
+          "product": "EPD0",
+          "product-name": "Distillate Fuel Oil",
+          "process": "SCG",
+          "process-name": "Stock Change",
+          "series": "MDISCUS1",
+          "series-description": "U.S. Distillate Fuel Oil Stock Change (Thousand Barrels)",
+          "value": "-2371",
+          "units": "MBBL"
+        },
+        {
+          "period": "2026-07",
+          "duoarea": "NUS",
+          "area-name": "U.S.",
+          "product": "EPD0",
+          "product-name": "Distillate Fuel Oil",
+          "process": "SCG",
+          "process-name": "Stock Change",
+          "series": "MDISCUS1",
+          "series-description": "U.S. Distillate Fuel Oil Stock Change (Thousand Barrels)",
+          "value": "-651",
+          "units": "MBBL"
+        }
+      ],
+      "verified": true,
+      "checks": [
+        {
+          "period": "2026-08",
+          "api_value": -2371.0,
+          "table_value": -2371.0
+        },
+        {
+          "period": "2026-07",
+          "api_value": -651.0,
+          "table_value": -651.0
+        }
+      ],
+      "table_title": "U.S. Distillate Fuel Oil Stock Change (Thousand Barrels)",
+      "source_url": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=MDISCUS1&f=M",
+      "table_sha256": "432dc4049ea3d947b1e065cc02f2d1452fff132ed38975fc6c10d9b389d5afa6"
+    },
+    {
+      "series": "MDISCP11",
+      "frequency": "monthly",
+      "capture": "monthly-distillate-sample.json",
+      "route": "petroleum/sum/snd/data/",
+      "metric": "stock_change",
+      "rows": [
+        {
+          "period": "2026-08",
+          "duoarea": "R10",
+          "area-name": "PADD 1",
+          "product": "EPD0",
+          "product-name": "Distillate Fuel Oil",
+          "process": "SCG",
+          "process-name": "Stock Change",
+          "series": "MDISCP11",
+          "series-description": "East Coast (PADD 1) Distillate Fuel Oil Stock Change (Thousand Barrels)",
+          "value": "-4200",
+          "units": "MBBL"
+        },
+        {
+          "period": "2026-07",
+          "duoarea": "R10",
+          "area-name": "PADD 1",
+          "product": "EPD0",
+          "product-name": "Distillate Fuel Oil",
+          "process": "SCG",
+          "process-name": "Stock Change",
+          "series": "MDISCP11",
+          "series-description": "East Coast (PADD 1) Distillate Fuel Oil Stock Change (Thousand Barrels)",
+          "value": "2155",
+          "units": "MBBL"
+        }
+      ],
+      "verified": true,
+      "checks": [
+        {
+          "period": "2026-08",
+          "api_value": -4200.0,
+          "table_value": -4200.0
+        },
+        {
+          "period": "2026-07",
+          "api_value": 2155.0,
+          "table_value": 2155.0
+        }
+      ],
+      "table_title": "East Coast (PADD 1) Distillate Fuel Oil Stock Change (Thousand Barrels)",
+      "source_url": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=MDISCP11&f=M",
+      "table_sha256": "db4e262852101b1fba58d1db54638982cfef070f480aba9e224c09a4ff270379"
+    },
+    {
+      "series": "MDIEXUS1",
+      "frequency": "monthly",
+      "capture": "monthly-distillate-trade-sample.json",
+      "route": "petroleum/sum/snd/data/",
+      "metric": "exports",
+      "rows": [
+        {
+          "period": "2026-08",
+          "duoarea": "NUS-Z00",
+          "area-name": "U.S.",
+          "product": "EPD0",
+          "product-name": "Distillate Fuel Oil",
+          "process": "EEX",
+          "process-name": "Exports",
+          "series": "MDIEXUS1",
+          "series-description": "U.S. Exports of Distillate Fuel Oil (Thousand Barrels)",
+          "value": "53723",
+          "units": "MBBL"
+        },
+        {
+          "period": "2026-07",
+          "duoarea": "NUS-Z00",
+          "area-name": "U.S.",
+          "product": "EPD0",
+          "product-name": "Distillate Fuel Oil",
+          "process": "EEX",
+          "process-name": "Exports",
+          "series": "MDIEXUS1",
+          "series-description": "U.S. Exports of Distillate Fuel Oil (Thousand Barrels)",
+          "value": "54099",
+          "units": "MBBL"
+        }
+      ],
+      "verified": true,
+      "checks": [
+        {
+          "period": "2026-08",
+          "api_value": 53723.0,
+          "table_value": 53723.0
+        },
+        {
+          "period": "2026-07",
+          "api_value": 54099.0,
+          "table_value": 54099.0
+        }
+      ],
+      "table_title": "U.S. Exports of Distillate Fuel Oil (Thousand Barrels)",
+      "source_url": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=MDIEXUS1&f=M",
+      "table_sha256": "f63cdace8f6904360e8bca94b9f4192b7332f3f2873a361104135397e4ef660a"
+    },
+    {
+      "series": "MDIEXP11",
+      "frequency": "monthly",
+      "capture": "monthly-distillate-trade-sample.json",
+      "route": "petroleum/sum/snd/data/",
+      "metric": "exports",
+      "rows": [
+        {
+          "period": "2026-08",
+          "duoarea": "R10-Z00",
+          "area-name": "PADD 1",
+          "product": "EPD0",
+          "product-name": "Distillate Fuel Oil",
+          "process": "EEX",
+          "process-name": "Exports",
+          "series": "MDIEXP11",
+          "series-description": "East Coast (PADD 1) Exports of Distillate Fuel Oil (Thousand Barrels)",
+          "value": "3090",
+          "units": "MBBL"
+        },
+        {
+          "period": "2026-07",
+          "duoarea": "R10-Z00",
+          "area-name": "PADD 1",
+          "product": "EPD0",
+          "product-name": "Distillate Fuel Oil",
+          "process": "EEX",
+          "process-name": "Exports",
+          "series": "MDIEXP11",
+          "series-description": "East Coast (PADD 1) Exports of Distillate Fuel Oil (Thousand Barrels)",
+          "value": "2945",
+          "units": "MBBL"
+        }
+      ],
+      "verified": true,
+      "checks": [
+        {
+          "period": "2026-08",
+          "api_value": 3090.0,
+          "table_value": 3090.0
+        },
+        {
+          "period": "2026-07",
+          "api_value": 2945.0,
+          "table_value": 2945.0
+        }
+      ],
+      "table_title": "East Coast (PADD 1) Exports of Distillate Fuel Oil (Thousand Barrels)",
+      "source_url": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=MDIEXP11&f=M",
+      "table_sha256": "6ecb2ca035f038750a4820c2afadabd286ea5e7111cfa5b4a31d22fc87929675"
+    },
+    {
+      "series": "MDIIMUS1",
+      "frequency": "monthly",
+      "capture": "monthly-distillate-trade-sample.json",
+      "route": "petroleum/sum/snd/data/",
+      "metric": "imports",
+      "rows": [
+        {
+          "period": "2026-08",
+          "duoarea": "NUS-Z00",
+          "area-name": "U.S.",
+          "product": "EPD0",
+          "product-name": "Distillate Fuel Oil",
+          "process": "IM0",
+          "process-name": "Imports",
+          "series": "MDIIMUS1",
+          "series-description": "U.S. Imports of Distillate Fuel Oil (Thousand Barrels)",
+          "value": "4036",
+          "units": "MBBL"
+        },
+        {
+          "period": "2026-07",
+          "duoarea": "NUS-Z00",
+          "area-name": "U.S.",
+          "product": "EPD0",
+          "product-name": "Distillate Fuel Oil",
+          "process": "IM0",
+          "process-name": "Imports",
+          "series": "MDIIMUS1",
+          "series-description": "U.S. Imports of Distillate Fuel Oil (Thousand Barrels)",
+          "value": "4306",
+          "units": "MBBL"
+        }
+      ],
+      "verified": true,
+      "checks": [
+        {
+          "period": "2026-08",
+          "api_value": 4036.0,
+          "table_value": 4036.0
+        },
+        {
+          "period": "2026-07",
+          "api_value": 4306.0,
+          "table_value": 4306.0
+        }
+      ],
+      "table_title": "U.S. Imports of Distillate Fuel Oil (Thousand Barrels)",
+      "source_url": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=MDIIMUS1&f=M",
+      "table_sha256": "78d3bb22d1932cfbd7563eba966efd0592dc9b76e287e4c94938d22809262a06"
+    },
+    {
+      "series": "MDIIMP11",
+      "frequency": "monthly",
+      "capture": "monthly-distillate-trade-sample.json",
+      "route": "petroleum/sum/snd/data/",
+      "metric": "imports",
+      "rows": [
+        {
+          "period": "2026-08",
+          "duoarea": "R10-Z00",
+          "area-name": "PADD 1",
+          "product": "EPD0",
+          "product-name": "Distillate Fuel Oil",
+          "process": "IM0",
+          "process-name": "Imports",
+          "series": "MDIIMP11",
+          "series-description": "East Coast (PADD 1) Imports of Distillate Fuel Oil (Thousand Barrels)",
+          "value": "2658",
+          "units": "MBBL"
+        },
+        {
+          "period": "2026-07",
+          "duoarea": "R10-Z00",
+          "area-name": "PADD 1",
+          "product": "EPD0",
+          "product-name": "Distillate Fuel Oil",
+          "process": "IM0",
+          "process-name": "Imports",
+          "series": "MDIIMP11",
+          "series-description": "East Coast (PADD 1) Imports of Distillate Fuel Oil (Thousand Barrels)",
+          "value": "2955",
+          "units": "MBBL"
+        }
+      ],
+      "verified": true,
+      "checks": [
+        {
+          "period": "2026-08",
+          "api_value": 2658.0,
+          "table_value": 2658.0
+        },
+        {
+          "period": "2026-07",
+          "api_value": 2955.0,
+          "table_value": 2955.0
+        }
+      ],
+      "table_title": "East Coast (PADD 1) Imports of Distillate Fuel Oil (Thousand Barrels)",
+      "source_url": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=MDIIMP11&f=M",
+      "table_sha256": "e8be3714c63e6fa7c43d1abeaf9a3c25679b3cadc56ca6b29e2307556ade9912"
+    },
+    {
+      "series": "MDINRP11",
+      "frequency": "monthly",
+      "capture": "monthly-distillate-receipts-sample.json",
+      "route": "petroleum/move/netr/data/",
+      "metric": "net_receipts",
+      "rows": [
+        {
+          "period": "2026-08",
+          "duoarea": "R10-Z0P",
+          "area-name": "PADD 1",
+          "product": "EPD0",
+          "product-name": "Distillate Fuel Oil",
+          "process": "VNR",
+          "process-name": "Net Receipts by Pipeline, Tanker, Barge and Rail",
+          "series": "MDINRP11",
+          "series-description": "East Coast (PADD 1) Net Receipts by Pipeline, Tanker, and Barge from Other PADDs of Distillate Fuel Oil (Thousand Barrels)",
+          "value": "20605",
+          "units": "MBBL"
+        },
+        {
+          "period": "2026-07",
+          "duoarea": "R10-Z0P",
+          "area-name": "PADD 1",
+          "product": "EPD0",
+          "product-name": "Distillate Fuel Oil",
+          "process": "VNR",
+          "process-name": "Net Receipts by Pipeline, Tanker, Barge and Rail",
+          "series": "MDINRP11",
+          "series-description": "East Coast (PADD 1) Net Receipts by Pipeline, Tanker, and Barge from Other PADDs of Distillate Fuel Oil (Thousand Barrels)",
+          "value": "23210",
+          "units": "MBBL"
+        }
+      ],
+      "verified": true,
+      "checks": [
+        {
+          "period": "2026-08",
+          "api_value": 20605.0,
+          "table_value": 20605.0
+        },
+        {
+          "period": "2026-07",
+          "api_value": 23210.0,
+          "table_value": 23210.0
+        }
+      ],
+      "table_title": "East Coast (PADD 1) Net Receipts by Pipeline, Tanker, and Barge from Other PADDs of Distillate Fuel Oil (Thousand Barrels)",
+      "source_url": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=MDINRP11&f=M",
+      "table_sha256": "d83e23324a199e7ff37a59e35e2c64a4b3e59ab9ceb79169deebfc695d2cf064"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "pptx_reopened": true,
+  "slides": 10,
+  "docx_reopened": true,
+  "official_template_used": false,
+  "visual_qa": "passed: all 10 LibreOffice-rendered slides inspected; no visible clipping/overlap",
+  "limitations": "Official binary templates blocked by network policy; rendering status updated after conversion.",
+  "renderer": "LibreOfficeDev 26.8.0.0.alpha0",
+  "rendered_pdf": "submission/presentation.pdf",
+  "rendered_slides": "submission/rendered/slide-01.png through slide-10.png",
+  "official_template_gap": "GSA binary downloads blocked by proxy 403",
+  "artifact_sha256": {
+    "submission/presentation.pptx": "a314326469cd7d4891ad33a04c4e72d1300e7018f090577b9567e044f7769275",
+    "submission/presentation.pdf": "2ac3614941256d89383624ac742ce0f5cbf990637a1081576f7d41895f3fb192",
+    "submission/evaluation-document.docx": "97f285f4d171ce41b3619e065cb6df5d4412860cfb212af7e33d2f5ac0cd7a80",
+    "submission/evaluation-document.pdf": "590fa9bed3b453ffed1db13f160dd2f369337e65c88f73f3ea7e779b8320cc44"
+  }
+}

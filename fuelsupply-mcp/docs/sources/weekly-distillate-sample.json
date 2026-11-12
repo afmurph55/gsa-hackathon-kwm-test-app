@@ -1,0 +1,126 @@
+{
+  "route": "petroleum/sum/sndw/data/",
+  "parameters": {
+    "frequency": "weekly",
+    "data[0]": "value",
+    "facets[product][]": "EPD0",
+    "facets[duoarea][]": "NUS",
+    "start": "2026-10-23",
+    "end": "2026-10-30",
+    "length": 100,
+    "sort[0][column]": "period",
+    "sort[0][direction]": "desc"
+  },
+  "retrieved_at": "2026-11-12T04:17:49.833961+00:00",
+  "response": {
+    "total": "8",
+    "dateFormat": "YYYY-MM-DD",
+    "frequency": "weekly",
+    "data": [
+      {
+        "period": "2026-10-30",
+        "duoarea": "NUS",
+        "area-name": "U.S.",
+        "product": "EPD0",
+        "product-name": "Distillate Fuel Oil",
+        "process": "VPP",
+        "process-name": "Product Supplied",
+        "series": "WDIUPUS2",
+        "series-description": "U.S. Product Supplied of Distillate Fuel Oil (Thousand Barrels per Day)",
+        "value": "4439",
+        "units": "MBBL/D"
+      },
+      {
+        "period": "2026-10-30",
+        "duoarea": "NUS",
+        "area-name": "U.S.",
+        "product": "EPD0",
+        "product-name": "Distillate Fuel Oil",
+        "process": "SAE",
+        "process-name": "Ending Stocks",
+        "series": "WDISTUS1",
+        "series-description": "U.S. Ending Stocks of Distillate Fuel Oil (Thousand Barrels)",
+        "value": "99259",
+        "units": "MBBL"
+      },
+      {
+        "period": "2026-10-30",
+        "duoarea": "NUS",
+        "area-name": "U.S.",
+        "product": "EPD0",
+        "product-name": "Distillate Fuel Oil",
+        "process": "YPR",
+        "process-name": "Refinery and Blender Net Production",
+        "series": "WDIRPUS2",
+        "series-description": "U.S. Refiner and Blender Net Production of Distillate Fuel Oil (Thousand Barrels per Day)",
+        "value": "5154",
+        "units": "MBBL/D"
+      },
+      {
+        "period": "2026-10-30",
+        "duoarea": "NUS",
+        "area-name": "U.S.",
+        "product": "EPD0",
+        "product-name": "Distillate Fuel Oil",
+        "process": "VSD",
+        "process-name": "Days of Supply",
+        "series": "W_EPD0_VSD_NUS_DAYS",
+        "series-description": "U.S. Days of Supply of Total Distillate (Number of Days)",
+        "value": "23.8",
+        "units": "DAYS"
+      },
+      {
+        "period": "2026-10-23",
+        "duoarea": "NUS",
+        "area-name": "U.S.",
+        "product": "EPD0",
+        "product-name": "Distillate Fuel Oil",
+        "process": "VPP",
+        "process-name": "Product Supplied",
+        "series": "WDIUPUS2",
+        "series-description": "U.S. Product Supplied of Distillate Fuel Oil (Thousand Barrels per Day)",
+        "value": "4207",
+        "units": "MBBL/D"
+      },
+      {
+        "period": "2026-10-23",
+        "duoarea": "NUS",
+        "area-name": "U.S.",
+        "product": "EPD0",
+        "product-name": "Distillate Fuel Oil",
+        "process": "VSD",
+        "process-name": "Days of Supply",
+        "series": "W_EPD0_VSD_NUS_DAYS",
+        "series-description": "U.S. Days of Supply of Total Distillate (Number of Days)",
+        "value": "25.9",
+        "units": "DAYS"
+      },
+      {
+        "period": "2026-10-23",
+        "duoarea": "NUS",
+        "area-name": "U.S.",
+        "product": "EPD0",
+        "product-name": "Distillate Fuel Oil",
+        "process": "YPR",
+        "process-name": "Refinery and Blender Net Production",
+        "series": "WDIRPUS2",
+        "series-description": "U.S. Refiner and Blender Net Production of Distillate Fuel Oil (Thousand Barrels per Day)",
+        "value": "5161",
+        "units": "MBBL/D"
+      },
+      {
+        "period": "2026-10-23",
+        "duoarea": "NUS",
+        "area-name": "U.S.",
+        "product": "EPD0",
+        "product-name": "Distillate Fuel Oil",
+        "process": "SAE",
+        "process-name": "Ending Stocks",
+        "series": "WDISTUS1",
+        "series-description": "U.S. Ending Stocks of Distillate Fuel Oil (Thousand Barrels)",
+        "value": "102824",
+        "units": "MBBL"
+      }
+    ]
+  }
+}

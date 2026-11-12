@@ -1,0 +1,77 @@
+{
+  "route": "petroleum/sum/snd/facet/duoarea/",
+  "retrieved_at": "2026-11-12T04:17:27.556011+00:00",
+  "metadata": {
+    "totalFacets": 17,
+    "facets": [
+      {
+        "id": "R20",
+        "name": "PADD 2"
+      },
+      {
+        "id": "R30-Z0P",
+        "name": "PADD 3"
+      },
+      {
+        "id": "R10-Z00",
+        "name": "PADD 1"
+      },
+      {
+        "id": "R30-Z00",
+        "name": "PADD 3"
+      },
+      {
+        "id": "R50-Z00",
+        "name": "PADD 5"
+      },
+      {
+        "id": "R30",
+        "name": "PADD 3"
+      },
+      {
+        "id": "NUS-Z00",
+        "name": "U.S."
+      },
+      {
+        "id": "R10",
+        "name": "PADD 1"
+      },
+      {
+        "id": "R20-Z00",
+        "name": "PADD 2"
+      },
+      {
+        "id": "R40-Z00",
+        "name": "PADD 4"
+      },
+      {
+        "id": "R50-Z0P",
+        "name": "PADD 5"
+      },
+      {
+        "id": "R50",
+        "name": "PADD 5"
+      },
+      {
+        "id": "R10-Z0P",
+        "name": "PADD 1"
+      },
+      {
+        "id": "R40-Z0P",
+        "name": "PADD 4"
+      },
+      {
+        "id": "R40",
+        "name": "PADD 4"
+      },
+      {
+        "id": "NUS",
+        "name": "U.S."
+      },
+      {
+        "id": "R20-Z0P",
+        "name": "PADD 2"
+      }
+    ]
+  }
+}

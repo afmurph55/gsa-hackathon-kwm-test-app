@@ -1,0 +1,81 @@
+{
+  "route": "petroleum/cons/",
+  "retrieved_at": "2026-11-12T04:16:28.012896+00:00",
+  "metadata": {
+    "id": "cons",
+    "name": "Petroleum, Consumption/Sales",
+    "description": "Petroleum, Consumption/Sales",
+    "routes": [
+      {
+        "id": "wpsup",
+        "name": "U.S. Weekly Product Supplied",
+        "description": "Finished motor gasoline production and product supplied includes a weekly adjustment applied only to the U.S. total to correct for the imbalance created by blending of fuel ethanol and motor gasoline blending components. Data may not add to total due to independent rounding."
+      },
+      {
+        "id": "psup",
+        "name": "Product Supplied",
+        "description": "Data may not add to total due to independent rounding."
+      },
+      {
+        "id": "prim",
+        "name": "Prime Supplier Sales Volumes",
+        "description": "Values shown for the current month are preliminary. Values shown for the previous month may be revised to account for late submissions and corrections and are considered final. Annual averages will be available in the April Petroleum Marketing Monthly.  Beginning January 2007, oxygenated gasoline is included in conventional gasoline and ultra-low sulfur diesel was added. In conjunction with these changes, total No. 2 diesel fuel has been eliminated to help ensure that sensitive data reported to EIA by individual survey respondents may not be closely estimated using the aggregates published by EIA.   Totals may not equal the sum of the components due to rounding."
+      },
+      {
+        "id": "refmg",
+        "name": "Refiner Motor Gasoline Sales Volumes",
+        "description": "Values shown for the current month are preliminary. Values shown for the previous month may be revised to account for late submissions and corrections and are considered final. Annual averages will be available in the April Petroleum Marketing Monthly. Total sales to end users includes sales through retail outlets as well as all direct sales to end users that were not made through company-operated retail outlets, e.g., sales to agricultural customers, commercial sales, and industrial sales. Beginning January 2007, oxygenated gasoline is included in conventional gasoline. In conjunction with this change, total sales for resale has been eliminated to help ensure that sensitive data reported to EIA by individual survey respondents may not be closely estimated using the aggregates published by EIA.  Motor gasoline averages and totals prior to October 1993 include leaded gasoline."
+      },
+      {
+        "id": "refoth",
+        "name": "Refiner Sales Volumes of Other Petroleum Products",
+        "description": "Values shown for the current month are preliminary. Values shown for the previous month may be revised to account for late submissions and corrections and are considered final. Annual averages will be available in the April Petroleum Marketing Monthly.  Beginning January 2007, ultra-low sulfur diesel was added. In conjunction with this change, total No. 2 diesel fuel has been eliminated to help ensure that sensitive data reported to EIA by individual survey respondents may not be closely estimated using the aggregates published by EIA."
+      },
+      {
+        "id": "refres",
+        "name": "Refiner Residual Fuel Oil and No. 4 Fuel Sales Volumes",
+        "description": "Values shown for the current month are preliminary. Values shown for the previous month may be revised to account for late submissions and corrections and are considered final. Annual averages will be available in the April Petroleum Marketing Monthly.  No. 4 fuel includes No. 4 fuel oil and No. 4 diesel fuel."
+      },
+      {
+        "id": "821dst",
+        "name": "Sales of Distillate Fuel Oil by End Use",
+        "description": "Totals may not equal sum of components due to independent rounding. Due to updated program methodology and revised data, 2010 through 2015 Sales and Adjusted Sales numbers have been revised since they were first published. We have created an excel file <a href ='http://www.eia.gov/dnav/pet/xls/eia_821_data_difference.xls' class='reg'>Fuel Oil and Kerosene Sales Data</a> that shows the differences between the original and revised published data for your convenience."
+      },
+      {
+        "id": "821dsta",
+        "name": "Adjusted Sales of Distillate Fuel Oil by End Use",
+        "description": "Sales of distillate fuel oil have been adjusted at the PAD District level. Totals may not equal sum of components due to independent rounding. Due to updated program methodology and revised data, 2010 through 2015 Sales and Adjusted Sales numbers have been revised since they were first published. We have created an excel file <a href ='http://www.eia.gov/dnav/pet/xls/eia_821_data_difference.xls' class='reg'>Fuel Oil and Kerosene Sales Data</a> that shows the differences between the original and revised published data for your convenience."
+      },
+      {
+        "id": "821rsd",
+        "name": "Sales of Residual Fuel Oil by End Use",
+        "description": "Totals may not equal sum of components due to independent rounding. Due to updated program methodology and revised data, 2010 through 2015 Sales and Adjusted Sales numbers have been revised since they were first published. We have created an excel file <a href ='http://www.eia.gov/dnav/pet/xls/eia_821_data_difference.xls' class='reg'>Fuel Oil and Kerosene Sales Data</a> that shows the differences between the original and revised published data for your convenience."
+      },
+      {
+        "id": "821rsda",
+        "name": "Adjusted Sales of Residual Fuel Oil by End Use",
+        "description": "Totals may not equal sum of components due to independent rounding. Due to updated program methodology and revised data, 2010 through 2015 Sales and Adjusted Sales numbers have been revised since they were first published. We have created an <a href ='http://www.eia.gov/dnav/pet/xls/eia_821_data_difference.xls' class='reg'>excel file</a> that shows the differences between the original and revised published data for your convenience."
+      },
+      {
+        "id": "821ker",
+        "name": "Sales of Kerosene by End Use",
+        "description": "Totals may not equal sum of components due to independent rounding. Due to updated program methodology and revised data, 2010 through 2015 Sales and Adjusted Sales numbers have been revised since they were first published. We have created an excel file <a href ='http://www.eia.gov/dnav/pet/xls/eia_821_data_difference.xls' class='reg'>Fuel Oil and Kerosene Sales Data</a> that shows the differences between the original and revised published data for your convenience."
+      },
+      {
+        "id": "821kera",
+        "name": "Adjusted Sales of Kerosene by End Use",
+        "description": "Totals may not equal sum of components due to independent rounding.Due to updated program methodology and revised data, 2010 through 2015 Sales and Adjusted Sales numbers have been revised since they were first published. We have created an excel file <a href ='http://www.eia.gov/dnav/pet/xls/eia_821_data_difference.xls'' class='reg'>Fuel Oil and Kerosene Sales Data</a> that shows the differences between the original and revised published data for your convenience."
+      },
+      {
+        "id": "821use",
+        "name": "Distillate Fuel Oil and Kerosene Sales by End Use",
+        "description": "Totals may not equal sum of components due to independent rounding. Beginning with 2006 data, the commercial No. 2 distillate category has been changed to reflect the addition of ultra low sulfur diesel. Beginning 2006, ultra low sulfur diesel and low sulfur diesel data added together will be equivalent to  prior years low sulfur diesel data. Due to updated program methodology and revised data, 2010 through 2015 Sales and Adjusted Sales numbers have been revised since they were first published. We have created an excel file <a href ='http://www.eia.gov/dnav/pet/xls/eia_821_data_difference.xls' class='reg'>Fuel Oil and Kerosene Sales Data</a> that shows the differences between the original and revised published data for your convenience."
+      },
+      {
+        "id": "821usea",
+        "name": "Adjusted Distillate Fuel Oil and Kerosene Sales by End Use",
+        "description": "Totals may not equal sum of components due to independent rounding. Beginning with 2006 data, the commercial No. 2 distillate category has been changed to reflect the addition of ultra low sulfur diesel. Beginning 2006, ultra low sulfur diesel and low sulfur diesel data added together will be equivalent to  prior years low sulfur diesel data. Due to updated program methodology and revised data, 2010 through 2015 Sales and Adjusted Sales numbers have been revised since they were first published. We have created an excel file <a href ='http://www.eia.gov/dnav/pet/xls/eia_821_data_difference.xls' class='reg'>Fuel Oil and Kerosene Sales Data</a> that shows the differences between the original and revised published data for your convenience."
+      }
+    ]
+  }
+}

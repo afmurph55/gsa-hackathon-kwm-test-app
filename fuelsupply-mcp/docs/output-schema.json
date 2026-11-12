@@ -1,0 +1,125 @@
+{
+  "properties": {
+    "text": {
+      "title": "Text",
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "ok",
+        "partial",
+        "unsupported",
+        "blocked",
+        "needs_clarification",
+        "out_of_scope",
+        "error"
+      ],
+      "title": "Status",
+      "type": "string"
+    },
+    "mode": {
+      "default": "live",
+      "enum": [
+        "live",
+        "cached",
+        "replay"
+      ],
+      "title": "Mode",
+      "type": "string"
+    },
+    "resolved_product_definition": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Resolved Product Definition"
+    },
+    "geography": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Geography"
+    },
+    "observation_periods": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Observation Periods",
+      "type": "array"
+    },
+    "retrieval_timestamp": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Retrieval Timestamp"
+    },
+    "metrics": {
+      "items": {
+        "additionalProperties": true,
+        "type": "object"
+      },
+      "title": "Metrics",
+      "type": "array"
+    },
+    "calculations": {
+      "items": {
+        "additionalProperties": true,
+        "type": "object"
+      },
+      "title": "Calculations",
+      "type": "array"
+    },
+    "data_quality_diagnostics": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Data Quality Diagnostics",
+      "type": "array"
+    },
+    "source_bindings": {
+      "items": {
+        "additionalProperties": true,
+        "type": "object"
+      },
+      "title": "Source Bindings",
+      "type": "array"
+    },
+    "limitations": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Limitations",
+      "type": "array"
+    },
+    "supported_follow_up_actions": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Supported Follow Up Actions",
+      "type": "array"
+    }
+  },
+  "required": [
+    "text",
+    "status"
+  ],
+  "title": "Result",
+  "type": "object"
+}

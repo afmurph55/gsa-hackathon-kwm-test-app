@@ -1,0 +1,39 @@
+{
+  "route": "petroleum/",
+  "retrieved_at": "2026-11-12T04:16:10.945471+00:00",
+  "metadata": {
+    "id": "petroleum",
+    "name": "Petroleum",
+    "description": "EIA petroleum gas survey data",
+    "routes": [
+      {
+        "id": "sum",
+        "name": "Summary"
+      },
+      {
+        "id": "pri",
+        "name": "Prices"
+      },
+      {
+        "id": "crd",
+        "name": "Crude Reserves and Production"
+      },
+      {
+        "id": "pnp",
+        "name": "Refining and Processing"
+      },
+      {
+        "id": "move",
+        "name": "Imports/Exports and Movements"
+      },
+      {
+        "id": "stoc",
+        "name": "Stocks"
+      },
+      {
+        "id": "cons",
+        "name": "Consumption/Sales"
+      }
+    ]
+  }
+}

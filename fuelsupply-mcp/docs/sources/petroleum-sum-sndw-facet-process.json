@@ -1,0 +1,109 @@
+{
+  "route": "petroleum/sum/sndw/facet/process/",
+  "retrieved_at": "2026-11-12T04:17:20.277133+00:00",
+  "metadata": {
+    "totalFacets": 25,
+    "facets": [
+      {
+        "id": "IMN",
+        "name": "Net Imports"
+      },
+      {
+        "id": "YOP",
+        "name": "Oxygenate Plant Production"
+      },
+      {
+        "id": "SAXP",
+        "name": "Ending Stocks Excluding Propylene at Terminal"
+      },
+      {
+        "id": "SAXL",
+        "name": "Ending Stocks Excluding SPR and Lease"
+      },
+      {
+        "id": "IM0",
+        "name": "Imports"
+      },
+      {
+        "id": "FPF",
+        "name": "Field Production"
+      },
+      {
+        "id": "YPA",
+        "name": "All Plants"
+      },
+      {
+        "id": "YUP",
+        "name": "% Utilization Refinery Operable Capacity"
+      },
+      {
+        "id": "YIR",
+        "name": "Refinery and Blender Net Input"
+      },
+      {
+        "id": "YPR",
+        "name": "Refinery and Blender Net Production"
+      },
+      {
+        "id": "YPT",
+        "name": "Production"
+      },
+      {
+        "id": "IMX",
+        "name": "Imports Excluding SPR"
+      },
+      {
+        "id": "EEX",
+        "name": "Exports"
+      },
+      {
+        "id": "IMS",
+        "name": "Imports by SPR"
+      },
+      {
+        "id": "VPP",
+        "name": "Product Supplied"
+      },
+      {
+        "id": "SKB",
+        "name": "Stocks at Bulk Terminals"
+      },
+      {
+        "id": "IMU",
+        "name": "Imports by Others for SPR"
+      },
+      {
+        "id": "VUA",
+        "name": "Supply Adjustment"
+      },
+      {
+        "id": "SAE",
+        "name": "Ending Stocks"
+      },
+      {
+        "id": "SAS",
+        "name": "Ending Stocks SPR"
+      },
+      {
+        "id": "SKA",
+        "name": "Stocks in Transit (on Ships) from Alaska"
+      },
+      {
+        "id": "SAX",
+        "name": "Ending Stocks Excluding SPR"
+      },
+      {
+        "id": "YIY",
+        "name": "Refinery Net Input"
+      },
+      {
+        "id": "YRL",
+        "name": "Refinery Operable Capacity"
+      },
+      {
+        "id": "VSD",
+        "name": "Days of Supply"
+      }
+    ]
+  }
+}

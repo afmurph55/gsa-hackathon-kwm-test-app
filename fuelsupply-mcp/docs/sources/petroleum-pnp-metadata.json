@@ -1,0 +1,151 @@
+{
+  "route": "petroleum/pnp/",
+  "retrieved_at": "2026-11-12T04:16:27.167819+00:00",
+  "metadata": {
+    "id": "pnp",
+    "name": "Petroleum, Refining and Processing",
+    "description": "Petroleum, Refining and Processing",
+    "routes": [
+      {
+        "id": "wiup",
+        "name": "Weekly Inputs & Utilization",
+        "description": "Percent Utilization is calculated as gross inputs divided by the latest reported monthly operable capacity (using unrounded numbers)."
+      },
+      {
+        "id": "wprodrb",
+        "name": "Weekly Refiner & Blender Net Production",
+        "description": null
+      },
+      {
+        "id": "wprodr",
+        "name": "Weekly Refiner Net Production",
+        "description": "Finished motor gasoline does not include adjustments for fuel ethanol and motor gasoline blending components.  Data may not add to total due to independent rounding."
+      },
+      {
+        "id": "wprodb",
+        "name": "Weekly Blender Net Production",
+        "description": "Finished motor gasoline does not include adjustments for fuel ethanol and motor gasoline blending components.  Data may not add to total due to independent rounding."
+      },
+      {
+        "id": "wprode",
+        "name": "Weekly Ethanol Plant Production",
+        "description": null
+      },
+      {
+        "id": "inpt",
+        "name": "Refinery & Blender Net Input",
+        "description": "RBOB with Ether, RBOB with Alcohol, and Reformulated GTAB Motor Gasoline Blending Components are discontinued as of the January 2010 reporting period.  &quot;All Other Oxygenates&quot; includes ethyl tertiary butyl ether (ETBE), tertiary amyl methyl ether (TAME), tertiary butyl alcohol (TBA), and other aliphatic alcohols and ethers intended for motor gasoline blending (e.g., isopropyl ether (IPE) or n-propanol).  Totals may not equal sum of components due to independent rounding."
+      },
+      {
+        "id": "inpt2",
+        "name": "Refinery Net Input",
+        "description": "RBOB with Ether and RBOB with Alcohol are discontinued as of the January 2010 reporting period. &quot;All Other Oxygenates&quot; includes ethyl tertiary butyl ether (ETBE), tertiary amyl methyl ether (TAME), tertiary butyl alcohol (TBA), and other aliphatic alcohols and ethers intended for motor gasoline blending (e.g., isopropyl ether (IPE) or n-propanol).   Totals may not equal sum of components due to independent rounding."
+      },
+      {
+        "id": "inpt3",
+        "name": "Blender Net Input",
+        "description": "RBOB with Ether, RBOB with Alcohol, and Reformulated GTAB Motor Gasoline Blending Components are discontinued as of the January 2010 reporting period."
+      },
+      {
+        "id": "refp",
+        "name": "Refinery & Blender Net Production",
+        "description": null
+      },
+      {
+        "id": "refp2",
+        "name": "Refinery Net Production",
+        "description": null
+      },
+      {
+        "id": "refp3",
+        "name": "Blender Net Production",
+        "description": null
+      },
+      {
+        "id": "oxy",
+        "name": "Oxygenate Production",
+        "description": "Fuel Oxygenate includes MTBE, ETBE and other oxygenates. Totals may not equal sum of components due to independent rounding."
+      },
+      {
+        "id": "feedbiofuel",
+        "name": "Feedstocks Consumed for Production of Biofuels",
+        "description": "Biofuels include fuel ethanol, biodiesel, renewable diesel, renewable heating oil, renewable jet fuel, renewable naphtha, renewable gasoline, biobutanol, and \"other\" biofuels and biointermediates. Renewable diesel and other biofuels feedstocks includes refineries co-processing renewable feedstock and petroleum. The solid fat is extracted from the tissues and fatty deposits of cattle, sheep, and other animals. Yellow grease includes used cooking oil. Other vegetable oils includes palm oil, sorghum oil and other vegetable oils. NESOI = Not elsewhere specified or identified."
+      },
+      {
+        "id": "capbio",
+        "name": "Biofuels Operable Production Capacity",
+        "description": "Other Biofuels includes renewable heating oil, renewable jet fuel, renewable naphtha, renewable gasoline, and other biofuels and biointermediates."
+      },
+      {
+        "id": "unc",
+        "name": "Refinery Utilization and Capacity",
+        "description": "Totals may not equal sum of components due to independent rounding."
+      },
+      {
+        "id": "crq",
+        "name": "Crude Oil Input Qualities",
+        "description": "Totals may not equal sum of components due to independent rounding."
+      },
+      {
+        "id": "dwns",
+        "name": "Downstream Processing of Fresh Feed Input",
+        "description": "Totals may not equal sum of components due to independent rounding."
+      },
+      {
+        "id": "pct",
+        "name": "Refinery Yield",
+        "description": "Hydrocarbon Gas Liquids excluding natural gasoline. Totals may not equal sum of components due to independent rounding.  Based on crude oil input and net reruns of unfinished oils."
+      },
+      {
+        "id": "cap1",
+        "name": "Number and Capacity of Petroleum Refineries",
+        "description": "Idle refineries represent refineries where distillation units were completely idle but not permanently shutdown as of January 1 of the year."
+      },
+      {
+        "id": "capchg",
+        "name": "Downstream Charge Capacity of Operable Petroleum Refineries",
+        "description": null
+      },
+      {
+        "id": "capprod",
+        "name": "Production Capacity of Operable Petroleum Refineries",
+        "description": "Hydrogen production capacity includes capacity of hydrogen plants on refinery grounds and operated by the refinery operator."
+      },
+      {
+        "id": "capfuel",
+        "name": "Fuel Consumed at Refineries",
+        "description": "Includes volumes uses as fuel at refineries and all nonprocessing losses of crude oil and petroleum products (e.g., spills, fire losses, contamination, etc.). Other products includes other hydrocarbons, hydrogen, unfinished oils, gasoline, special naphthas, jet fuel, lubricants, asphalt and road oil, and miscellaneous products."
+      },
+      {
+        "id": "feedng",
+        "name": "Natural Gas Used as Feedstock for Hydrogen Production at Refineries",
+        "description": null
+      },
+      {
+        "id": "capwork",
+        "name": "Working Storage Capacity at Operable Refineries",
+        "description": "Working storage capacity is the difference in volume between the maximum safe fill capacity and tank bottoms."
+      },
+      {
+        "id": "capshell",
+        "name": "Shell Storage Capacity at Operable Refineries",
+        "description": "Shell storage capacity is the design capacity of the tank."
+      },
+      {
+        "id": "caprec",
+        "name": "Refinery Receipts of Crude Oil by Method of Transportation",
+        "description": null
+      },
+      {
+        "id": "bioplfuel",
+        "name": "Fuel Consumed at Biofuels Plants",
+        "description": "Biogas includes fuel for combined heat and power.  Liquid Petroleum Gases include propane, normal butane and isobutane. Natural Gas include all natural gas that is used for fuel, including for combined heat and power. Other fuels including renewables fuel, such as crop and forestry residue."
+      },
+      {
+        "id": "gp",
+        "name": "Natural Gas Plant Field Production",
+        "description": null
+      }
+    ]
+  }
+}

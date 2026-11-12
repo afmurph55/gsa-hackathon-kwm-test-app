@@ -1,0 +1,47 @@
+{
+  "route": "petroleum/sum/snd/",
+  "retrieved_at": "2026-11-12T04:16:48.429977+00:00",
+  "metadata": {
+    "id": "petroleum",
+    "description": "EIA petroleum gas survey data",
+    "frequency": [
+      {
+        "id": "monthly",
+        "description": "One data point for each month.",
+        "query": "M",
+        "format": "YYYY-MM"
+      },
+      {
+        "id": "annual",
+        "description": "One data point for each calendar year.",
+        "query": "A",
+        "format": "YYYY"
+      }
+    ],
+    "facets": [
+      {
+        "id": "duoarea",
+        "description": "DuoArea"
+      },
+      {
+        "id": "product",
+        "description": "Product"
+      },
+      {
+        "id": "process",
+        "description": "Process"
+      },
+      {
+        "id": "series",
+        "description": "Series"
+      }
+    ],
+    "data": {
+      "value": []
+    },
+    "startPeriod": "1920-01",
+    "endPeriod": "2026-08",
+    "defaultDateFormat": "YYYY-MM",
+    "defaultFrequency": "monthly"
+  }
+}

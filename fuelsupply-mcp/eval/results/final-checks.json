@@ -1,0 +1,29 @@
+{
+  "unit_tests": {
+    "passed": 79,
+    "failed": 0
+  },
+  "offline_stdio": {
+    "passed": 26,
+    "failed": 0
+  },
+  "live_service": {
+    "passed": 5,
+    "failed": 0,
+    "requests": 29
+  },
+  "authenticated_stdio": {
+    "passed": 18,
+    "failed": 0,
+    "observation_and_calculation_checks": 209
+  },
+  "lint": "passed",
+  "format": "passed",
+  "credential_present": true,
+  "credential_exposure_scan": "passed",
+  "registry_version": "0.2.0",
+  "enabled_bindings": 29,
+  "source_sha256": "771171afa2b0f8bd724c3fdc9e8a844d1a47f10a4c370210cef8b883401c3a87",
+  "deployed": false,
+  "submitted": false
+}

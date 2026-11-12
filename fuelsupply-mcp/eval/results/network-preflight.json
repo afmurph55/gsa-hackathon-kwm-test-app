@@ -1,0 +1,6 @@
+{
+  "authenticated": false,
+  "status_code": 403,
+  "note": "Unauthenticated HTTP 403; origin reachability and authenticated access are unverified.",
+  "http_response_received": true
+}
