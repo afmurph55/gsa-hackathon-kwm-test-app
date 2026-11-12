@@ -1,0 +1,185 @@
+{
+  "route": "petroleum/move/wkly/data/",
+  "parameters": {
+    "frequency": "weekly",
+    "data[0]": "value",
+    "facets[product][]": [
+      "EPD0",
+      "EPM0F",
+      "EPJK"
+    ],
+    "facets[duoarea][]": [
+      "NUS",
+      "NUS-Z00"
+    ],
+    "start": "2026-10-23",
+    "end": "2026-10-30",
+    "length": 100,
+    "sort[0][column]": "period",
+    "sort[0][direction]": "desc"
+  },
+  "retrieved_at": "2026-11-12T04:18:52.980959+00:00",
+  "response": {
+    "total": "12",
+    "dateFormat": "YYYY-MM-DD",
+    "frequency": "weekly",
+    "data": [
+      {
+        "period": "2026-10-30",
+        "duoarea": "NUS-Z00",
+        "area-name": "U.S.",
+        "product": "EPD0",
+        "product-name": "Distillate Fuel Oil",
+        "process": "EEX",
+        "process-name": "Exports",
+        "series": "WDIEXUS2",
+        "series-description": "U.S. Exports of Total Distillate (Thousand Barrels per Day)",
+        "value": "1341",
+        "units": "MBBL/D"
+      },
+      {
+        "period": "2026-10-30",
+        "duoarea": "NUS-Z00",
+        "area-name": "U.S.",
+        "product": "EPM0F",
+        "product-name": "Finished Motor Gasoline",
+        "process": "IM0",
+        "process-name": "Imports",
+        "series": "W_EPM0F_IM0_NUS-Z00_MBBLD",
+        "series-description": "U.S. Imports of Finished Motor Gasoline (Thousand Barrels per Day)",
+        "value": "94",
+        "units": "MBBL/D"
+      },
+      {
+        "period": "2026-10-30",
+        "duoarea": "NUS-Z00",
+        "area-name": "U.S.",
+        "product": "EPJK",
+        "product-name": "Kerosene-Type Jet Fuel",
+        "process": "IM0",
+        "process-name": "Imports",
+        "series": "WKJIMUS2",
+        "series-description": "U.S. Imports of Kerosene-Type Jet Fuel (Thousand Barrels per Day)",
+        "value": "8",
+        "units": "MBBL/D"
+      },
+      {
+        "period": "2026-10-30",
+        "duoarea": "NUS-Z00",
+        "area-name": "U.S.",
+        "product": "EPD0",
+        "product-name": "Distillate Fuel Oil",
+        "process": "IM0",
+        "process-name": "Imports",
+        "series": "WDIIMUS2",
+        "series-description": "U.S. Imports of Distillate Fuel Oil (Thousand Barrels per Day)",
+        "value": "117",
+        "units": "MBBL/D"
+      },
+      {
+        "period": "2026-10-30",
+        "duoarea": "NUS-Z00",
+        "area-name": "U.S.",
+        "product": "EPM0F",
+        "product-name": "Finished Motor Gasoline",
+        "process": "EEX",
+        "process-name": "Exports",
+        "series": "W_EPM0F_EEX_NUS-Z00_MBBLD",
+        "series-description": "U.S. Exports of Total Motor Gasoline (Thousand Barrels per Day)",
+        "value": "1017",
+        "units": "MBBL/D"
+      },
+      {
+        "period": "2026-10-30",
+        "duoarea": "NUS-Z00",
+        "area-name": "U.S.",
+        "product": "EPJK",
+        "product-name": "Kerosene-Type Jet Fuel",
+        "process": "EEX",
+        "process-name": "Exports",
+        "series": "WKJEXUS2",
+        "series-description": "U.S. Exports of Kerosene-Type Jet Fuel (Thousand Barrels per Day)",
+        "value": "311",
+        "units": "MBBL/D"
+      },
+      {
+        "period": "2026-10-23",
+        "duoarea": "NUS-Z00",
+        "area-name": "U.S.",
+        "product": "EPD0",
+        "product-name": "Distillate Fuel Oil",
+        "process": "EEX",
+        "process-name": "Exports",
+        "series": "WDIEXUS2",
+        "series-description": "U.S. Exports of Total Distillate (Thousand Barrels per Day)",
+        "value": "1320",
+        "units": "MBBL/D"
+      },
+      {
+        "period": "2026-10-23",
+        "duoarea": "NUS-Z00",
+        "area-name": "U.S.",
+        "product": "EPJK",
+        "product-name": "Kerosene-Type Jet Fuel",
+        "process": "EEX",
+        "process-name": "Exports",
+        "series": "WKJEXUS2",
+        "series-description": "U.S. Exports of Kerosene-Type Jet Fuel (Thousand Barrels per Day)",
+        "value": "272",
+        "units": "MBBL/D"
+      },
+      {
+        "period": "2026-10-23",
+        "duoarea": "NUS-Z00",
+        "area-name": "U.S.",
+        "product": "EPM0F",
+        "product-name": "Finished Motor Gasoline",
+        "process": "EEX",
+        "process-name": "Exports",
+        "series": "W_EPM0F_EEX_NUS-Z00_MBBLD",
+        "series-description": "U.S. Exports of Total Motor Gasoline (Thousand Barrels per Day)",
+        "value": "845",
+        "units": "MBBL/D"
+      },
+      {
+        "period": "2026-10-23",
+        "duoarea": "NUS-Z00",
+        "area-name": "U.S.",
+        "product": "EPD0",
+        "product-name": "Distillate Fuel Oil",
+        "process": "IM0",
+        "process-name": "Imports",
+        "series": "WDIIMUS2",
+        "series-description": "U.S. Imports of Distillate Fuel Oil (Thousand Barrels per Day)",
+        "value": "157",
+        "units": "MBBL/D"
+      },
+      {
+        "period": "2026-10-23",
+        "duoarea": "NUS-Z00",
+        "area-name": "U.S.",
+        "product": "EPJK",
+        "product-name": "Kerosene-Type Jet Fuel",
+        "process": "IM0",
+        "process-name": "Imports",
+        "series": "WKJIMUS2",
+        "series-description": "U.S. Imports of Kerosene-Type Jet Fuel (Thousand Barrels per Day)",
+        "value": "76",
+        "units": "MBBL/D"
+      },
+      {
+        "period": "2026-10-23",
+        "duoarea": "NUS-Z00",
+        "area-name": "U.S.",
+        "product": "EPM0F",
+        "product-name": "Finished Motor Gasoline",
+        "process": "IM0",
+        "process-name": "Imports",
+        "series": "W_EPM0F_IM0_NUS-Z00_MBBLD",
+        "series-description": "U.S. Imports of Finished Motor Gasoline (Thousand Barrels per Day)",
+        "value": "18",
+        "units": "MBBL/D"
+      }
+    ]
+  }
+}

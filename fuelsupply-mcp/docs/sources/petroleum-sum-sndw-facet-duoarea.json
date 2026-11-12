@@ -1,0 +1,101 @@
+{
+  "route": "petroleum/sum/sndw/facet/duoarea/",
+  "retrieved_at": "2026-11-12T04:17:22.055778+00:00",
+  "metadata": {
+    "totalFacets": 23,
+    "facets": [
+      {
+        "id": "R20",
+        "name": "PADD 2"
+      },
+      {
+        "id": "R4N5",
+        "name": "NA"
+      },
+      {
+        "id": "YCUOK",
+        "name": "NA"
+      },
+      {
+        "id": "R1Z",
+        "name": "PADD 1C"
+      },
+      {
+        "id": "R4N5-Z00",
+        "name": "NA"
+      },
+      {
+        "id": "R1X-Z00",
+        "name": "PADD 1A"
+      },
+      {
+        "id": "R10-Z00",
+        "name": "PADD 1"
+      },
+      {
+        "id": "R30-Z00",
+        "name": "PADD 3"
+      },
+      {
+        "id": "R50-Z00",
+        "name": "PADD 5"
+      },
+      {
+        "id": "R30",
+        "name": "PADD 3"
+      },
+      {
+        "id": "NUS-Z00",
+        "name": "U.S."
+      },
+      {
+        "id": "R10",
+        "name": "PADD 1"
+      },
+      {
+        "id": "R20-Z00",
+        "name": "PADD 2"
+      },
+      {
+        "id": "R40-Z00",
+        "name": "PADD 4"
+      },
+      {
+        "id": "R50",
+        "name": "PADD 5"
+      },
+      {
+        "id": "R1Y",
+        "name": "PADD 1B"
+      },
+      {
+        "id": "SAK",
+        "name": "USA-AK"
+      },
+      {
+        "id": "NUS",
+        "name": "U.S."
+      },
+      {
+        "id": "R40",
+        "name": "PADD 4"
+      },
+      {
+        "id": "R1X",
+        "name": "PADD 1A"
+      },
+      {
+        "id": "R1Y-Z00",
+        "name": "PADD 1B"
+      },
+      {
+        "id": "R1Z-Z00",
+        "name": "PADD 1C"
+      },
+      {
+        "id": "R48",
+        "name": "NA"
+      }
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+[11/11/26 23:24:29] INFO     Starting MCP server 'FuelSupply    transport.py:242
+                             MCP' with transport 'stdio'                        
+                    WARNING  Invalid arguments for tool           server.py:1471
+                             'assess_fuel_supply_conditions':                   
+                             {'error_count': 1, 'error_types':                  
+                             ['less_than_equal']}                               

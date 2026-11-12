@@ -1,0 +1,241 @@
+{
+  "route": "petroleum/sum/snd/facet/product/",
+  "retrieved_at": "2026-11-12T04:18:17.685603+00:00",
+  "metadata": {
+    "totalFacets": 58,
+    "facets": [
+      {
+        "id": "EPPCM",
+        "name": "Petroleum Coke Marketable"
+      },
+      {
+        "id": "EPC0",
+        "name": "Crude Oil"
+      },
+      {
+        "id": "EPLLEA",
+        "name": "Ethane"
+      },
+      {
+        "id": "EPM0R",
+        "name": "Reformulated Motor Gasoline"
+      },
+      {
+        "id": "EPPPO",
+        "name": "Other Oils for Petrochemical Feedstock Use"
+      },
+      {
+        "id": "EPPRY",
+        "name": "Residual Fuel Oil, 0.31 to 1.00% Sulfur"
+      },
+      {
+        "id": "EPOORDO",
+        "name": "Renewable Diesel Fuel"
+      },
+      {
+        "id": "EPD0",
+        "name": "Distillate Fuel Oil"
+      },
+      {
+        "id": "EPLLEY",
+        "name": "Ethylene"
+      },
+      {
+        "id": "EPL0",
+        "name": "Natural Gas Liquids and Liquid Refinery Gases"
+      },
+      {
+        "id": "EPPNS",
+        "name": "Special Naphthas"
+      },
+      {
+        "id": "EPOBGR0",
+        "name": "Reformulated Gasoline Blending Components"
+      },
+      {
+        "id": "EPPS",
+        "name": "Still Gas"
+      },
+      {
+        "id": "EPP2",
+        "name": "Finished Petroleum Products"
+      },
+      {
+        "id": "EPL2",
+        "name": "Natural Gas Plant Liquids"
+      },
+      {
+        "id": "EPOOXXFE",
+        "name": "Oxygenates (excluding Fuel Ethanol)"
+      },
+      {
+        "id": "EPOBV",
+        "name": "Aviation Gasoline Blending Components"
+      },
+      {
+        "id": "EPLLBAN",
+        "name": "Normal Butane"
+      },
+      {
+        "id": "EPLLBYN",
+        "name": "Normal Butylene"
+      },
+      {
+        "id": "EPPM",
+        "name": "Miscellaneous Petroleum Products"
+      },
+      {
+        "id": "EPPP0",
+        "name": "Petrochemical Feedstocks"
+      },
+      {
+        "id": "EPOOR",
+        "name": "Biofuel Fuels (including Fuel Ethanol)"
+      },
+      {
+        "id": "EPOBG",
+        "name": "Gasoline Blending Components"
+      },
+      {
+        "id": "EPDM10",
+        "name": "Distillate Fuel Oil, Greater than 15 to 500 ppm Sulfur"
+      },
+      {
+        "id": "EPD00H",
+        "name": "Distillate Fuel Oil, Greater Than 500 ppm Sulfur"
+      },
+      {
+        "id": "EPPK",
+        "name": "Kerosene"
+      },
+      {
+        "id": "EPLLPY",
+        "name": "Propylene"
+      },
+      {
+        "id": "EPOOOXH",
+        "name": "Other Hydrocarbons"
+      },
+      {
+        "id": "EPPCC",
+        "name": "Petroleum Coke Catalyst"
+      },
+      {
+        "id": "EPOOXE",
+        "name": "Fuel Ethanol"
+      },
+      {
+        "id": "EPLLBAI",
+        "name": "Isobutane"
+      },
+      {
+        "id": "EPOL",
+        "name": "Other Liquids"
+      },
+      {
+        "id": "EPLOLE",
+        "name": "Refinery Olefins "
+      },
+      {
+        "id": "EPOORXFE",
+        "name": "Biofuel Fuels excluding Fuel Ethanol"
+      },
+      {
+        "id": "EPPA",
+        "name": "Asphalt and Road Oil"
+      },
+      {
+        "id": "EPDXL0",
+        "name": "Distillate Fuel Oil, 0 to 15 ppm Sulfur"
+      },
+      {
+        "id": "EPPR",
+        "name": "Residual Fuel Oil"
+      },
+      {
+        "id": "EPLLNG",
+        "name": "Natural Gasoline"
+      },
+      {
+        "id": "EPOBGC0",
+        "name": "Conventional Gasoline Blending Components"
+      },
+      {
+        "id": "EPOO",
+        "name": "Hydrogen, Oxygenates, Renewables Fuels, and Other Hydrocarbons"
+      },
+      {
+        "id": "EP00",
+        "name": "Crude Oil and Petroleum Products"
+      },
+      {
+        "id": "EPPW",
+        "name": "Waxes"
+      },
+      {
+        "id": "EPLLCS",
+        "name": "Condensate and Scrubber Oil"
+      },
+      {
+        "id": "EPPC",
+        "name": "Petroleum Coke"
+      },
+      {
+        "id": "EPM0C",
+        "name": "Conventional Motor Gasoline"
+      },
+      {
+        "id": "EPPV",
+        "name": "Aviation Gasoline"
+      },
+      {
+        "id": "EPM0F",
+        "name": "Finished Motor Gasoline"
+      },
+      {
+        "id": "EPLLBYI",
+        "name": "Isobutylene"
+      },
+      {
+        "id": "EPJK",
+        "name": "Kerosene-Type Jet Fuel"
+      },
+      {
+        "id": "EPPL",
+        "name": "Lubricants"
+      },
+      {
+        "id": "EPPPN",
+        "name": "Naphtha for Petrochemical Feedstock Use"
+      },
+      {
+        "id": "EPLLPA",
+        "name": "Propane"
+      },
+      {
+        "id": "EPPRH",
+        "name": "Residual Fuel Oil, Greater Than 1% Sulfur"
+      },
+      {
+        "id": "EPPRX",
+        "name": "Residual Fuel Oil, Less than 0.31% Sulfur"
+      },
+      {
+        "id": "EPPU",
+        "name": "Unfinished Oils"
+      },
+      {
+        "id": "EPOOOH",
+        "name": "Hydrogen"
+      },
+      {
+        "id": "EPOORDB",
+        "name": "Biodiesel"
+      },
+      {
+        "id": "EPOORO",
+        "name": "Other Biofuels"
+      }
+    ]
+  }
+}

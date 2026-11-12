@@ -1,0 +1,141 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "internal_metric_id": {
+      "title": "Internal Metric Id",
+      "type": "string"
+    },
+    "fuel_family": {
+      "enum": [
+        "diesel",
+        "distillate",
+        "ulsd",
+        "gasoline",
+        "finished_gasoline",
+        "gasoline_blending_components",
+        "jet",
+        "kerosene_jet",
+        "avgas"
+      ],
+      "title": "Fuel Family",
+      "type": "string"
+    },
+    "product_definition": {
+      "title": "Product Definition",
+      "type": "string"
+    },
+    "geography": {
+      "enum": [
+        "US",
+        "PADD1",
+        "PADD2",
+        "PADD3",
+        "PADD4",
+        "PADD5"
+      ],
+      "title": "Geography",
+      "type": "string"
+    },
+    "frequency": {
+      "enum": [
+        "weekly",
+        "monthly"
+      ],
+      "title": "Frequency",
+      "type": "string"
+    },
+    "route": {
+      "maxLength": 512,
+      "title": "Route",
+      "type": "string"
+    },
+    "facets": {
+      "additionalProperties": {
+        "items": {
+          "type": "string"
+        },
+        "type": "array"
+      },
+      "maxProperties": 10,
+      "title": "Facets",
+      "type": "object"
+    },
+    "value_column": {
+      "const": "value",
+      "default": "value",
+      "title": "Value Column",
+      "type": "string"
+    },
+    "units": {
+      "title": "Units",
+      "type": "string"
+    },
+    "classification": {
+      "enum": [
+        "stock",
+        "flow",
+        "context"
+      ],
+      "title": "Classification",
+      "type": "string"
+    },
+    "period_convention": {
+      "title": "Period Convention",
+      "type": "string"
+    },
+    "observed_coverage": {
+      "maxItems": 2,
+      "minItems": 2,
+      "prefixItems": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        }
+      ],
+      "title": "Observed Coverage",
+      "type": "array"
+    },
+    "verified_at": {
+      "format": "date-time",
+      "title": "Verified At",
+      "type": "string"
+    },
+    "source_url": {
+      "format": "uri",
+      "maxLength": 2083,
+      "minLength": 1,
+      "title": "Source Url",
+      "type": "string"
+    },
+    "methodology_notes": {
+      "title": "Methodology Notes",
+      "type": "string"
+    },
+    "verification_status": {
+      "const": "verified",
+      "title": "Verification Status",
+      "type": "string"
+    }
+  },
+  "required": [
+    "internal_metric_id",
+    "fuel_family",
+    "product_definition",
+    "geography",
+    "frequency",
+    "route",
+    "facets",
+    "units",
+    "classification",
+    "period_convention",
+    "observed_coverage",
+    "verified_at",
+    "source_url",
+    "methodology_notes",
+    "verification_status"
+  ],
+  "title": "Binding",
+  "type": "object"
+}

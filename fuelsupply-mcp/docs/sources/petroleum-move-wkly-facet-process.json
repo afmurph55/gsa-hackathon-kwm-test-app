@@ -1,0 +1,33 @@
+{
+  "route": "petroleum/move/wkly/facet/process/",
+  "retrieved_at": "2026-11-12T04:18:15.382257+00:00",
+  "metadata": {
+    "totalFacets": 6,
+    "facets": [
+      {
+        "id": "IMN",
+        "name": "Net Imports"
+      },
+      {
+        "id": "IM0",
+        "name": "Imports"
+      },
+      {
+        "id": "IMX",
+        "name": "Imports Excluding SPR"
+      },
+      {
+        "id": "EEX",
+        "name": "Exports"
+      },
+      {
+        "id": "IMS",
+        "name": "Imports by SPR"
+      },
+      {
+        "id": "IMU",
+        "name": "Imports by Others for SPR"
+      }
+    ]
+  }
+}

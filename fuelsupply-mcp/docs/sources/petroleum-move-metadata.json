@@ -1,0 +1,131 @@
+{
+  "route": "petroleum/move/",
+  "retrieved_at": "2026-11-12T04:16:28.355210+00:00",
+  "metadata": {
+    "id": "move",
+    "name": "Petroleum, Imports/Exports and Movements",
+    "description": "Petroleum, Imports/Exports and Movements",
+    "routes": [
+      {
+        "id": "expcp",
+        "name": "PAD District Exports by Destination",
+        "description": "On December 18, 2015, the U.S. enacted legislation authorizing the export of U.S. crude oil without a license.  Exports to embargoed or sanctioned countries continue to require authorization.  Prior to December 2015, crude oil exports were restricted to: (1) crude oil derived from fields under the State waters of Cook Inlet of Alaska; (2) Alaskan North Slope crude oil; (3) certain domestically produced crude oil destined for Canada; (4) shipments to U.S. territories; and (5) California crude oil to Pacific Rim countries.  Totals may not equal sum of components due to independent rounding."
+      },
+      {
+        "id": "wkly",
+        "name": "Weekly Imports & Exports",
+        "description": "RBOB with Ether and RBOB with Alcohol are discontinued as of the week ending June 4, 2010 reporting period. Beginning with June 1, 2023, Motor Gasoline Blending Components exports are included with Total Motor Gasoline exports. They were previously included with Other Oil Exports. Due to independent rounding, individual product detail may not add to total."
+      },
+      {
+        "id": "wimpc",
+        "name": "Weekly Preliminary Crude Imports by Top 10 Countries of Origin (ranking based on 2024 Petroleum Supply Monthly data)",
+        "description": "Preliminary data collected weekly.  <a href=\"pet_move_impcus_a2_nus_epc0_im0_mbbl_m.htm\">See updated monthly/annual data</a>. Countries reported represent the top 10 countries based on annual import volumes from the PSM data from the prior year full year as published on 08/31/2025. Some data estimated."
+      },
+      {
+        "id": "imp",
+        "name": "Imports by Area of Entry",
+        "description": "Crude oil includes imports for storage in the Strategic Petroleum Reserve. Totals may not equal sum of components due to independent rounding."
+      },
+      {
+        "id": "imp2",
+        "name": "Imports by Processing Area",
+        "description": "Crude oil includes imports for storage in the Strategic Petroleum Reserve. Totals may not equal sum of components due to independent rounding."
+      },
+      {
+        "id": "res",
+        "name": "Imports of Residual Fuel",
+        "description": null
+      },
+      {
+        "id": "exp",
+        "name": "Exports",
+        "description": "On December 18, 2015, the U.S. enacted legislation authorizing the export of U.S. crude oil without a license.  Exports to embargoed or sanctioned countries continue to require authorization.  Prior to December 2015, crude oil exports were restricted to: (1) crude oil derived from fields under the State waters of Cook Inlet of Alaska; (2) Alaskan North Slope crude oil; (3) certain domestically produced crude oil destined for Canada; (4) shipments to U.S. territories; and (5) California crude oil to Pacific Rim countries. Totals may not equal sum of components due to independent rounding."
+      },
+      {
+        "id": "expc",
+        "name": "Exports by Destination",
+        "description": "On December 18, 2015, the U.S. enacted legislation authorizing the export of U.S. crude oil without a license.  Exports to embargoed or sanctioned countries continue to require authorization.  Prior to December 2015, crude oil exports were restricted to: (1) crude oil derived from fields under the State waters of Cook Inlet of Alaska; (2) Alaskan North Slope crude oil; (3) certain domestically produced crude oil destined for Canada; (4) shipments to U.S. territories; and (5) California crude oil to Pacific Rim countries. Totals may not equal sum of components due to independent rounding."
+      },
+      {
+        "id": "neti",
+        "name": "U.S. Net Imports by Country",
+        "description": "*Countries listed under OPEC and non-OPEC are based on current affiliations. OPEC and non-OPEC totals are based on affiliations for the stated period of time which may differ from current affiliations.  Indonesia withdrew from OPEC in January 2009, rejoined in 2016 and withdrew again in December 2016, Angola joined OPEC in January 2007, Ecuador withdrew from OPEC in January 1993, rejoined in November 2007, and withdrew in January 2020, and Gabon withdrew from OPEC in July 1996 and and rejoined in July 2016, Equatorial Guinea joined OPEC in May 2017, Congo (Brazzaville) joined OPEC in June 2018,  and Qatar withdrew from OPEC in January 2019. Net imports of crude oil includes crude oil imported for storage in the Strategic Petroleum Reserve.  On December 18, 2015, the U.S. enacted legislation authorizing the export of U.S. crude oil without a license.  Exports to embargoed or sanctioned countries continue to require authorization.  Prior to December 2015, crude oil exports were restricted to: (1) crude oil derived from fields under the State waters of Cook Inlet of Alaska; (2) Alaskan North Slope crude oil; (3) certain domestically produced crude oil destined for Canada; (4) shipments to U.S. territories; and (5) California crude oil to Pacific Rim countries. The Persian Gulf includes Bahrain, Iran, Iraq, Kuwait, Qatar, Saudi Arabia, and the United Arab Emirates. Net imports are calculated using zero for exports of distillate fuel oil with sulfur contents of 0-15 ppm and greater than 2000 ppm. Totals may not equal sum of components due to independent rounding."
+      },
+      {
+        "id": "imc1",
+        "name": "F.O.B. Costs of Imported Crude Oil by Area",
+        "description": null
+      },
+      {
+        "id": "imc2",
+        "name": "F.O.B. Costs of Imported Crude Oil for Selected Crude Streams",
+        "description": null
+      },
+      {
+        "id": "imc3",
+        "name": "F.O.B. Costs of Imported Crude Oil by API Gravity",
+        "description": null
+      },
+      {
+        "id": "land1",
+        "name": "Landed Costs of Imported Crude by Area",
+        "description": null
+      },
+      {
+        "id": "land2",
+        "name": "Landed Costs of Imported Crude for Selected Crude Streams",
+        "description": null
+      },
+      {
+        "id": "land3",
+        "name": "Landed Costs of Imported Crude by API Gravity",
+        "description": null
+      },
+      {
+        "id": "ipct",
+        "name": "Percentages of Total Imported Crude Oil by API Gravity",
+        "description": "Values shown for the current two months are preliminary. Values shown for the previous two months may be revised to account for late submissions and corrections. Final revisions to monthly and annual values are available upon publication of the June Petroleum Marketing Monthly. Annual averages that precede the release of the June Petroleum Marketing Monthly are calculated from monthly data.  Data through 2014 are final."
+      },
+      {
+        "id": "ptb",
+        "name": "Movements by Pipeline, Tanker, Barge and Rail between PAD Districts",
+        "description": "RBOB with Ether and RBOB with Alcohol are discontinued as of the January 2010 reporting period."
+      },
+      {
+        "id": "pipe",
+        "name": "Movements by Pipeline between PAD Districts",
+        "description": "RBOB with Ether and RBOB with Alcohol are discontinued as of the January 2010 reporting period."
+      },
+      {
+        "id": "tb",
+        "name": "Movements by Tanker and Barge between PAD Districts",
+        "description": "RBOB with Ether and RBOB with Alcohol are discontinued as of the January 2010 reporting period."
+      },
+      {
+        "id": "netr",
+        "name": "Net Receipts by Pipeline, Tanker, Barge and Rail between PAD Districts",
+        "description": "RBOB with Ether and RBOB with Alcohol are discontinued as of the January 2010 reporting period."
+      },
+      {
+        "id": "impcus",
+        "name": "U.S. Imports by Country of Origin",
+        "description": "Crude oil and unfinished oils are reported by the PAD District in which they are processed; all other products are reported by the PAD District of entry. Crude oil includes imports for storage in the Strategic Petroleum Reserve. Totals may not equal sum of components due to independent rounding."
+      },
+      {
+        "id": "impcp",
+        "name": "PAD District Imports by Country of Origin",
+        "description": "Crude oil and unfinished oils are reported by the PAD District in which they are processed; all other products are reported by the PAD District of entry. Crude oil includes imports for storage in the Strategic Petroleum Reserve. Totals may not equal sum of components due to independent rounding."
+      },
+      {
+        "id": "rail",
+        "name": "Movements of Crude Oil and Selected Products by Rail between PAD Districts",
+        "description": "Rail movements of crude oil are estimates based on EIA analysis of data from the Surface Transportation Board and other information. <a href=\"pet_move_railNA_a_EPC0_RAIL_mbbl_m.htm\">See movements of crude oil by rail</a> for movements by rail within PADDs and to/from Canada."
+      },
+      {
+        "id": "railNA",
+        "name": "Movements of Crude Oil and Selected Products by Rail",
+        "description": "Rail movements of crude oil are estimates based on EIA analysis of data from the Surface Transportation Board and other information."
+      }
+    ]
+  }
+}

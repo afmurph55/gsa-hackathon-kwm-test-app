@@ -1,0 +1,29 @@
+{
+  "route": "petroleum/move/netr/facet/duoarea/",
+  "retrieved_at": "2026-11-12T04:21:36.387628+00:00",
+  "metadata": {
+    "totalFacets": 5,
+    "facets": [
+      {
+        "id": "R30-Z0P",
+        "name": "PADD 3"
+      },
+      {
+        "id": "R50-Z0P",
+        "name": "PADD 5"
+      },
+      {
+        "id": "R10-Z0P",
+        "name": "PADD 1"
+      },
+      {
+        "id": "R40-Z0P",
+        "name": "PADD 4"
+      },
+      {
+        "id": "R20-Z0P",
+        "name": "PADD 2"
+      }
+    ]
+  }
+}

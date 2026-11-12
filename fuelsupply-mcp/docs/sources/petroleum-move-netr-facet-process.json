@@ -1,0 +1,21 @@
+{
+  "route": "petroleum/move/netr/facet/process/",
+  "retrieved_at": "2026-11-12T04:20:13.524481+00:00",
+  "metadata": {
+    "totalFacets": 3,
+    "facets": [
+      {
+        "id": "VNR",
+        "name": "Net Receipts by Pipeline, Tanker, Barge and Rail"
+      },
+      {
+        "id": "TNS",
+        "name": "Shipments by Pipeline, Tanker, Barge and Rail"
+      },
+      {
+        "id": "TNR",
+        "name": "Receipts by Pipeline, Tanker, Barge and Rail"
+      }
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "route": "petroleum/move/netr/data/",
+  "parameters": {
+    "frequency": "monthly",
+    "data[0]": "value",
+    "facets[product][]": "EPD0",
+    "facets[duoarea][]": "R10-Z0P",
+    "facets[process][]": "VNR",
+    "start": "2026-07",
+    "end": "2026-08",
+    "length": 100,
+    "sort[0][column]": "period",
+    "sort[0][direction]": "desc"
+  },
+  "retrieved_at": "2026-11-12T04:22:13.531322+00:00",
+  "response": {
+    "total": "2",
+    "dateFormat": "YYYY-MM",
+    "frequency": "monthly",
+    "data": [
+      {
+        "period": "2026-08",
+        "duoarea": "R10-Z0P",
+        "area-name": "PADD 1",
+        "product": "EPD0",
+        "product-name": "Distillate Fuel Oil",
+        "process": "VNR",
+        "process-name": "Net Receipts by Pipeline, Tanker, Barge and Rail",
+        "series": "MDINRP11",
+        "series-description": "East Coast (PADD 1) Net Receipts by Pipeline, Tanker, and Barge from Other PADDs of Distillate Fuel Oil (Thousand Barrels)",
+        "value": "20605",
+        "units": "MBBL"
+      },
+      {
+        "period": "2026-07",
+        "duoarea": "R10-Z0P",
+        "area-name": "PADD 1",
+        "product": "EPD0",
+        "product-name": "Distillate Fuel Oil",
+        "process": "VNR",
+        "process-name": "Net Receipts by Pipeline, Tanker, Barge and Rail",
+        "series": "MDINRP11",
+        "series-description": "East Coast (PADD 1) Net Receipts by Pipeline, Tanker, and Barge from Other PADDs of Distillate Fuel Oil (Thousand Barrels)",
+        "value": "23210",
+        "units": "MBBL"
+      }
+    ]
+  }
+}

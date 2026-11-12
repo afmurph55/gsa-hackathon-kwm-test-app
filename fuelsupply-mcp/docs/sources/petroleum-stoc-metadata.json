@@ -1,0 +1,46 @@
+{
+  "route": "petroleum/stoc/",
+  "retrieved_at": "2026-11-12T04:16:27.645703+00:00",
+  "metadata": {
+    "id": "stoc",
+    "name": "Petroleum, Stocks",
+    "description": "Petroleum, Stocks",
+    "routes": [
+      {
+        "id": "ts",
+        "name": "Stocks of Motor Gasoline, Distillate Fuel Oil, Residual Fuel Oil, Propane and Propylene",
+        "description": null
+      },
+      {
+        "id": "wstk",
+        "name": "Weekly Stocks",
+        "description": "Stocks include those domestic and Customs-cleared foreign stocks held at, or in transit to, refineries and bulk terminals, and stocks in pipelines. Stocks held at natural gas processing plants are included in \"Other Oils\" and in totals. All stock levels are as of the end of the period.  Data may not add to total due to independent rounding.   Weekly data for RBOB with Ether, RBOB with Alcohol, and Reformulated GTAB Motor Gasoline Blending Components are discontinued as of the week ending June 4, 2010 reporting period. Monthly data for RBOB with Ether, RBOB with Alcohol, and Reformulated GTAB Motor Gasoline Blending Components are discontinued as of the January 2010 reporting period. Beginning with data for January 2005 total crude oil and petroleum products stocks do not include lease stocks. With the publication of the estimates for week ending April 10, 2020, propane/propylene inventories no longer include propylene inventories held at terminals. These volumes have been removed from the data back to the January 2, 2015 reporting period and are not included in any relevant U.S. totals, PADD sub-totals, or Total Inventory calculations."
+      },
+      {
+        "id": "typ",
+        "name": "Stocks by Type",
+        "description": "Crude oil stocks in the Strategic Petroleum Reserve include non-U.S. stocks held under foreign or commercial storage  agreements. Bulk terminal stocks include stocks held by merchant producers. Stocks are reported as of the last day of the month.   RBOB with Ether, RBOB with Alcohol, and Reformulated GTAB Motor Gasoline Blending Components are discontinued as of the January 2010 reporting period. Beginning with data for January 2005 total crude oil and petroleum products stocks do not include lease stocks."
+      },
+      {
+        "id": "st",
+        "name": "Refinery, Bulk Terminal, and Natural Gas Plant Stocks by State",
+        "description": "Total stocks do not include stocks located in the Northeast Heating Oil Reserve, Northeast Regional Refined Petroleum Product Reserve, and State of New York''s Strategic Fuels Reserve. Stocks are reported as of the last day of the month. Totals may not equal sum of components due to independent rounding."
+      },
+      {
+        "id": "cu",
+        "name": "Crude Oil Stocks at Tank Farms & Pipelines",
+        "description": "Stocks are reported as of the last day of the month. Totals may not equal sum of components due to independent rounding."
+      },
+      {
+        "id": "ref",
+        "name": "Refinery Stocks",
+        "description": "&quot;Other Oxygenates&quot; includes ethyl tertiary butyl ether (ETBE), tertiary amyl methyl ether (TAME), tertiary butyl alcohol (TBA), and other aliphatic alcohols and ethers intended for motor gasoline blending (e.g., isopropyl ether (IPE) or n-propanol).  Stocks are reported as of the last day of the month. RBOB with Ether and RBOB with Alcohol are discontinued as of the January 2010 reporting period."
+      },
+      {
+        "id": "gp",
+        "name": "Natural Gas Plant Stocks",
+        "description": null
+      }
+    ]
+  }
+}
