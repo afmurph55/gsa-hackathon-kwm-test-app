@@ -1,0 +1,19 @@
+{
+  "unit_api_tests": {
+    "passed": 82,
+    "failed": 0
+  },
+  "stdio_mcp_cases": {
+    "passed": 26,
+    "failed": 0
+  },
+  "ruff_lint": "passed",
+  "ruff_format": "passed",
+  "javascript_syntax": "passed",
+  "credential_scan": "passed",
+  "dashboard_server": "loopback only",
+  "deployment_performed": false,
+  "model_agent_usability": "not evaluated",
+  "browser_qa": "Selection, monthly partial coverage, table expansion, mobile layout and real EIA refresh verified during local build",
+  "csv_download_and_pdf_output": "Not confirmed in in-app browser; standard browser controls included"
+}

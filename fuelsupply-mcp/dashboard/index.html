@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Verified EIA petroleum observations, transparent coverage and traceable sources.">
+  <title>FuelSupply · Supply monitor</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#overview"><span class="brand-mark" aria-hidden="true">FS</span><span>FuelSupply<span class="brand-sub">Public data intelligence</span></span></a>
+    <span class="top-label">EIA petroleum · verified coverage</span>
+  </header>
+  <div class="layout">
+    <aside class="sidebar">
+      <div class="nav-label">WORKSPACE</div>
+      <nav aria-label="Dashboard sections">
+        <a class="active" href="#overview">Supply monitor <span>01</span></a>
+        <a href="#observations">Observation data <span>02</span></a>
+        <a href="#sources">Sources & coverage <span>03</span></a>
+      </nav>
+      <div class="sidebar-note"><span class="small-label">VERIFIED REGISTRY</span><strong id="registry-count">29 mappings</strong><span id="registry-version">Version 0.2.0</span></div>
+      <button id="print-report" class="button secondary" type="button">Print / save PDF</button>
+    </aside>
+    <main id="overview">
+      <div class="page-heading"><div><div class="eyebrow">FUEL MARKETS / SUPPLY MONITOR</div><h1>A clearer view of fuel supply.</h1><p>Published observations, exact product definitions and traceable sources.</p></div><span class="snapshot-tag" id="snapshot-status">Saved EIA snapshot</span></div>
+      <section class="filters" aria-label="Data selection">
+        <label>Fuel product<select id="fuel"><option value="distillate">Distillate fuel oil</option><option value="finished_gasoline">Finished motor gasoline</option><option value="kerosene_jet">Kerosene-type jet fuel</option></select></label>
+        <label>Frequency<select id="frequency"><option value="weekly">Weekly</option><option value="monthly">Monthly</option></select></label>
+        <label>Geography<select id="geography"><option value="US">United States</option><option value="PADD1">East Coast · PADD 1</option></select></label>
+        <label>History<select id="history"><option value="3">Last 3 periods</option><option value="12" selected>Last 12 periods</option><option value="26">Last 26 periods</option><option value="52">Last 52 periods</option></select></label>
+        <button id="refresh" class="button primary" type="button">Refresh from EIA</button>
+      </section>
+      <div class="data-meta" aria-live="polite"><span id="period-label"></span><span id="retrieved-label"></span></div>
+      <div id="message" class="notice" role="status" hidden></div>
+      <section class="stats" aria-label="Latest observations">
+        <article class="stat"><span class="small-label">ENDING STOCKS</span><div class="stat-number"><span id="stock-value">—</span><span class="stat-unit">million bbl</span></div><div id="stock-change" class="stat-context"></div></article>
+        <article class="stat"><span class="small-label">PRODUCT SUPPLIED</span><div class="stat-number"><span id="supplied-value">—</span><span class="stat-unit">thousand bbl/day</span></div><div class="stat-context">Implied demand · not direct customer sales</div></article>
+        <article class="stat"><span class="small-label">CUSTOM INVENTORY RATIO</span><div class="stat-number"><span id="ratio-value">—</span><span class="stat-unit">days</span></div><div class="stat-context">Stocks ÷ product supplied · not official EIA days of supply</div></article>
+      </section>
+      <section class="chart-grid" aria-label="Supply trends">
+        <article class="panel"><div class="panel-heading"><div><h2>Inventory trend</h2><span class="chart-caption">Ending stocks · million barrels</span></div><span id="stock-period-count" class="small-label"></span></div><div id="stock-chart" class="chart"></div></article>
+        <article class="panel"><div class="panel-heading"><div><h2>Production & implied demand</h2><span class="chart-caption">Daily average · thousand barrels/day</span></div></div><div id="flow-legend" class="legend" aria-label="Flow series"></div><div id="flow-chart" class="chart"></div></article>
+      </section>
+      <section class="coverage-note" aria-label="Coverage limits"><span class="coverage-label" id="coverage-label">Coverage</span><div><strong id="coverage-title"></strong><p id="coverage-copy"></p></div></section>
+      <section class="panel observation-panel" id="observations"><div class="panel-heading"><div><h2>Observation data</h2><span class="chart-caption" id="observation-caption"></span></div><div class="table-actions"><button class="button secondary" id="table-toggle" type="button" aria-pressed="false">Show all periods</button> <button class="button secondary" id="export-csv" type="button">Download CSV</button></div></div><div class="table-scroll"><table><thead><tr><th>Period</th><th>Metric</th><th class="numeric">Value</th><th>Units</th><th>Original EIA value</th></tr></thead><tbody id="observation-rows"></tbody></table></div></section>
+      <section class="panel sources-panel" id="sources"><div class="panel-heading"><div><h2>Sources & definitions</h2><span id="definition" class="chart-caption"></span></div><span class="small-label">EIA PUBLISHED TABLES</span></div><div id="source-list" class="source-list"></div><details><summary>Methodology & limitations</summary><ul id="limitations"></ul><p>Monthly flow volumes are divided by calendar days; stocks remain period-end levels. Coverage flags describe this build's verified mappings, not whether EIA publishes other data. Three or twelve periods do not establish a five-year seasonal baseline.</p></details></section>
+      <footer>FuelSupply · Public EIA petroleum analysis · No purchasing, shortage prediction or spare-capacity claims.<span id="footer-source"></span></footer>
+    </main>
+  </div>
+  <script src="data/snapshot.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

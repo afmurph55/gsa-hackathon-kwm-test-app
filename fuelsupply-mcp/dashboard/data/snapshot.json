@@ -1,0 +1,3594 @@
+{
+  "registry_version": "0.2.0",
+  "binding_count": 29,
+  "cases": [
+    {
+      "query": {
+        "fuel": "distillate",
+        "geography": "PADD1",
+        "frequency": "monthly",
+        "lookback_periods": 3
+      },
+      "response": {
+        "text": "Market-level descriptive analysis",
+        "status": "partial",
+        "mode": "live",
+        "resolved_product_definition": "Distillate fuel oil (broad product family; not ULSD)",
+        "geography": "PADD1",
+        "observation_periods": [
+          "2026-08",
+          "2026-07",
+          "2026-06"
+        ],
+        "retrieval_timestamp": "2026-11-12T05:24:22.492157+00:00",
+        "metrics": [
+          {
+            "metric": "biofuels_production",
+            "classification": "flow",
+            "product_definition": "Distillate fuel oil (broad product family; not ULSD)",
+            "observations": [
+              {
+                "period": "2026-08",
+                "value": 0.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 0.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-07",
+                "value": 0.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 0.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-06",
+                "value": 0.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 0.0,
+                "original_units": "MBBL"
+              }
+            ]
+          },
+          {
+            "metric": "exports",
+            "classification": "flow",
+            "product_definition": "Distillate fuel oil (broad product family; not ULSD)",
+            "observations": [
+              {
+                "period": "2026-08",
+                "value": 99.6774193548387,
+                "units": "Thousand Barrels per Day",
+                "original_value": 3090.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-07",
+                "value": 95.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 2945.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-06",
+                "value": 21.9,
+                "units": "Thousand Barrels per Day",
+                "original_value": 657.0,
+                "original_units": "MBBL"
+              }
+            ]
+          },
+          {
+            "metric": "imports",
+            "classification": "flow",
+            "product_definition": "Distillate fuel oil (broad product family; not ULSD)",
+            "observations": [
+              {
+                "period": "2026-08",
+                "value": 85.74193548387096,
+                "units": "Thousand Barrels per Day",
+                "original_value": 2658.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-07",
+                "value": 95.3225806451613,
+                "units": "Thousand Barrels per Day",
+                "original_value": 2955.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-06",
+                "value": 90.9,
+                "units": "Thousand Barrels per Day",
+                "original_value": 2727.0,
+                "original_units": "MBBL"
+              }
+            ]
+          },
+          {
+            "metric": "net_receipts",
+            "classification": "flow",
+            "product_definition": "Distillate fuel oil (broad product family; not ULSD)",
+            "observations": [
+              {
+                "period": "2026-08",
+                "value": 664.6774193548387,
+                "units": "Thousand Barrels per Day",
+                "original_value": 20605.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-07",
+                "value": 748.7096774193549,
+                "units": "Thousand Barrels per Day",
+                "original_value": 23210.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-06",
+                "value": 718.0666666666667,
+                "units": "Thousand Barrels per Day",
+                "original_value": 21542.0,
+                "original_units": "MBBL"
+              }
+            ]
+          },
+          {
+            "metric": "product_supplied",
+            "classification": "flow",
+            "product_definition": "Distillate fuel oil (broad product family; not ULSD)",
+            "observations": [
+              {
+                "period": "2026-08",
+                "value": 1036.6774193548388,
+                "units": "Thousand Barrels per Day",
+                "original_value": 32137.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-07",
+                "value": 918.8387096774194,
+                "units": "Thousand Barrels per Day",
+                "original_value": 28484.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-06",
+                "value": 1049.7666666666667,
+                "units": "Thousand Barrels per Day",
+                "original_value": 31493.0,
+                "original_units": "MBBL"
+              }
+            ]
+          },
+          {
+            "metric": "refinery_blender_production",
+            "classification": "flow",
+            "product_definition": "Distillate fuel oil (broad product family; not ULSD)",
+            "observations": [
+              {
+                "period": "2026-08",
+                "value": 250.4516129032258,
+                "units": "Thousand Barrels per Day",
+                "original_value": 7764.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-07",
+                "value": 239.32258064516128,
+                "units": "Thousand Barrels per Day",
+                "original_value": 7419.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-06",
+                "value": 216.66666666666666,
+                "units": "Thousand Barrels per Day",
+                "original_value": 6500.0,
+                "original_units": "MBBL"
+              }
+            ]
+          },
+          {
+            "metric": "stock_change",
+            "classification": "flow",
+            "product_definition": "Distillate fuel oil (broad product family; not ULSD)",
+            "observations": [
+              {
+                "period": "2026-08",
+                "value": -135.48387096774192,
+                "units": "Thousand Barrels per Day",
+                "original_value": -4200.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-07",
+                "value": 69.51612903225806,
+                "units": "Thousand Barrels per Day",
+                "original_value": 2155.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-06",
+                "value": -46.03333333333333,
+                "units": "Thousand Barrels per Day",
+                "original_value": -1381.0,
+                "original_units": "MBBL"
+              }
+            ]
+          },
+          {
+            "metric": "stocks",
+            "classification": "stock",
+            "product_definition": "Distillate fuel oil (broad product family; not ULSD)",
+            "observations": [
+              {
+                "period": "2026-08",
+                "value": 20885.0,
+                "units": "Thousand Barrels",
+                "original_value": 20885.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-07",
+                "value": 25085.0,
+                "units": "Thousand Barrels",
+                "original_value": 25085.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-06",
+                "value": 22930.0,
+                "units": "Thousand Barrels",
+                "original_value": 22930.0,
+                "original_units": "MBBL"
+              }
+            ]
+          }
+        ],
+        "calculations": [],
+        "data_quality_diagnostics": [
+          "stale_observation:2026-06",
+          "stale_observation:2026-06",
+          "stale_observation:2026-06",
+          "stale_observation:2026-06",
+          "stale_observation:2026-06",
+          "stale_observation:2026-06",
+          "stale_observation:2026-06",
+          "stale_observation:2026-06",
+          "retrieval_modes:live"
+        ],
+        "source_bindings": [
+          {
+            "internal_metric_id": "biofuels_production",
+            "fuel_family": "distillate",
+            "product_definition": "Distillate fuel oil (broad product family; not ULSD)",
+            "geography": "PADD1",
+            "frequency": "monthly",
+            "route": "petroleum/sum/snd/data/",
+            "facets": {
+              "product": [
+                "EPD0"
+              ],
+              "duoarea": [
+                "R10"
+              ],
+              "process": [
+                "YNP"
+              ],
+              "series": [
+                "M_EPD0_YNP_R10_MBBL"
+              ]
+            },
+            "value_column": "value",
+            "units": "MBBL",
+            "classification": "flow",
+            "period_convention": "Calendar month (YYYY-MM); ending stocks are month-end levels",
+            "observed_coverage": [
+              "2026-07",
+              "2026-08"
+            ],
+            "verified_at": "2026-11-12T04:22:20.194029Z",
+            "source_url": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=M_EPD0_YNP_R10_MBBL&f=M",
+            "methodology_notes": "Matched authenticated API rows to published table for both captured periods. Evidence: docs/sources/binding-verification.json; sample: monthly-distillate-sample.json. Monthly flow volumes converted to daily averages using calendar days; stocks remain levels. Refinery/blender and biofuels production are separate components, not total production. No missing balance term is assumed zero; reconciliation remains incomplete. ",
+            "verification_status": "verified"
+          },
+          {
+            "internal_metric_id": "exports",
+            "fuel_family": "distillate",
+            "product_definition": "Distillate fuel oil (broad product family; not ULSD)",
+            "geography": "PADD1",
+            "frequency": "monthly",
+            "route": "petroleum/sum/snd/data/",
+            "facets": {
+              "product": [
+                "EPD0"
+              ],
+              "duoarea": [
+                "R10-Z00"
+              ],
+              "process": [
+                "EEX"
+              ],
+              "series": [
+                "MDIEXP11"
+              ]
+            },
+            "value_column": "value",
+            "units": "MBBL",
+            "classification": "flow",
+            "period_convention": "Calendar month (YYYY-MM); ending stocks are month-end levels",
+            "observed_coverage": [
+              "2026-07",
+              "2026-08"
+            ],
+            "verified_at": "2026-11-12T04:22:20.194029Z",
+            "source_url": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=MDIEXP11&f=M",
+            "methodology_notes": "Matched authenticated API rows to published table for both captured periods. Evidence: docs/sources/binding-verification.json; sample: monthly-distillate-trade-sample.json. Monthly flow volumes converted to daily averages using calendar days; stocks remain levels. Refinery/blender and biofuels production are separate components, not total production. No missing balance term is assumed zero; reconciliation remains incomplete. ",
+            "verification_status": "verified"
+          },
+          {
+            "internal_metric_id": "imports",
+            "fuel_family": "distillate",
+            "product_definition": "Distillate fuel oil (broad product family; not ULSD)",
+            "geography": "PADD1",
+            "frequency": "monthly",
+            "route": "petroleum/sum/snd/data/",
+            "facets": {
+              "product": [
+                "EPD0"
+              ],
+              "duoarea": [
+                "R10-Z00"
+              ],
+              "process": [
+                "IM0"
+              ],
+              "series": [
+                "MDIIMP11"
+              ]
+            },
+            "value_column": "value",
+            "units": "MBBL",
+            "classification": "flow",
+            "period_convention": "Calendar month (YYYY-MM); ending stocks are month-end levels",
+            "observed_coverage": [
+              "2026-07",
+              "2026-08"
+            ],
+            "verified_at": "2026-11-12T04:22:20.194029Z",
+            "source_url": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=MDIIMP11&f=M",
+            "methodology_notes": "Matched authenticated API rows to published table for both captured periods. Evidence: docs/sources/binding-verification.json; sample: monthly-distillate-trade-sample.json. Monthly flow volumes converted to daily averages using calendar days; stocks remain levels. Refinery/blender and biofuels production are separate components, not total production. No missing balance term is assumed zero; reconciliation remains incomplete. ",
+            "verification_status": "verified"
+          },
+          {
+            "internal_metric_id": "net_receipts",
+            "fuel_family": "distillate",
+            "product_definition": "Distillate fuel oil (broad product family; not ULSD)",
+            "geography": "PADD1",
+            "frequency": "monthly",
+            "route": "petroleum/move/netr/data/",
+            "facets": {
+              "product": [
+                "EPD0"
+              ],
+              "duoarea": [
+                "R10-Z0P"
+              ],
+              "process": [
+                "VNR"
+              ],
+              "series": [
+                "MDINRP11"
+              ]
+            },
+            "value_column": "value",
+            "units": "MBBL",
+            "classification": "flow",
+            "period_convention": "Calendar month (YYYY-MM); ending stocks are month-end levels",
+            "observed_coverage": [
+              "2026-07",
+              "2026-08"
+            ],
+            "verified_at": "2026-11-12T04:22:20.194029Z",
+            "source_url": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=MDINRP11&f=M",
+            "methodology_notes": "Matched authenticated API rows to published table for both captured periods. Evidence: docs/sources/binding-verification.json; sample: monthly-distillate-receipts-sample.json. Monthly flow volumes converted to daily averages using calendar days; stocks remain levels. Refinery/blender and biofuels production are separate components, not total production. No missing balance term is assumed zero; reconciliation remains incomplete. Net receipts by pipeline, tanker, barge and rail; not supplier availability. ",
+            "verification_status": "verified"
+          },
+          {
+            "internal_metric_id": "product_supplied",
+            "fuel_family": "distillate",
+            "product_definition": "Distillate fuel oil (broad product family; not ULSD)",
+            "geography": "PADD1",
+            "frequency": "monthly",
+            "route": "petroleum/sum/snd/data/",
+            "facets": {
+              "product": [
+                "EPD0"
+              ],
+              "duoarea": [
+                "R10"
+              ],
+              "process": [
+                "VPP"
+              ],
+              "series": [
+                "MDIUPP11"
+              ]
+            },
+            "value_column": "value",
+            "units": "MBBL",
+            "classification": "flow",
+            "period_convention": "Calendar month (YYYY-MM); ending stocks are month-end levels",
+            "observed_coverage": [
+              "2026-07",
+              "2026-08"
+            ],
+            "verified_at": "2026-11-12T04:22:20.194029Z",
+            "source_url": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=MDIUPP11&f=M",
+            "methodology_notes": "Matched authenticated API rows to published table for both captured periods. Evidence: docs/sources/binding-verification.json; sample: monthly-distillate-sample.json. Monthly flow volumes converted to daily averages using calendar days; stocks remain levels. Refinery/blender and biofuels production are separate components, not total production. No missing balance term is assumed zero; reconciliation remains incomplete. ",
+            "verification_status": "verified"
+          },
+          {
+            "internal_metric_id": "refinery_blender_production",
+            "fuel_family": "distillate",
+            "product_definition": "Distillate fuel oil (broad product family; not ULSD)",
+            "geography": "PADD1",
+            "frequency": "monthly",
+            "route": "petroleum/sum/snd/data/",
+            "facets": {
+              "product": [
+                "EPD0"
+              ],
+              "duoarea": [
+                "R10"
+              ],
+              "process": [
+                "YPR"
+              ],
+              "series": [
+                "MDIRPP11"
+              ]
+            },
+            "value_column": "value",
+            "units": "MBBL",
+            "classification": "flow",
+            "period_convention": "Calendar month (YYYY-MM); ending stocks are month-end levels",
+            "observed_coverage": [
+              "2026-07",
+              "2026-08"
+            ],
+            "verified_at": "2026-11-12T04:22:20.194029Z",
+            "source_url": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=MDIRPP11&f=M",
+            "methodology_notes": "Matched authenticated API rows to published table for both captured periods. Evidence: docs/sources/binding-verification.json; sample: monthly-distillate-sample.json. Monthly flow volumes converted to daily averages using calendar days; stocks remain levels. Refinery/blender and biofuels production are separate components, not total production. No missing balance term is assumed zero; reconciliation remains incomplete. ",
+            "verification_status": "verified"
+          },
+          {
+            "internal_metric_id": "stock_change",
+            "fuel_family": "distillate",
+            "product_definition": "Distillate fuel oil (broad product family; not ULSD)",
+            "geography": "PADD1",
+            "frequency": "monthly",
+            "route": "petroleum/sum/snd/data/",
+            "facets": {
+              "product": [
+                "EPD0"
+              ],
+              "duoarea": [
+                "R10"
+              ],
+              "process": [
+                "SCG"
+              ],
+              "series": [
+                "MDISCP11"
+              ]
+            },
+            "value_column": "value",
+            "units": "MBBL",
+            "classification": "flow",
+            "period_convention": "Calendar month (YYYY-MM); ending stocks are month-end levels",
+            "observed_coverage": [
+              "2026-07",
+              "2026-08"
+            ],
+            "verified_at": "2026-11-12T04:22:20.194029Z",
+            "source_url": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=MDISCP11&f=M",
+            "methodology_notes": "Matched authenticated API rows to published table for both captured periods. Evidence: docs/sources/binding-verification.json; sample: monthly-distillate-sample.json. Monthly flow volumes converted to daily averages using calendar days; stocks remain levels. Refinery/blender and biofuels production are separate components, not total production. No missing balance term is assumed zero; reconciliation remains incomplete. ",
+            "verification_status": "verified"
+          },
+          {
+            "internal_metric_id": "stocks",
+            "fuel_family": "distillate",
+            "product_definition": "Distillate fuel oil (broad product family; not ULSD)",
+            "geography": "PADD1",
+            "frequency": "monthly",
+            "route": "petroleum/sum/snd/data/",
+            "facets": {
+              "product": [
+                "EPD0"
+              ],
+              "duoarea": [
+                "R10"
+              ],
+              "process": [
+                "SAE"
+              ],
+              "series": [
+                "MDISTP11"
+              ]
+            },
+            "value_column": "value",
+            "units": "MBBL",
+            "classification": "stock",
+            "period_convention": "Calendar month (YYYY-MM); ending stocks are month-end levels",
+            "observed_coverage": [
+              "2026-07",
+              "2026-08"
+            ],
+            "verified_at": "2026-11-12T04:22:20.194029Z",
+            "source_url": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=MDISTP11&f=M",
+            "methodology_notes": "Matched authenticated API rows to published table for both captured periods. Evidence: docs/sources/binding-verification.json; sample: monthly-distillate-sample.json. Monthly flow volumes converted to daily averages using calendar days; stocks remain levels. Refinery/blender and biofuels production are separate components, not total production. No missing balance term is assumed zero; reconciliation remains incomplete. ",
+            "verification_status": "verified"
+          }
+        ],
+        "limitations": [
+          "Product supplied is implied demand, not direct customer sales.",
+          "EIA market data cannot establish uncommitted purchasable fuel, quotes, guaranteed delivery, airport availability, spare pipeline capacity, or a guaranteed shortage or price forecast.",
+          "Refinery utilization is context, not usable spare product capacity. Historical yields do not establish feasible or immediately switchable production.",
+          "Historical flows are not confirmed replacement supply; net receipts alone do not establish source diversification.",
+          "Observation cutoffs filter periods, not historical publication knowledge. Vintage data are unavailable.",
+          "Weekly monitoring and monthly structural analysis are separate; co-occurrence does not establish causation."
+        ],
+        "supported_follow_up_actions": [
+          "discover_fuel_coverage",
+          "Clarify exact product definition"
+        ]
+      }
+    },
+    {
+      "query": {
+        "text": "",
+        "fuel": "distillate",
+        "geography": "US",
+        "frequency": "monthly",
+        "observation_cutoff": null,
+        "lookback_periods": 12
+      },
+      "response": {
+        "text": "Market-level descriptive analysis",
+        "status": "partial",
+        "mode": "live",
+        "resolved_product_definition": "Distillate fuel oil (broad product family; not ULSD)",
+        "geography": "US",
+        "observation_periods": [
+          "2026-08",
+          "2026-07",
+          "2026-06",
+          "2026-05",
+          "2026-04",
+          "2026-03",
+          "2026-02",
+          "2026-01",
+          "2025-12",
+          "2025-11",
+          "2025-10",
+          "2025-09"
+        ],
+        "retrieval_timestamp": "2026-11-12T05:16:46.427002+00:00",
+        "metrics": [
+          {
+            "metric": "biofuels_production",
+            "classification": "flow",
+            "product_definition": "Distillate fuel oil (broad product family; not ULSD)",
+            "observations": [
+              {
+                "period": "2026-08",
+                "value": 0.25806451612903225,
+                "units": "Thousand Barrels per Day",
+                "original_value": 8.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-07",
+                "value": 0.25806451612903225,
+                "units": "Thousand Barrels per Day",
+                "original_value": 8.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-06",
+                "value": -0.03333333333333333,
+                "units": "Thousand Barrels per Day",
+                "original_value": -1.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-05",
+                "value": 0.06451612903225806,
+                "units": "Thousand Barrels per Day",
+                "original_value": 2.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-04",
+                "value": 0.1,
+                "units": "Thousand Barrels per Day",
+                "original_value": 3.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-03",
+                "value": 0.16129032258064516,
+                "units": "Thousand Barrels per Day",
+                "original_value": 5.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-02",
+                "value": 0.10714285714285714,
+                "units": "Thousand Barrels per Day",
+                "original_value": 3.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-01",
+                "value": 0.06451612903225806,
+                "units": "Thousand Barrels per Day",
+                "original_value": 2.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2025-12",
+                "value": -0.03225806451612903,
+                "units": "Thousand Barrels per Day",
+                "original_value": -1.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2025-11",
+                "value": 0.03333333333333333,
+                "units": "Thousand Barrels per Day",
+                "original_value": 1.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2025-10",
+                "value": 0.06451612903225806,
+                "units": "Thousand Barrels per Day",
+                "original_value": 2.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2025-09",
+                "value": 0.06666666666666667,
+                "units": "Thousand Barrels per Day",
+                "original_value": 2.0,
+                "original_units": "MBBL"
+              }
+            ]
+          },
+          {
+            "metric": "exports",
+            "classification": "flow",
+            "product_definition": "Distillate fuel oil (broad product family; not ULSD)",
+            "observations": [
+              {
+                "period": "2026-08",
+                "value": 1733.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 53723.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-07",
+                "value": 1745.1290322580646,
+                "units": "Thousand Barrels per Day",
+                "original_value": 54099.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-06",
+                "value": 1432.4,
+                "units": "Thousand Barrels per Day",
+                "original_value": 42972.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-05",
+                "value": 1654.6774193548388,
+                "units": "Thousand Barrels per Day",
+                "original_value": 51295.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-04",
+                "value": 1596.6,
+                "units": "Thousand Barrels per Day",
+                "original_value": 47898.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-03",
+                "value": 1341.3225806451612,
+                "units": "Thousand Barrels per Day",
+                "original_value": 41581.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-02",
+                "value": 1141.3214285714287,
+                "units": "Thousand Barrels per Day",
+                "original_value": 31957.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-01",
+                "value": 1231.9354838709678,
+                "units": "Thousand Barrels per Day",
+                "original_value": 38190.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2025-12",
+                "value": 1477.3225806451612,
+                "units": "Thousand Barrels per Day",
+                "original_value": 45797.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2025-11",
+                "value": 1264.5333333333333,
+                "units": "Thousand Barrels per Day",
+                "original_value": 37936.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2025-10",
+                "value": 1215.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 37665.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2025-09",
+                "value": 1221.3,
+                "units": "Thousand Barrels per Day",
+                "original_value": 36639.0,
+                "original_units": "MBBL"
+              }
+            ]
+          },
+          {
+            "metric": "imports",
+            "classification": "flow",
+            "product_definition": "Distillate fuel oil (broad product family; not ULSD)",
+            "observations": [
+              {
+                "period": "2026-08",
+                "value": 130.19354838709677,
+                "units": "Thousand Barrels per Day",
+                "original_value": 4036.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-07",
+                "value": 138.90322580645162,
+                "units": "Thousand Barrels per Day",
+                "original_value": 4306.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-06",
+                "value": 126.76666666666667,
+                "units": "Thousand Barrels per Day",
+                "original_value": 3803.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-05",
+                "value": 159.5483870967742,
+                "units": "Thousand Barrels per Day",
+                "original_value": 4946.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-04",
+                "value": 133.03333333333333,
+                "units": "Thousand Barrels per Day",
+                "original_value": 3991.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-03",
+                "value": 151.4516129032258,
+                "units": "Thousand Barrels per Day",
+                "original_value": 4695.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-02",
+                "value": 290.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 8120.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-01",
+                "value": 238.7741935483871,
+                "units": "Thousand Barrels per Day",
+                "original_value": 7402.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2025-12",
+                "value": 237.41935483870967,
+                "units": "Thousand Barrels per Day",
+                "original_value": 7360.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2025-11",
+                "value": 154.3,
+                "units": "Thousand Barrels per Day",
+                "original_value": 4629.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2025-10",
+                "value": 120.12903225806451,
+                "units": "Thousand Barrels per Day",
+                "original_value": 3724.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2025-09",
+                "value": 152.3,
+                "units": "Thousand Barrels per Day",
+                "original_value": 4569.0,
+                "original_units": "MBBL"
+              }
+            ]
+          },
+          {
+            "metric": "product_supplied",
+            "classification": "flow",
+            "product_definition": "Distillate fuel oil (broad product family; not ULSD)",
+            "observations": [
+              {
+                "period": "2026-08",
+                "value": 3704.7096774193546,
+                "units": "Thousand Barrels per Day",
+                "original_value": 114846.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-07",
+                "value": 3685.4193548387098,
+                "units": "Thousand Barrels per Day",
+                "original_value": 114248.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-06",
+                "value": 3809.633333333333,
+                "units": "Thousand Barrels per Day",
+                "original_value": 114289.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-05",
+                "value": 3567.2580645161293,
+                "units": "Thousand Barrels per Day",
+                "original_value": 110585.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-04",
+                "value": 3886.7,
+                "units": "Thousand Barrels per Day",
+                "original_value": 116601.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-03",
+                "value": 3903.6129032258063,
+                "units": "Thousand Barrels per Day",
+                "original_value": 121012.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-02",
+                "value": 4213.392857142857,
+                "units": "Thousand Barrels per Day",
+                "original_value": 117975.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-01",
+                "value": 4025.2580645161293,
+                "units": "Thousand Barrels per Day",
+                "original_value": 124783.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2025-12",
+                "value": 3847.2258064516127,
+                "units": "Thousand Barrels per Day",
+                "original_value": 119264.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2025-11",
+                "value": 3839.233333333333,
+                "units": "Thousand Barrels per Day",
+                "original_value": 115177.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2025-10",
+                "value": 4142.096774193548,
+                "units": "Thousand Barrels per Day",
+                "original_value": 128405.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2025-09",
+                "value": 3952.233333333333,
+                "units": "Thousand Barrels per Day",
+                "original_value": 118567.0,
+                "original_units": "MBBL"
+              }
+            ]
+          },
+          {
+            "metric": "refinery_blender_production",
+            "classification": "flow",
+            "product_definition": "Distillate fuel oil (broad product family; not ULSD)",
+            "observations": [
+              {
+                "period": "2026-08",
+                "value": 5230.741935483871,
+                "units": "Thousand Barrels per Day",
+                "original_value": 162153.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-07",
+                "value": 5270.387096774193,
+                "units": "Thousand Barrels per Day",
+                "original_value": 163382.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-06",
+                "value": 5220.166666666667,
+                "units": "Thousand Barrels per Day",
+                "original_value": 156605.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-05",
+                "value": 5070.5161290322585,
+                "units": "Thousand Barrels per Day",
+                "original_value": 157186.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-04",
+                "value": 4930.066666666667,
+                "units": "Thousand Barrels per Day",
+                "original_value": 147902.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-03",
+                "value": 5004.741935483871,
+                "units": "Thousand Barrels per Day",
+                "original_value": 155147.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-02",
+                "value": 4857.964285714285,
+                "units": "Thousand Barrels per Day",
+                "original_value": 136023.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-01",
+                "value": 4984.548387096775,
+                "units": "Thousand Barrels per Day",
+                "original_value": 154521.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2025-12",
+                "value": 5330.709677419355,
+                "units": "Thousand Barrels per Day",
+                "original_value": 165252.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2025-11",
+                "value": 5232.133333333333,
+                "units": "Thousand Barrels per Day",
+                "original_value": 156964.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2025-10",
+                "value": 4808.903225806452,
+                "units": "Thousand Barrels per Day",
+                "original_value": 149076.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2025-09",
+                "value": 5072.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 152160.0,
+                "original_units": "MBBL"
+              }
+            ]
+          },
+          {
+            "metric": "stock_change",
+            "classification": "flow",
+            "product_definition": "Distillate fuel oil (broad product family; not ULSD)",
+            "observations": [
+              {
+                "period": "2026-08",
+                "value": -76.48387096774194,
+                "units": "Thousand Barrels per Day",
+                "original_value": -2371.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-07",
+                "value": -21.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": -651.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-06",
+                "value": 104.86666666666666,
+                "units": "Thousand Barrels per Day",
+                "original_value": 3146.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-05",
+                "value": 8.225806451612904,
+                "units": "Thousand Barrels per Day",
+                "original_value": 255.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-04",
+                "value": -420.1,
+                "units": "Thousand Barrels per Day",
+                "original_value": -12603.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-03",
+                "value": -88.58064516129032,
+                "units": "Thousand Barrels per Day",
+                "original_value": -2746.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-02",
+                "value": -206.64285714285714,
+                "units": "Thousand Barrels per Day",
+                "original_value": -5786.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-01",
+                "value": -33.83870967741935,
+                "units": "Thousand Barrels per Day",
+                "original_value": -1049.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2025-12",
+                "value": 243.58064516129033,
+                "units": "Thousand Barrels per Day",
+                "original_value": 7551.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2025-11",
+                "value": 282.7,
+                "units": "Thousand Barrels per Day",
+                "original_value": 8481.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2025-10",
+                "value": -428.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": -13268.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2025-09",
+                "value": 50.86666666666667,
+                "units": "Thousand Barrels per Day",
+                "original_value": 1526.0,
+                "original_units": "MBBL"
+              }
+            ]
+          },
+          {
+            "metric": "stocks",
+            "classification": "stock",
+            "product_definition": "Distillate fuel oil (broad product family; not ULSD)",
+            "observations": [
+              {
+                "period": "2026-08",
+                "value": 106426.0,
+                "units": "Thousand Barrels",
+                "original_value": 106426.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-07",
+                "value": 108797.0,
+                "units": "Thousand Barrels",
+                "original_value": 108797.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-06",
+                "value": 109448.0,
+                "units": "Thousand Barrels",
+                "original_value": 109448.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-05",
+                "value": 106302.0,
+                "units": "Thousand Barrels",
+                "original_value": 106302.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-04",
+                "value": 106047.0,
+                "units": "Thousand Barrels",
+                "original_value": 106047.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-03",
+                "value": 118650.0,
+                "units": "Thousand Barrels",
+                "original_value": 118650.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-02",
+                "value": 121396.0,
+                "units": "Thousand Barrels",
+                "original_value": 121396.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-01",
+                "value": 127182.0,
+                "units": "Thousand Barrels",
+                "original_value": 127182.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2025-12",
+                "value": 128249.0,
+                "units": "Thousand Barrels",
+                "original_value": 128249.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2025-11",
+                "value": 120699.0,
+                "units": "Thousand Barrels",
+                "original_value": 120699.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2025-10",
+                "value": 112218.0,
+                "units": "Thousand Barrels",
+                "original_value": 112218.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2025-09",
+                "value": 125486.0,
+                "units": "Thousand Barrels",
+                "original_value": 125486.0,
+                "original_units": "MBBL"
+              }
+            ]
+          }
+        ],
+        "calculations": [],
+        "data_quality_diagnostics": [
+          "stale_observation:2026-06",
+          "stale_observation:2026-05",
+          "stale_observation:2026-04",
+          "stale_observation:2026-03",
+          "stale_observation:2026-02",
+          "stale_observation:2026-01",
+          "stale_observation:2025-12",
+          "stale_observation:2025-11",
+          "stale_observation:2025-10",
+          "stale_observation:2025-09",
+          "stale_observation:2026-06",
+          "stale_observation:2026-05",
+          "stale_observation:2026-04",
+          "stale_observation:2026-03",
+          "stale_observation:2026-02",
+          "stale_observation:2026-01",
+          "stale_observation:2025-12",
+          "stale_observation:2025-11",
+          "stale_observation:2025-10",
+          "stale_observation:2025-09",
+          "stale_observation:2026-06",
+          "stale_observation:2026-05",
+          "stale_observation:2026-04",
+          "stale_observation:2026-03",
+          "stale_observation:2026-02",
+          "stale_observation:2026-01",
+          "stale_observation:2025-12",
+          "stale_observation:2025-11",
+          "stale_observation:2025-10",
+          "stale_observation:2025-09",
+          "stale_observation:2026-06",
+          "stale_observation:2026-05",
+          "stale_observation:2026-04",
+          "stale_observation:2026-03",
+          "stale_observation:2026-02",
+          "stale_observation:2026-01",
+          "stale_observation:2025-12",
+          "stale_observation:2025-11",
+          "stale_observation:2025-10",
+          "stale_observation:2025-09",
+          "stale_observation:2026-06",
+          "stale_observation:2026-05",
+          "stale_observation:2026-04",
+          "stale_observation:2026-03",
+          "stale_observation:2026-02",
+          "stale_observation:2026-01",
+          "stale_observation:2025-12",
+          "stale_observation:2025-11",
+          "stale_observation:2025-10",
+          "stale_observation:2025-09",
+          "stale_observation:2026-06",
+          "stale_observation:2026-05",
+          "stale_observation:2026-04",
+          "stale_observation:2026-03",
+          "stale_observation:2026-02",
+          "stale_observation:2026-01",
+          "stale_observation:2025-12",
+          "stale_observation:2025-11",
+          "stale_observation:2025-10",
+          "stale_observation:2025-09",
+          "stale_observation:2026-06",
+          "stale_observation:2026-05",
+          "stale_observation:2026-04",
+          "stale_observation:2026-03",
+          "stale_observation:2026-02",
+          "stale_observation:2026-01",
+          "stale_observation:2025-12",
+          "stale_observation:2025-11",
+          "stale_observation:2025-10",
+          "stale_observation:2025-09",
+          "retrieval_modes:live"
+        ],
+        "source_bindings": [
+          {
+            "internal_metric_id": "biofuels_production",
+            "fuel_family": "distillate",
+            "product_definition": "Distillate fuel oil (broad product family; not ULSD)",
+            "geography": "US",
+            "frequency": "monthly",
+            "route": "petroleum/sum/snd/data/",
+            "facets": {
+              "product": [
+                "EPD0"
+              ],
+              "duoarea": [
+                "NUS"
+              ],
+              "process": [
+                "YNP"
+              ],
+              "series": [
+                "M_EPD0_YNP_NUS_MBBL"
+              ]
+            },
+            "value_column": "value",
+            "units": "MBBL",
+            "classification": "flow",
+            "period_convention": "Calendar month (YYYY-MM); ending stocks are month-end levels",
+            "observed_coverage": [
+              "2026-07",
+              "2026-08"
+            ],
+            "verified_at": "2026-11-12T04:22:20.194029Z",
+            "source_url": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=M_EPD0_YNP_NUS_MBBL&f=M",
+            "methodology_notes": "Matched authenticated API rows to published table for both captured periods. Evidence: docs/sources/binding-verification.json; sample: monthly-distillate-sample.json. Monthly flow volumes converted to daily averages using calendar days; stocks remain levels. Refinery/blender and biofuels production are separate components, not total production. No missing balance term is assumed zero; reconciliation remains incomplete. ",
+            "verification_status": "verified"
+          },
+          {
+            "internal_metric_id": "exports",
+            "fuel_family": "distillate",
+            "product_definition": "Distillate fuel oil (broad product family; not ULSD)",
+            "geography": "US",
+            "frequency": "monthly",
+            "route": "petroleum/sum/snd/data/",
+            "facets": {
+              "product": [
+                "EPD0"
+              ],
+              "duoarea": [
+                "NUS-Z00"
+              ],
+              "process": [
+                "EEX"
+              ],
+              "series": [
+                "MDIEXUS1"
+              ]
+            },
+            "value_column": "value",
+            "units": "MBBL",
+            "classification": "flow",
+            "period_convention": "Calendar month (YYYY-MM); ending stocks are month-end levels",
+            "observed_coverage": [
+              "2026-07",
+              "2026-08"
+            ],
+            "verified_at": "2026-11-12T04:22:20.194029Z",
+            "source_url": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=MDIEXUS1&f=M",
+            "methodology_notes": "Matched authenticated API rows to published table for both captured periods. Evidence: docs/sources/binding-verification.json; sample: monthly-distillate-trade-sample.json. Monthly flow volumes converted to daily averages using calendar days; stocks remain levels. Refinery/blender and biofuels production are separate components, not total production. No missing balance term is assumed zero; reconciliation remains incomplete. ",
+            "verification_status": "verified"
+          },
+          {
+            "internal_metric_id": "imports",
+            "fuel_family": "distillate",
+            "product_definition": "Distillate fuel oil (broad product family; not ULSD)",
+            "geography": "US",
+            "frequency": "monthly",
+            "route": "petroleum/sum/snd/data/",
+            "facets": {
+              "product": [
+                "EPD0"
+              ],
+              "duoarea": [
+                "NUS-Z00"
+              ],
+              "process": [
+                "IM0"
+              ],
+              "series": [
+                "MDIIMUS1"
+              ]
+            },
+            "value_column": "value",
+            "units": "MBBL",
+            "classification": "flow",
+            "period_convention": "Calendar month (YYYY-MM); ending stocks are month-end levels",
+            "observed_coverage": [
+              "2026-07",
+              "2026-08"
+            ],
+            "verified_at": "2026-11-12T04:22:20.194029Z",
+            "source_url": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=MDIIMUS1&f=M",
+            "methodology_notes": "Matched authenticated API rows to published table for both captured periods. Evidence: docs/sources/binding-verification.json; sample: monthly-distillate-trade-sample.json. Monthly flow volumes converted to daily averages using calendar days; stocks remain levels. Refinery/blender and biofuels production are separate components, not total production. No missing balance term is assumed zero; reconciliation remains incomplete. ",
+            "verification_status": "verified"
+          },
+          {
+            "internal_metric_id": "product_supplied",
+            "fuel_family": "distillate",
+            "product_definition": "Distillate fuel oil (broad product family; not ULSD)",
+            "geography": "US",
+            "frequency": "monthly",
+            "route": "petroleum/sum/snd/data/",
+            "facets": {
+              "product": [
+                "EPD0"
+              ],
+              "duoarea": [
+                "NUS"
+              ],
+              "process": [
+                "VPP"
+              ],
+              "series": [
+                "MDIUPUS1"
+              ]
+            },
+            "value_column": "value",
+            "units": "MBBL",
+            "classification": "flow",
+            "period_convention": "Calendar month (YYYY-MM); ending stocks are month-end levels",
+            "observed_coverage": [
+              "2026-07",
+              "2026-08"
+            ],
+            "verified_at": "2026-11-12T04:22:20.194029Z",
+            "source_url": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=MDIUPUS1&f=M",
+            "methodology_notes": "Matched authenticated API rows to published table for both captured periods. Evidence: docs/sources/binding-verification.json; sample: monthly-distillate-sample.json. Monthly flow volumes converted to daily averages using calendar days; stocks remain levels. Refinery/blender and biofuels production are separate components, not total production. No missing balance term is assumed zero; reconciliation remains incomplete. ",
+            "verification_status": "verified"
+          },
+          {
+            "internal_metric_id": "refinery_blender_production",
+            "fuel_family": "distillate",
+            "product_definition": "Distillate fuel oil (broad product family; not ULSD)",
+            "geography": "US",
+            "frequency": "monthly",
+            "route": "petroleum/sum/snd/data/",
+            "facets": {
+              "product": [
+                "EPD0"
+              ],
+              "duoarea": [
+                "NUS"
+              ],
+              "process": [
+                "YPR"
+              ],
+              "series": [
+                "MDIRPUS1"
+              ]
+            },
+            "value_column": "value",
+            "units": "MBBL",
+            "classification": "flow",
+            "period_convention": "Calendar month (YYYY-MM); ending stocks are month-end levels",
+            "observed_coverage": [
+              "2026-07",
+              "2026-08"
+            ],
+            "verified_at": "2026-11-12T04:22:20.194029Z",
+            "source_url": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=MDIRPUS1&f=M",
+            "methodology_notes": "Matched authenticated API rows to published table for both captured periods. Evidence: docs/sources/binding-verification.json; sample: monthly-distillate-sample.json. Monthly flow volumes converted to daily averages using calendar days; stocks remain levels. Refinery/blender and biofuels production are separate components, not total production. No missing balance term is assumed zero; reconciliation remains incomplete. ",
+            "verification_status": "verified"
+          },
+          {
+            "internal_metric_id": "stock_change",
+            "fuel_family": "distillate",
+            "product_definition": "Distillate fuel oil (broad product family; not ULSD)",
+            "geography": "US",
+            "frequency": "monthly",
+            "route": "petroleum/sum/snd/data/",
+            "facets": {
+              "product": [
+                "EPD0"
+              ],
+              "duoarea": [
+                "NUS"
+              ],
+              "process": [
+                "SCG"
+              ],
+              "series": [
+                "MDISCUS1"
+              ]
+            },
+            "value_column": "value",
+            "units": "MBBL",
+            "classification": "flow",
+            "period_convention": "Calendar month (YYYY-MM); ending stocks are month-end levels",
+            "observed_coverage": [
+              "2026-07",
+              "2026-08"
+            ],
+            "verified_at": "2026-11-12T04:22:20.194029Z",
+            "source_url": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=MDISCUS1&f=M",
+            "methodology_notes": "Matched authenticated API rows to published table for both captured periods. Evidence: docs/sources/binding-verification.json; sample: monthly-distillate-sample.json. Monthly flow volumes converted to daily averages using calendar days; stocks remain levels. Refinery/blender and biofuels production are separate components, not total production. No missing balance term is assumed zero; reconciliation remains incomplete. ",
+            "verification_status": "verified"
+          },
+          {
+            "internal_metric_id": "stocks",
+            "fuel_family": "distillate",
+            "product_definition": "Distillate fuel oil (broad product family; not ULSD)",
+            "geography": "US",
+            "frequency": "monthly",
+            "route": "petroleum/sum/snd/data/",
+            "facets": {
+              "product": [
+                "EPD0"
+              ],
+              "duoarea": [
+                "NUS"
+              ],
+              "process": [
+                "SAE"
+              ],
+              "series": [
+                "MDISTUS1"
+              ]
+            },
+            "value_column": "value",
+            "units": "MBBL",
+            "classification": "stock",
+            "period_convention": "Calendar month (YYYY-MM); ending stocks are month-end levels",
+            "observed_coverage": [
+              "2026-07",
+              "2026-08"
+            ],
+            "verified_at": "2026-11-12T04:22:20.194029Z",
+            "source_url": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=MDISTUS1&f=M",
+            "methodology_notes": "Matched authenticated API rows to published table for both captured periods. Evidence: docs/sources/binding-verification.json; sample: monthly-distillate-sample.json. Monthly flow volumes converted to daily averages using calendar days; stocks remain levels. Refinery/blender and biofuels production are separate components, not total production. No missing balance term is assumed zero; reconciliation remains incomplete. ",
+            "verification_status": "verified"
+          }
+        ],
+        "limitations": [
+          "Product supplied is implied demand, not direct customer sales.",
+          "EIA market data cannot establish uncommitted purchasable fuel, quotes, guaranteed delivery, airport availability, spare pipeline capacity, or a guaranteed shortage or price forecast.",
+          "Refinery utilization is context, not usable spare product capacity. Historical yields do not establish feasible or immediately switchable production.",
+          "Historical flows are not confirmed replacement supply; net receipts alone do not establish source diversification.",
+          "Observation cutoffs filter periods, not historical publication knowledge. Vintage data are unavailable.",
+          "Weekly monitoring and monthly structural analysis are separate; co-occurrence does not establish causation."
+        ],
+        "supported_follow_up_actions": [
+          "discover_fuel_coverage",
+          "Clarify exact product definition"
+        ]
+      }
+    },
+    {
+      "query": {
+        "text": "",
+        "fuel": "distillate",
+        "geography": "US",
+        "frequency": "weekly",
+        "observation_cutoff": null,
+        "lookback_periods": 12
+      },
+      "response": {
+        "text": "Market-level descriptive analysis",
+        "status": "ok",
+        "mode": "live",
+        "resolved_product_definition": "Distillate fuel oil (broad product family; not ULSD)",
+        "geography": "US",
+        "observation_periods": [
+          "2026-10-30",
+          "2026-10-23",
+          "2026-10-16",
+          "2026-10-09",
+          "2026-10-02",
+          "2026-09-25",
+          "2026-09-18",
+          "2026-09-11",
+          "2026-09-04",
+          "2026-08-28",
+          "2026-08-21",
+          "2026-08-14"
+        ],
+        "retrieval_timestamp": "2026-11-12T05:16:54.526184+00:00",
+        "metrics": [
+          {
+            "metric": "exports",
+            "classification": "flow",
+            "product_definition": "Distillate fuel oil (broad product family; not ULSD)",
+            "observations": [
+              {
+                "period": "2026-10-30",
+                "value": 1341.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 1341.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-10-23",
+                "value": 1320.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 1320.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-10-16",
+                "value": 1379.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 1379.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-10-09",
+                "value": 1373.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 1373.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-10-02",
+                "value": 1764.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 1764.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-09-25",
+                "value": 1529.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 1529.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-09-18",
+                "value": 1331.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 1331.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-09-11",
+                "value": 1614.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 1614.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-09-04",
+                "value": 1556.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 1556.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-08-28",
+                "value": 1735.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 1735.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-08-21",
+                "value": 1790.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 1790.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-08-14",
+                "value": 1601.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 1601.0,
+                "original_units": "MBBL/D"
+              }
+            ]
+          },
+          {
+            "metric": "imports",
+            "classification": "flow",
+            "product_definition": "Distillate fuel oil (broad product family; not ULSD)",
+            "observations": [
+              {
+                "period": "2026-10-30",
+                "value": 117.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 117.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-10-23",
+                "value": 157.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 157.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-10-16",
+                "value": 117.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 117.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-10-09",
+                "value": 145.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 145.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-10-02",
+                "value": 118.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 118.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-09-25",
+                "value": 153.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 153.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-09-18",
+                "value": 85.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 85.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-09-11",
+                "value": 114.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 114.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-09-04",
+                "value": 185.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 185.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-08-28",
+                "value": 113.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 113.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-08-21",
+                "value": 176.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 176.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-08-14",
+                "value": 109.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 109.0,
+                "original_units": "MBBL/D"
+              }
+            ]
+          },
+          {
+            "metric": "product_supplied",
+            "classification": "flow",
+            "product_definition": "Distillate fuel oil (broad product family; not ULSD)",
+            "observations": [
+              {
+                "period": "2026-10-30",
+                "value": 4439.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 4439.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-10-23",
+                "value": 4207.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 4207.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-10-16",
+                "value": 3732.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 3732.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-10-09",
+                "value": 4323.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 4323.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-10-02",
+                "value": 3650.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 3650.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-09-25",
+                "value": 3948.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 3948.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-09-18",
+                "value": 3975.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 3975.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-09-11",
+                "value": 3501.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 3501.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-09-04",
+                "value": 3678.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 3678.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-08-28",
+                "value": 3390.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 3390.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-08-21",
+                "value": 3839.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 3839.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-08-14",
+                "value": 3953.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 3953.0,
+                "original_units": "MBBL/D"
+              }
+            ]
+          },
+          {
+            "metric": "production",
+            "classification": "flow",
+            "product_definition": "Distillate fuel oil (broad product family; not ULSD)",
+            "observations": [
+              {
+                "period": "2026-10-30",
+                "value": 5154.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 5154.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-10-23",
+                "value": 5161.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 5161.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-10-16",
+                "value": 5232.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 5232.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-10-09",
+                "value": 5189.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 5189.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-10-02",
+                "value": 5290.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 5290.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-09-25",
+                "value": 5003.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 5003.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-09-18",
+                "value": 5159.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 5159.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-09-11",
+                "value": 5227.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 5227.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-09-04",
+                "value": 5348.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 5348.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-08-28",
+                "value": 5126.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 5126.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-08-21",
+                "value": 5135.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 5135.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-08-14",
+                "value": 5226.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 5226.0,
+                "original_units": "MBBL/D"
+              }
+            ]
+          },
+          {
+            "metric": "stocks",
+            "classification": "stock",
+            "product_definition": "Distillate fuel oil (broad product family; not ULSD)",
+            "observations": [
+              {
+                "period": "2026-10-30",
+                "value": 99259.0,
+                "units": "Thousand Barrels",
+                "original_value": 99259.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-10-23",
+                "value": 102824.0,
+                "units": "Thousand Barrels",
+                "original_value": 102824.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-10-16",
+                "value": 104286.0,
+                "units": "Thousand Barrels",
+                "original_value": 104286.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-10-09",
+                "value": 102611.0,
+                "units": "Thousand Barrels",
+                "original_value": 102611.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-10-02",
+                "value": 105138.0,
+                "units": "Thousand Barrels",
+                "original_value": 105138.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-09-25",
+                "value": 105180.0,
+                "units": "Thousand Barrels",
+                "original_value": 105180.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-09-18",
+                "value": 107431.0,
+                "units": "Thousand Barrels",
+                "original_value": 107431.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-09-11",
+                "value": 107859.0,
+                "units": "Thousand Barrels",
+                "original_value": 107859.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-09-04",
+                "value": 106274.0,
+                "units": "Thousand Barrels",
+                "original_value": 106274.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-08-28",
+                "value": 104187.0,
+                "units": "Thousand Barrels",
+                "original_value": 104187.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-08-21",
+                "value": 103391.0,
+                "units": "Thousand Barrels",
+                "original_value": 103391.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-08-14",
+                "value": 105619.0,
+                "units": "Thousand Barrels",
+                "original_value": 105619.0,
+                "original_units": "MBBL"
+              }
+            ]
+          }
+        ],
+        "calculations": [],
+        "data_quality_diagnostics": [
+          "stale_observation:2026-10-16",
+          "stale_observation:2026-10-09",
+          "stale_observation:2026-10-02",
+          "stale_observation:2026-09-25",
+          "stale_observation:2026-09-18",
+          "stale_observation:2026-09-11",
+          "stale_observation:2026-09-04",
+          "stale_observation:2026-08-28",
+          "stale_observation:2026-08-21",
+          "stale_observation:2026-08-14",
+          "stale_observation:2026-10-16",
+          "stale_observation:2026-10-09",
+          "stale_observation:2026-10-02",
+          "stale_observation:2026-09-25",
+          "stale_observation:2026-09-18",
+          "stale_observation:2026-09-11",
+          "stale_observation:2026-09-04",
+          "stale_observation:2026-08-28",
+          "stale_observation:2026-08-21",
+          "stale_observation:2026-08-14",
+          "stale_observation:2026-10-16",
+          "stale_observation:2026-10-09",
+          "stale_observation:2026-10-02",
+          "stale_observation:2026-09-25",
+          "stale_observation:2026-09-18",
+          "stale_observation:2026-09-11",
+          "stale_observation:2026-09-04",
+          "stale_observation:2026-08-28",
+          "stale_observation:2026-08-21",
+          "stale_observation:2026-08-14",
+          "stale_observation:2026-10-16",
+          "stale_observation:2026-10-09",
+          "stale_observation:2026-10-02",
+          "stale_observation:2026-09-25",
+          "stale_observation:2026-09-18",
+          "stale_observation:2026-09-11",
+          "stale_observation:2026-09-04",
+          "stale_observation:2026-08-28",
+          "stale_observation:2026-08-21",
+          "stale_observation:2026-08-14",
+          "stale_observation:2026-10-16",
+          "stale_observation:2026-10-09",
+          "stale_observation:2026-10-02",
+          "stale_observation:2026-09-25",
+          "stale_observation:2026-09-18",
+          "stale_observation:2026-09-11",
+          "stale_observation:2026-09-04",
+          "stale_observation:2026-08-28",
+          "stale_observation:2026-08-21",
+          "stale_observation:2026-08-14",
+          "retrieval_modes:live"
+        ],
+        "source_bindings": [
+          {
+            "internal_metric_id": "exports",
+            "fuel_family": "distillate",
+            "product_definition": "Distillate fuel oil (broad product family; not ULSD)",
+            "geography": "US",
+            "frequency": "weekly",
+            "route": "petroleum/move/wkly/data/",
+            "facets": {
+              "product": [
+                "EPD0"
+              ],
+              "duoarea": [
+                "NUS-Z00"
+              ],
+              "process": [
+                "EEX"
+              ],
+              "series": [
+                "WDIEXUS2"
+              ]
+            },
+            "value_column": "value",
+            "units": "MBBL/D",
+            "classification": "flow",
+            "period_convention": "Week ending date (YYYY-MM-DD)",
+            "observed_coverage": [
+              "2026-10-23",
+              "2026-10-30"
+            ],
+            "verified_at": "2026-11-12T04:22:20.194029Z",
+            "source_url": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=WDIEXUS2&f=W",
+            "methodology_notes": "Matched authenticated API rows to published table for both captured periods. Evidence: docs/sources/binding-verification.json; sample: weekly-trade-sample.json. ",
+            "verification_status": "verified"
+          },
+          {
+            "internal_metric_id": "imports",
+            "fuel_family": "distillate",
+            "product_definition": "Distillate fuel oil (broad product family; not ULSD)",
+            "geography": "US",
+            "frequency": "weekly",
+            "route": "petroleum/move/wkly/data/",
+            "facets": {
+              "product": [
+                "EPD0"
+              ],
+              "duoarea": [
+                "NUS-Z00"
+              ],
+              "process": [
+                "IM0"
+              ],
+              "series": [
+                "WDIIMUS2"
+              ]
+            },
+            "value_column": "value",
+            "units": "MBBL/D",
+            "classification": "flow",
+            "period_convention": "Week ending date (YYYY-MM-DD)",
+            "observed_coverage": [
+              "2026-10-23",
+              "2026-10-30"
+            ],
+            "verified_at": "2026-11-12T04:22:20.194029Z",
+            "source_url": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=WDIIMUS2&f=W",
+            "methodology_notes": "Matched authenticated API rows to published table for both captured periods. Evidence: docs/sources/binding-verification.json; sample: weekly-trade-sample.json. ",
+            "verification_status": "verified"
+          },
+          {
+            "internal_metric_id": "product_supplied",
+            "fuel_family": "distillate",
+            "product_definition": "Distillate fuel oil (broad product family; not ULSD)",
+            "geography": "US",
+            "frequency": "weekly",
+            "route": "petroleum/sum/sndw/data/",
+            "facets": {
+              "product": [
+                "EPD0"
+              ],
+              "duoarea": [
+                "NUS"
+              ],
+              "process": [
+                "VPP"
+              ],
+              "series": [
+                "WDIUPUS2"
+              ]
+            },
+            "value_column": "value",
+            "units": "MBBL/D",
+            "classification": "flow",
+            "period_convention": "Week ending date (YYYY-MM-DD)",
+            "observed_coverage": [
+              "2026-10-23",
+              "2026-10-30"
+            ],
+            "verified_at": "2026-11-12T04:22:20.194029Z",
+            "source_url": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=WDIUPUS2&f=W",
+            "methodology_notes": "Matched authenticated API rows to published table for both captured periods. Evidence: docs/sources/binding-verification.json; sample: weekly-national-sample.json. ",
+            "verification_status": "verified"
+          },
+          {
+            "internal_metric_id": "production",
+            "fuel_family": "distillate",
+            "product_definition": "Distillate fuel oil (broad product family; not ULSD)",
+            "geography": "US",
+            "frequency": "weekly",
+            "route": "petroleum/sum/sndw/data/",
+            "facets": {
+              "product": [
+                "EPD0"
+              ],
+              "duoarea": [
+                "NUS"
+              ],
+              "process": [
+                "YPR"
+              ],
+              "series": [
+                "WDIRPUS2"
+              ]
+            },
+            "value_column": "value",
+            "units": "MBBL/D",
+            "classification": "flow",
+            "period_convention": "Week ending date (YYYY-MM-DD)",
+            "observed_coverage": [
+              "2026-10-23",
+              "2026-10-30"
+            ],
+            "verified_at": "2026-11-12T04:22:20.194029Z",
+            "source_url": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=WDIRPUS2&f=W",
+            "methodology_notes": "Matched authenticated API rows to published table for both captured periods. Evidence: docs/sources/binding-verification.json; sample: weekly-national-sample.json. U.S. Refiner and Blender Net Production of Distillate Fuel Oil (Thousand Barrels per Day). Not spare or switchable capacity. ",
+            "verification_status": "verified"
+          },
+          {
+            "internal_metric_id": "stocks",
+            "fuel_family": "distillate",
+            "product_definition": "Distillate fuel oil (broad product family; not ULSD)",
+            "geography": "US",
+            "frequency": "weekly",
+            "route": "petroleum/sum/sndw/data/",
+            "facets": {
+              "product": [
+                "EPD0"
+              ],
+              "duoarea": [
+                "NUS"
+              ],
+              "process": [
+                "SAE"
+              ],
+              "series": [
+                "WDISTUS1"
+              ]
+            },
+            "value_column": "value",
+            "units": "MBBL",
+            "classification": "stock",
+            "period_convention": "Week ending date (YYYY-MM-DD)",
+            "observed_coverage": [
+              "2026-10-23",
+              "2026-10-30"
+            ],
+            "verified_at": "2026-11-12T04:22:20.194029Z",
+            "source_url": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=WDISTUS1&f=W",
+            "methodology_notes": "Matched authenticated API rows to published table for both captured periods. Evidence: docs/sources/binding-verification.json; sample: weekly-national-sample.json. ",
+            "verification_status": "verified"
+          }
+        ],
+        "limitations": [
+          "Product supplied is implied demand, not direct customer sales.",
+          "EIA market data cannot establish uncommitted purchasable fuel, quotes, guaranteed delivery, airport availability, spare pipeline capacity, or a guaranteed shortage or price forecast.",
+          "Refinery utilization is context, not usable spare product capacity. Historical yields do not establish feasible or immediately switchable production.",
+          "Historical flows are not confirmed replacement supply; net receipts alone do not establish source diversification.",
+          "Observation cutoffs filter periods, not historical publication knowledge. Vintage data are unavailable.",
+          "Weekly monitoring and monthly structural analysis are separate; co-occurrence does not establish causation."
+        ],
+        "supported_follow_up_actions": [
+          "discover_fuel_coverage",
+          "Clarify exact product definition"
+        ]
+      }
+    },
+    {
+      "query": {
+        "text": "",
+        "fuel": "finished_gasoline",
+        "geography": "US",
+        "frequency": "weekly",
+        "observation_cutoff": null,
+        "lookback_periods": 12
+      },
+      "response": {
+        "text": "Market-level descriptive analysis",
+        "status": "partial",
+        "mode": "live",
+        "resolved_product_definition": "Finished motor gasoline (excludes blending components)",
+        "geography": "US",
+        "observation_periods": [
+          "2026-10-30",
+          "2026-10-23",
+          "2026-10-16",
+          "2026-10-09",
+          "2026-10-02",
+          "2026-09-25",
+          "2026-09-18",
+          "2026-09-11",
+          "2026-09-04",
+          "2026-08-28",
+          "2026-08-21",
+          "2026-08-14"
+        ],
+        "retrieval_timestamp": "2026-11-12T05:16:59.069241+00:00",
+        "metrics": [
+          {
+            "metric": "imports",
+            "classification": "flow",
+            "product_definition": "Finished motor gasoline (excludes blending components)",
+            "observations": [
+              {
+                "period": "2026-10-30",
+                "value": 94.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 94.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-10-23",
+                "value": 18.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 18.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-10-16",
+                "value": 19.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 19.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-10-09",
+                "value": 83.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 83.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-10-02",
+                "value": 205.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 205.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-09-25",
+                "value": 137.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 137.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-09-18",
+                "value": 60.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 60.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-09-11",
+                "value": 18.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 18.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-09-04",
+                "value": 101.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 101.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-08-28",
+                "value": 83.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 83.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-08-21",
+                "value": 53.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 53.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-08-14",
+                "value": 43.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 43.0,
+                "original_units": "MBBL/D"
+              }
+            ]
+          },
+          {
+            "metric": "product_supplied",
+            "classification": "flow",
+            "product_definition": "Finished motor gasoline (excludes blending components)",
+            "observations": [
+              {
+                "period": "2026-10-30",
+                "value": 8808.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 8808.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-10-23",
+                "value": 8358.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 8358.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-10-16",
+                "value": 8982.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 8982.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-10-09",
+                "value": 8408.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 8408.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-10-02",
+                "value": 8769.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 8769.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-09-25",
+                "value": 8689.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 8689.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-09-18",
+                "value": 8847.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 8847.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-09-11",
+                "value": 8798.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 8798.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-09-04",
+                "value": 8551.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 8551.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-08-28",
+                "value": 8922.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 8922.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-08-21",
+                "value": 9043.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 9043.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-08-14",
+                "value": 8689.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 8689.0,
+                "original_units": "MBBL/D"
+              }
+            ]
+          },
+          {
+            "metric": "production",
+            "classification": "flow",
+            "product_definition": "Finished motor gasoline (excludes blending components)",
+            "observations": [
+              {
+                "period": "2026-10-30",
+                "value": 9704.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 9704.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-10-23",
+                "value": 9241.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 9241.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-10-16",
+                "value": 9750.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 9750.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-10-09",
+                "value": 9232.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 9232.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-10-02",
+                "value": 9349.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 9349.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-09-25",
+                "value": 9466.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 9466.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-09-18",
+                "value": 9590.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 9590.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-09-11",
+                "value": 9644.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 9644.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-09-04",
+                "value": 9308.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 9308.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-08-28",
+                "value": 9845.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 9845.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-08-21",
+                "value": 9772.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 9772.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-08-14",
+                "value": 9711.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 9711.0,
+                "original_units": "MBBL/D"
+              }
+            ]
+          },
+          {
+            "metric": "stocks",
+            "classification": "stock",
+            "product_definition": "Finished motor gasoline (excludes blending components)",
+            "observations": [
+              {
+                "period": "2026-10-30",
+                "value": 13940.0,
+                "units": "Thousand Barrels",
+                "original_value": 13940.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-10-23",
+                "value": 14125.0,
+                "units": "Thousand Barrels",
+                "original_value": 14125.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-10-16",
+                "value": 13735.0,
+                "units": "Thousand Barrels",
+                "original_value": 13735.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-10-09",
+                "value": 14711.0,
+                "units": "Thousand Barrels",
+                "original_value": 14711.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-10-02",
+                "value": 13900.0,
+                "units": "Thousand Barrels",
+                "original_value": 13900.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-09-25",
+                "value": 14219.0,
+                "units": "Thousand Barrels",
+                "original_value": 14219.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-09-18",
+                "value": 14337.0,
+                "units": "Thousand Barrels",
+                "original_value": 14337.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-09-11",
+                "value": 14582.0,
+                "units": "Thousand Barrels",
+                "original_value": 14582.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-09-04",
+                "value": 15217.0,
+                "units": "Thousand Barrels",
+                "original_value": 15217.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-08-28",
+                "value": 15313.0,
+                "units": "Thousand Barrels",
+                "original_value": 15313.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-08-21",
+                "value": 14818.0,
+                "units": "Thousand Barrels",
+                "original_value": 14818.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-08-14",
+                "value": 15569.0,
+                "units": "Thousand Barrels",
+                "original_value": 15569.0,
+                "original_units": "MBBL"
+              }
+            ]
+          }
+        ],
+        "calculations": [],
+        "data_quality_diagnostics": [
+          "stale_observation:2026-10-16",
+          "stale_observation:2026-10-09",
+          "stale_observation:2026-10-02",
+          "stale_observation:2026-09-25",
+          "stale_observation:2026-09-18",
+          "stale_observation:2026-09-11",
+          "stale_observation:2026-09-04",
+          "stale_observation:2026-08-28",
+          "stale_observation:2026-08-21",
+          "stale_observation:2026-08-14",
+          "stale_observation:2026-10-16",
+          "stale_observation:2026-10-09",
+          "stale_observation:2026-10-02",
+          "stale_observation:2026-09-25",
+          "stale_observation:2026-09-18",
+          "stale_observation:2026-09-11",
+          "stale_observation:2026-09-04",
+          "stale_observation:2026-08-28",
+          "stale_observation:2026-08-21",
+          "stale_observation:2026-08-14",
+          "stale_observation:2026-10-16",
+          "stale_observation:2026-10-09",
+          "stale_observation:2026-10-02",
+          "stale_observation:2026-09-25",
+          "stale_observation:2026-09-18",
+          "stale_observation:2026-09-11",
+          "stale_observation:2026-09-04",
+          "stale_observation:2026-08-28",
+          "stale_observation:2026-08-21",
+          "stale_observation:2026-08-14",
+          "stale_observation:2026-10-16",
+          "stale_observation:2026-10-09",
+          "stale_observation:2026-10-02",
+          "stale_observation:2026-09-25",
+          "stale_observation:2026-09-18",
+          "stale_observation:2026-09-11",
+          "stale_observation:2026-09-04",
+          "stale_observation:2026-08-28",
+          "stale_observation:2026-08-21",
+          "stale_observation:2026-08-14",
+          "retrieval_modes:live"
+        ],
+        "source_bindings": [
+          {
+            "internal_metric_id": "imports",
+            "fuel_family": "finished_gasoline",
+            "product_definition": "Finished motor gasoline (excludes blending components)",
+            "geography": "US",
+            "frequency": "weekly",
+            "route": "petroleum/move/wkly/data/",
+            "facets": {
+              "product": [
+                "EPM0F"
+              ],
+              "duoarea": [
+                "NUS-Z00"
+              ],
+              "process": [
+                "IM0"
+              ],
+              "series": [
+                "W_EPM0F_IM0_NUS-Z00_MBBLD"
+              ]
+            },
+            "value_column": "value",
+            "units": "MBBL/D",
+            "classification": "flow",
+            "period_convention": "Week ending date (YYYY-MM-DD)",
+            "observed_coverage": [
+              "2026-10-23",
+              "2026-10-30"
+            ],
+            "verified_at": "2026-11-12T04:22:20.194029Z",
+            "source_url": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=W_EPM0F_IM0_NUS-Z00_MBBLD&f=W",
+            "methodology_notes": "Matched authenticated API rows to published table for both captured periods. Evidence: docs/sources/binding-verification.json; sample: weekly-trade-sample.json. ",
+            "verification_status": "verified"
+          },
+          {
+            "internal_metric_id": "product_supplied",
+            "fuel_family": "finished_gasoline",
+            "product_definition": "Finished motor gasoline (excludes blending components)",
+            "geography": "US",
+            "frequency": "weekly",
+            "route": "petroleum/sum/sndw/data/",
+            "facets": {
+              "product": [
+                "EPM0F"
+              ],
+              "duoarea": [
+                "NUS"
+              ],
+              "process": [
+                "VPP"
+              ],
+              "series": [
+                "WGFUPUS2"
+              ]
+            },
+            "value_column": "value",
+            "units": "MBBL/D",
+            "classification": "flow",
+            "period_convention": "Week ending date (YYYY-MM-DD)",
+            "observed_coverage": [
+              "2026-10-23",
+              "2026-10-30"
+            ],
+            "verified_at": "2026-11-12T04:22:20.194029Z",
+            "source_url": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=WGFUPUS2&f=W",
+            "methodology_notes": "Matched authenticated API rows to published table for both captured periods. Evidence: docs/sources/binding-verification.json; sample: weekly-national-sample.json. ",
+            "verification_status": "verified"
+          },
+          {
+            "internal_metric_id": "production",
+            "fuel_family": "finished_gasoline",
+            "product_definition": "Finished motor gasoline (excludes blending components)",
+            "geography": "US",
+            "frequency": "weekly",
+            "route": "petroleum/sum/sndw/data/",
+            "facets": {
+              "product": [
+                "EPM0F"
+              ],
+              "duoarea": [
+                "NUS"
+              ],
+              "process": [
+                "YPT"
+              ],
+              "series": [
+                "WGFRPUS2"
+              ]
+            },
+            "value_column": "value",
+            "units": "MBBL/D",
+            "classification": "flow",
+            "period_convention": "Week ending date (YYYY-MM-DD)",
+            "observed_coverage": [
+              "2026-10-23",
+              "2026-10-30"
+            ],
+            "verified_at": "2026-11-12T04:22:20.194029Z",
+            "source_url": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=WGFRPUS2&f=W",
+            "methodology_notes": "Matched authenticated API rows to published table for both captured periods. Evidence: docs/sources/binding-verification.json; sample: weekly-national-sample.json. U.S. Refiner and Blender Adjusted Net Production of Finished Motor Gasoline (Thousand Barrels per Day). Not spare or switchable capacity. Adjusted net production includes EIA's weekly gasoline supply adjustment. ",
+            "verification_status": "verified"
+          },
+          {
+            "internal_metric_id": "stocks",
+            "fuel_family": "finished_gasoline",
+            "product_definition": "Finished motor gasoline (excludes blending components)",
+            "geography": "US",
+            "frequency": "weekly",
+            "route": "petroleum/sum/sndw/data/",
+            "facets": {
+              "product": [
+                "EPM0F"
+              ],
+              "duoarea": [
+                "NUS"
+              ],
+              "process": [
+                "SAE"
+              ],
+              "series": [
+                "WGFSTUS1"
+              ]
+            },
+            "value_column": "value",
+            "units": "MBBL",
+            "classification": "stock",
+            "period_convention": "Week ending date (YYYY-MM-DD)",
+            "observed_coverage": [
+              "2026-10-23",
+              "2026-10-30"
+            ],
+            "verified_at": "2026-11-12T04:22:20.194029Z",
+            "source_url": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=WGFSTUS1&f=W",
+            "methodology_notes": "Matched authenticated API rows to published table for both captured periods. Evidence: docs/sources/binding-verification.json; sample: weekly-national-sample.json. ",
+            "verification_status": "verified"
+          }
+        ],
+        "limitations": [
+          "Product supplied is implied demand, not direct customer sales.",
+          "EIA market data cannot establish uncommitted purchasable fuel, quotes, guaranteed delivery, airport availability, spare pipeline capacity, or a guaranteed shortage or price forecast.",
+          "Refinery utilization is context, not usable spare product capacity. Historical yields do not establish feasible or immediately switchable production.",
+          "Historical flows are not confirmed replacement supply; net receipts alone do not establish source diversification.",
+          "Observation cutoffs filter periods, not historical publication knowledge. Vintage data are unavailable.",
+          "Weekly monitoring and monthly structural analysis are separate; co-occurrence does not establish causation."
+        ],
+        "supported_follow_up_actions": [
+          "discover_fuel_coverage",
+          "Clarify exact product definition"
+        ]
+      }
+    },
+    {
+      "query": {
+        "text": "",
+        "fuel": "kerosene_jet",
+        "geography": "US",
+        "frequency": "weekly",
+        "observation_cutoff": null,
+        "lookback_periods": 12
+      },
+      "response": {
+        "text": "Market-level descriptive analysis",
+        "status": "ok",
+        "mode": "live",
+        "resolved_product_definition": "Kerosene-type jet fuel (not aviation gasoline)",
+        "geography": "US",
+        "observation_periods": [
+          "2026-10-30",
+          "2026-10-23",
+          "2026-10-16",
+          "2026-10-09",
+          "2026-10-02",
+          "2026-09-25",
+          "2026-09-18",
+          "2026-09-11",
+          "2026-09-04",
+          "2026-08-28",
+          "2026-08-21",
+          "2026-08-14"
+        ],
+        "retrieval_timestamp": "2026-11-12T05:17:04.454726+00:00",
+        "metrics": [
+          {
+            "metric": "exports",
+            "classification": "flow",
+            "product_definition": "Kerosene-type jet fuel (not aviation gasoline)",
+            "observations": [
+              {
+                "period": "2026-10-30",
+                "value": 311.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 311.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-10-23",
+                "value": 272.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 272.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-10-16",
+                "value": 232.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 232.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-10-09",
+                "value": 292.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 292.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-10-02",
+                "value": 327.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 327.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-09-25",
+                "value": 358.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 358.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-09-18",
+                "value": 267.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 267.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-09-11",
+                "value": 229.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 229.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-09-04",
+                "value": 309.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 309.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-08-28",
+                "value": 331.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 331.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-08-21",
+                "value": 359.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 359.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-08-14",
+                "value": 372.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 372.0,
+                "original_units": "MBBL/D"
+              }
+            ]
+          },
+          {
+            "metric": "imports",
+            "classification": "flow",
+            "product_definition": "Kerosene-type jet fuel (not aviation gasoline)",
+            "observations": [
+              {
+                "period": "2026-10-30",
+                "value": 8.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 8.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-10-23",
+                "value": 76.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 76.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-10-16",
+                "value": 89.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 89.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-10-09",
+                "value": 92.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 92.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-10-02",
+                "value": 1.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 1.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-09-25",
+                "value": 50.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 50.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-09-18",
+                "value": 67.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 67.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-09-11",
+                "value": 55.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 55.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-09-04",
+                "value": 95.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 95.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-08-28",
+                "value": 81.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 81.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-08-21",
+                "value": 28.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 28.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-08-14",
+                "value": 89.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 89.0,
+                "original_units": "MBBL/D"
+              }
+            ]
+          },
+          {
+            "metric": "product_supplied",
+            "classification": "flow",
+            "product_definition": "Kerosene-type jet fuel (not aviation gasoline)",
+            "observations": [
+              {
+                "period": "2026-10-30",
+                "value": 1728.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 1728.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-10-23",
+                "value": 1679.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 1679.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-10-16",
+                "value": 1813.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 1813.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-10-09",
+                "value": 1625.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 1625.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-10-02",
+                "value": 1696.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 1696.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-09-25",
+                "value": 1809.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 1809.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-09-18",
+                "value": 1650.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 1650.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-09-11",
+                "value": 1800.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 1800.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-09-04",
+                "value": 1785.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 1785.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-08-28",
+                "value": 1754.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 1754.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-08-21",
+                "value": 1772.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 1772.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-08-14",
+                "value": 1613.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 1613.0,
+                "original_units": "MBBL/D"
+              }
+            ]
+          },
+          {
+            "metric": "production",
+            "classification": "flow",
+            "product_definition": "Kerosene-type jet fuel (not aviation gasoline)",
+            "observations": [
+              {
+                "period": "2026-10-30",
+                "value": 1969.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 1969.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-10-23",
+                "value": 1820.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 1820.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-10-16",
+                "value": 1929.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 1929.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-10-09",
+                "value": 1866.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 1866.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-10-02",
+                "value": 1863.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 1863.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-09-25",
+                "value": 1852.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 1852.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-09-18",
+                "value": 1868.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 1868.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-09-11",
+                "value": 1876.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 1876.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-09-04",
+                "value": 2022.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 2022.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-08-28",
+                "value": 2030.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 2030.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-08-21",
+                "value": 2025.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 2025.0,
+                "original_units": "MBBL/D"
+              },
+              {
+                "period": "2026-08-14",
+                "value": 2047.0,
+                "units": "Thousand Barrels per Day",
+                "original_value": 2047.0,
+                "original_units": "MBBL/D"
+              }
+            ]
+          },
+          {
+            "metric": "stocks",
+            "classification": "stock",
+            "product_definition": "Kerosene-type jet fuel (not aviation gasoline)",
+            "observations": [
+              {
+                "period": "2026-10-30",
+                "value": 41782.0,
+                "units": "Thousand Barrels",
+                "original_value": 41782.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-10-23",
+                "value": 42217.0,
+                "units": "Thousand Barrels",
+                "original_value": 42217.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-10-16",
+                "value": 42606.0,
+                "units": "Thousand Barrels",
+                "original_value": 42606.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-10-09",
+                "value": 42795.0,
+                "units": "Thousand Barrels",
+                "original_value": 42795.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-10-02",
+                "value": 42504.0,
+                "units": "Thousand Barrels",
+                "original_value": 42504.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-09-25",
+                "value": 43612.0,
+                "units": "Thousand Barrels",
+                "original_value": 43612.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-09-18",
+                "value": 45466.0,
+                "units": "Thousand Barrels",
+                "original_value": 45466.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-09-11",
+                "value": 45338.0,
+                "units": "Thousand Barrels",
+                "original_value": 45338.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-09-04",
+                "value": 46033.0,
+                "units": "Thousand Barrels",
+                "original_value": 46033.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-08-28",
+                "value": 45874.0,
+                "units": "Thousand Barrels",
+                "original_value": 45874.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-08-21",
+                "value": 45693.0,
+                "units": "Thousand Barrels",
+                "original_value": 45693.0,
+                "original_units": "MBBL"
+              },
+              {
+                "period": "2026-08-14",
+                "value": 46240.0,
+                "units": "Thousand Barrels",
+                "original_value": 46240.0,
+                "original_units": "MBBL"
+              }
+            ]
+          }
+        ],
+        "calculations": [],
+        "data_quality_diagnostics": [
+          "stale_observation:2026-10-16",
+          "stale_observation:2026-10-09",
+          "stale_observation:2026-10-02",
+          "stale_observation:2026-09-25",
+          "stale_observation:2026-09-18",
+          "stale_observation:2026-09-11",
+          "stale_observation:2026-09-04",
+          "stale_observation:2026-08-28",
+          "stale_observation:2026-08-21",
+          "stale_observation:2026-08-14",
+          "stale_observation:2026-10-16",
+          "stale_observation:2026-10-09",
+          "stale_observation:2026-10-02",
+          "stale_observation:2026-09-25",
+          "stale_observation:2026-09-18",
+          "stale_observation:2026-09-11",
+          "stale_observation:2026-09-04",
+          "stale_observation:2026-08-28",
+          "stale_observation:2026-08-21",
+          "stale_observation:2026-08-14",
+          "stale_observation:2026-10-16",
+          "stale_observation:2026-10-09",
+          "stale_observation:2026-10-02",
+          "stale_observation:2026-09-25",
+          "stale_observation:2026-09-18",
+          "stale_observation:2026-09-11",
+          "stale_observation:2026-09-04",
+          "stale_observation:2026-08-28",
+          "stale_observation:2026-08-21",
+          "stale_observation:2026-08-14",
+          "stale_observation:2026-10-16",
+          "stale_observation:2026-10-09",
+          "stale_observation:2026-10-02",
+          "stale_observation:2026-09-25",
+          "stale_observation:2026-09-18",
+          "stale_observation:2026-09-11",
+          "stale_observation:2026-09-04",
+          "stale_observation:2026-08-28",
+          "stale_observation:2026-08-21",
+          "stale_observation:2026-08-14",
+          "stale_observation:2026-10-16",
+          "stale_observation:2026-10-09",
+          "stale_observation:2026-10-02",
+          "stale_observation:2026-09-25",
+          "stale_observation:2026-09-18",
+          "stale_observation:2026-09-11",
+          "stale_observation:2026-09-04",
+          "stale_observation:2026-08-28",
+          "stale_observation:2026-08-21",
+          "stale_observation:2026-08-14",
+          "retrieval_modes:live"
+        ],
+        "source_bindings": [
+          {
+            "internal_metric_id": "exports",
+            "fuel_family": "kerosene_jet",
+            "product_definition": "Kerosene-type jet fuel (not aviation gasoline)",
+            "geography": "US",
+            "frequency": "weekly",
+            "route": "petroleum/move/wkly/data/",
+            "facets": {
+              "product": [
+                "EPJK"
+              ],
+              "duoarea": [
+                "NUS-Z00"
+              ],
+              "process": [
+                "EEX"
+              ],
+              "series": [
+                "WKJEXUS2"
+              ]
+            },
+            "value_column": "value",
+            "units": "MBBL/D",
+            "classification": "flow",
+            "period_convention": "Week ending date (YYYY-MM-DD)",
+            "observed_coverage": [
+              "2026-10-23",
+              "2026-10-30"
+            ],
+            "verified_at": "2026-11-12T04:22:20.194029Z",
+            "source_url": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=WKJEXUS2&f=W",
+            "methodology_notes": "Matched authenticated API rows to published table for both captured periods. Evidence: docs/sources/binding-verification.json; sample: weekly-trade-sample.json. ",
+            "verification_status": "verified"
+          },
+          {
+            "internal_metric_id": "imports",
+            "fuel_family": "kerosene_jet",
+            "product_definition": "Kerosene-type jet fuel (not aviation gasoline)",
+            "geography": "US",
+            "frequency": "weekly",
+            "route": "petroleum/move/wkly/data/",
+            "facets": {
+              "product": [
+                "EPJK"
+              ],
+              "duoarea": [
+                "NUS-Z00"
+              ],
+              "process": [
+                "IM0"
+              ],
+              "series": [
+                "WKJIMUS2"
+              ]
+            },
+            "value_column": "value",
+            "units": "MBBL/D",
+            "classification": "flow",
+            "period_convention": "Week ending date (YYYY-MM-DD)",
+            "observed_coverage": [
+              "2026-10-23",
+              "2026-10-30"
+            ],
+            "verified_at": "2026-11-12T04:22:20.194029Z",
+            "source_url": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=WKJIMUS2&f=W",
+            "methodology_notes": "Matched authenticated API rows to published table for both captured periods. Evidence: docs/sources/binding-verification.json; sample: weekly-trade-sample.json. ",
+            "verification_status": "verified"
+          },
+          {
+            "internal_metric_id": "product_supplied",
+            "fuel_family": "kerosene_jet",
+            "product_definition": "Kerosene-type jet fuel (not aviation gasoline)",
+            "geography": "US",
+            "frequency": "weekly",
+            "route": "petroleum/sum/sndw/data/",
+            "facets": {
+              "product": [
+                "EPJK"
+              ],
+              "duoarea": [
+                "NUS"
+              ],
+              "process": [
+                "VPP"
+              ],
+              "series": [
+                "WKJUPUS2"
+              ]
+            },
+            "value_column": "value",
+            "units": "MBBL/D",
+            "classification": "flow",
+            "period_convention": "Week ending date (YYYY-MM-DD)",
+            "observed_coverage": [
+              "2026-10-23",
+              "2026-10-30"
+            ],
+            "verified_at": "2026-11-12T04:22:20.194029Z",
+            "source_url": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=WKJUPUS2&f=W",
+            "methodology_notes": "Matched authenticated API rows to published table for both captured periods. Evidence: docs/sources/binding-verification.json; sample: weekly-national-sample.json. ",
+            "verification_status": "verified"
+          },
+          {
+            "internal_metric_id": "production",
+            "fuel_family": "kerosene_jet",
+            "product_definition": "Kerosene-type jet fuel (not aviation gasoline)",
+            "geography": "US",
+            "frequency": "weekly",
+            "route": "petroleum/sum/sndw/data/",
+            "facets": {
+              "product": [
+                "EPJK"
+              ],
+              "duoarea": [
+                "NUS"
+              ],
+              "process": [
+                "YPR"
+              ],
+              "series": [
+                "WKJRPUS2"
+              ]
+            },
+            "value_column": "value",
+            "units": "MBBL/D",
+            "classification": "flow",
+            "period_convention": "Week ending date (YYYY-MM-DD)",
+            "observed_coverage": [
+              "2026-10-23",
+              "2026-10-30"
+            ],
+            "verified_at": "2026-11-12T04:22:20.194029Z",
+            "source_url": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=WKJRPUS2&f=W",
+            "methodology_notes": "Matched authenticated API rows to published table for both captured periods. Evidence: docs/sources/binding-verification.json; sample: weekly-national-sample.json. U.S. Refiner and Blender Net Production of Kerosene-Type Jet Fuel (Thousand Barrels per Day). Not spare or switchable capacity. ",
+            "verification_status": "verified"
+          },
+          {
+            "internal_metric_id": "stocks",
+            "fuel_family": "kerosene_jet",
+            "product_definition": "Kerosene-type jet fuel (not aviation gasoline)",
+            "geography": "US",
+            "frequency": "weekly",
+            "route": "petroleum/sum/sndw/data/",
+            "facets": {
+              "product": [
+                "EPJK"
+              ],
+              "duoarea": [
+                "NUS"
+              ],
+              "process": [
+                "SAE"
+              ],
+              "series": [
+                "WKJSTUS1"
+              ]
+            },
+            "value_column": "value",
+            "units": "MBBL",
+            "classification": "stock",
+            "period_convention": "Week ending date (YYYY-MM-DD)",
+            "observed_coverage": [
+              "2026-10-23",
+              "2026-10-30"
+            ],
+            "verified_at": "2026-11-12T04:22:20.194029Z",
+            "source_url": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=WKJSTUS1&f=W",
+            "methodology_notes": "Matched authenticated API rows to published table for both captured periods. Evidence: docs/sources/binding-verification.json; sample: weekly-national-sample.json. ",
+            "verification_status": "verified"
+          }
+        ],
+        "limitations": [
+          "Product supplied is implied demand, not direct customer sales.",
+          "EIA market data cannot establish uncommitted purchasable fuel, quotes, guaranteed delivery, airport availability, spare pipeline capacity, or a guaranteed shortage or price forecast.",
+          "Refinery utilization is context, not usable spare product capacity. Historical yields do not establish feasible or immediately switchable production.",
+          "Historical flows are not confirmed replacement supply; net receipts alone do not establish source diversification.",
+          "Observation cutoffs filter periods, not historical publication knowledge. Vintage data are unavailable.",
+          "Weekly monitoring and monthly structural analysis are separate; co-occurrence does not establish causation."
+        ],
+        "supported_follow_up_actions": [
+          "discover_fuel_coverage",
+          "Clarify exact product definition"
+        ]
+      }
+    }
+  ]
+}

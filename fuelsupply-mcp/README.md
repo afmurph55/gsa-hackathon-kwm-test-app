@@ -52,3 +52,7 @@ No public deployment, GitHub push, registry publication or submission has occurr
 
 ## Foundation and license
 Adapted from [https://github.com/GSA-TTS/mcp-hackathon-template](https://github.com/GSA-TTS/mcp-hackathon-template) at `f39249f1768309e3ef8b31742390a4f3a656b5f3`. The original MIT [LICENSE](LICENSE), SECURITY policy, QUICKSTART, example package/tests, deployment references and attribution remain. Original README is preserved in `docs/sources/template-README.md`. FuelSupply entry points run only the FuelSupply tools. The inherited example package is retained for attribution/reference and its tests are reported separately.
+
+## Interactive dashboard (local)
+
+Run `.venv/bin/python dashboard/serve.py` from the FuelSupply project directory, then open `http://127.0.0.1:8765` in Safari or Chrome. The launcher explicitly loads the private local `.env`; keys remain server-side. The dashboard offers fuel/geography/frequency selection, stock and flow charts, original-unit observation data, published EIA sources, CSV export and browser printing for PDF reports. See [dashboard instructions](dashboard/README.md) for live refresh, offline HTML export and validation limits. No deployment is required.
