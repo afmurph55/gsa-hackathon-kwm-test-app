@@ -1,0 +1,46 @@
+{
+  "executed": 26,
+  "passed": 26,
+  "failed": 0,
+  "skipped": 0,
+  "schema_valid_responses": 25,
+  "nonerror_responses": 25,
+  "latency_ms": {
+    "n": 26,
+    "min": 0.7736249972367659,
+    "median": 1.9401455028855707,
+    "p95_nearest_rank": 6.031125005392823,
+    "max": 19.881291998899542
+  },
+  "live_checks": "separate_run_see_live_json",
+  "agent_evaluation": "not_run_by_this_harness",
+  "tool_selection_accuracy": null,
+  "real_upstream_requests": 0,
+  "synthetic_upstream_requests": 72,
+  "python": "3.13.1",
+  "dependencies": {
+    "fastmcp": "4.0.11",
+    "mcp": "2.3.0",
+    "httpx": "0.28.1",
+    "pydantic": "2.13.5"
+  },
+  "base_revision": "0f50298103768143a406baa865c02c28f0485e44",
+  "source_sha256": "54ca1372cc9b6b9634261c13c6884266db25a881c298217453d7a4307d225ae6",
+  "registry_version": "0.2.0",
+  "production_live_latency_ms": {
+    "n": 14,
+    "median": 0.886667003214825
+  },
+  "production_cached_latency_ms": {
+    "n": 0,
+    "median": null
+  },
+  "synthetic_live_latency_ms": {
+    "n": 9,
+    "median": 3.0405419965973124
+  },
+  "synthetic_cached_latency_ms": {
+    "n": 2,
+    "median": 2.9573125029855873
+  }
+}

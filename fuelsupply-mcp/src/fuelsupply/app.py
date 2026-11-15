@@ -1,3 +1,5 @@
+# MCP composition root: assemble public tools, methodology and prompt, then
+# start the stdio transport when main() is invoked by a launcher or CLI.
 import logging
 import sys
 

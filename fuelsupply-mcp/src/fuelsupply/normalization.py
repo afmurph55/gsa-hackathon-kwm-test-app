@@ -1,3 +1,5 @@
+# Observation conversion helpers: parse numeric values, resolve period ends,
+# and normalize supported units without changing a series' product definition.
 import calendar
 import math
 from datetime import date
@@ -26,6 +28,8 @@ def period_end(period, frequency):
 
 
 def normalize(value, units, period, frequency, classification):
+    # Return (normalized value, display units, quality issue). The service keeps
+    # original values too, allowing each conversion to be checked against EIA.
     v = number(value)
     if v is None:
         return None, units, "missing_or_withheld"

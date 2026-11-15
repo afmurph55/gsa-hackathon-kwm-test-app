@@ -1,3 +1,5 @@
+# Conditions tool: retrieve descriptive production, inventory, implied-demand
+# and trade evidence for one exact product/region/frequency combination.
 from fuelsupply.models import Query, Result
 from fuelsupply.service import service
 

@@ -1,5 +1,11 @@
 # Execution plan
 
+## Component explanations in source — November 14, 2026
+
+Expanded comments directly in 21 source files: package/module responsibilities, cache operations, typed contracts, retrieval boundaries, the shared analysis service, all five tool modules, dashboard request handlers, browser state/render helpers and responsive/print styles. Existing tool docstrings and executable behavior are unchanged, verified by Python AST and comment-stripped JavaScript/HTML/CSS comparisons against commit `0f50298103768143a406baa865c02c28f0485e44`.
+
+Validation: 82 unit/API tests passed; actual subprocess stdio MCP evaluation passed 26/26 cases, with 25 schema-valid non-error responses and one expected validation error. Ruff lint/format, JavaScript syntax and whitespace checks passed. Evidence: `eval/results/component-comments-protocol-summary.json` and `eval/results/component-comments-pytest.txt`. Zero real upstream requests, 72 synthetic HTTP requests; authenticated EIA and model-agent evaluations were not rerun. Earlier evidence remains intact. This follow-up is prepared for a local commit; no new deployment, push or submission.
+
 ## Evaluator code comments — November 14, 2026
 
 Prepared local branch `docs/evaluator-code-comments` from hackathon repository main commit `7a54c069badfc798e1db18da4833c21a28bc003b`. Added explanatory comments to 21 server, tool, analytics, retrieval and dashboard source files. Python AST and comment-stripped JavaScript/HTML comparisons confirm unchanged executable content; existing tool docstrings and schemas are preserved. See `docs/evaluator-code-review.md` for reading order, reproducible commands and limitations.

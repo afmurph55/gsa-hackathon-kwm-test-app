@@ -1,3 +1,5 @@
+# Analysis coordinator: translate a validated query into verified observations,
+# optional purpose-specific calculations and a traceable Result envelope.
 from datetime import date
 
 from fuelsupply.analytics import inventory_coverage, reconcile, seasonal_comparison
@@ -16,6 +18,8 @@ class SupplyService:
         self.bindings = load_registry()[1] if bindings is None else bindings
 
     async def run(self, query, purpose="conditions"):
+        # All four analytical tools enter here. The purpose chooses extra checks
+        # and calculations; the input validation and retrieval path stay shared.
         out = Result(
             text="Market-level descriptive analysis",
             status="ok",
@@ -230,4 +234,6 @@ class SupplyService:
         return out
 
 
+# MCP wrappers reuse this service/client, including its short-lived cache.
+# The dashboard creates a service for each refresh in its HTTP adapter.
 service = SupplyService()

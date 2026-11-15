@@ -12,11 +12,14 @@ from fuelsupply.config import settings
 from fuelsupply.models import Binding
 
 
+# Only controlled diagnostic messages should cross this exception boundary.
 class EIAError(Exception):
     pass
 
 
 class EIAClient:
+    # Network adapter: fetch one verified series at a time, with bounded work,
+    # per-instance caching and no exposure of raw upstream errors to callers.
     def __init__(self, key=None, transport=None):
         # Optional transport/key injection supports synthetic tests without real
         # EIA traffic. Production takes the credential from server settings.
@@ -27,6 +30,8 @@ class EIAClient:
         self.request_count = 0
 
     async def fetch(self, binding: Binding, cutoff=None, limit=12):
+        # Return newest-first raw rows, retrieval time and live/cached mode.
+        # Unit conversion and analytical interpretation belong to the service.
         if not 1 <= limit <= 260:
             raise EIAError("invalid_limit")
         # The verified binding supplies the route/facets; callers choose only
@@ -100,6 +105,8 @@ class EIAClient:
         return result
 
     async def _request(self, client, route, params):
+        # Issue one page request, applying transport retries and response bounds.
+        # fetch() handles pagination; this method handles individual HTTP calls.
         # Revalidate even if an operator bypasses normal model construction.
         import re
 

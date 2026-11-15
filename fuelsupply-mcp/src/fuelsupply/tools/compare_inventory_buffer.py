@@ -1,3 +1,5 @@
+# Inventory tool: request stock-versus-daily-demand coverage and a seasonal
+# stock comparison, with explicit compatibility and history requirements.
 from fuelsupply.models import Query, Result
 from fuelsupply.service import service
 

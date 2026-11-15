@@ -1,3 +1,5 @@
+# Runtime configuration: locate checkout resources and read the server-side
+# credential from environment settings. This module does not make API requests.
 from pathlib import Path
 
 from pydantic import SecretStr

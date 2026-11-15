@@ -1,3 +1,5 @@
+# Sourcing tool: describe recorded production and trade flows, including net
+# receipts where mapped. It does not locate vendors or confirm available fuel.
 from fuelsupply.models import Query, Result
 from fuelsupply.service import service
 

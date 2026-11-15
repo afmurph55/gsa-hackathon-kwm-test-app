@@ -1,3 +1,5 @@
+# Tool catalog: register the five public capabilities on a supplied FastMCP
+# instance. Each tool module owns its name, schema annotations and description.
 from fuelsupply.tools import (
     assess_fuel_supply_conditions,
     assess_historical_sourcing,

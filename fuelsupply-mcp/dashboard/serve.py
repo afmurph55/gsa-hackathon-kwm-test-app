@@ -17,6 +17,8 @@ ALLOWED_HISTORY = {3, 12, 26, 52}
 
 
 class LocalHTTPServer(ThreadingHTTPServer):
+    # HTTP transport for the local dashboard. Its handlers serve fixed assets
+    # and adapt one refresh request to the asynchronous analysis service.
     def server_bind(self):
         # Binding loopback needs no reverse-DNS lookup or external name service.
         TCPServer.server_bind(self)
@@ -56,6 +58,8 @@ def retrieve(query):
 
 
 def create_server(port=8765, snapshot_path=SNAPSHOT, refresh=retrieve):
+    # Construct, but do not start, the server. Injectable snapshot/retrieval
+    # dependencies let HTTP tests use temporary files and synthetic results.
     lock = threading.Lock()
 
     class Handler(BaseHTTPRequestHandler):
@@ -74,6 +78,8 @@ def create_server(port=8765, snapshot_path=SNAPSHOT, refresh=retrieve):
             )
 
         def send(self, status, payload, content_type="application/json"):
+            # Central response writer for assets and API results. Apply the same
+            # cache, content-type and browser policy headers on every response.
             if not isinstance(payload, bytes):
                 payload = json.dumps(payload).encode()
             self.send_response(status)
@@ -93,6 +99,7 @@ def create_server(port=8765, snapshot_path=SNAPSHOT, refresh=retrieve):
             self.wfile.write(payload)
 
         def do_GET(self):
+            # Read-only routes load the page, browser assets or saved snapshot.
             if not self.trusted_request():
                 self.send(403, {"error": "Local requests only"})
                 return
@@ -118,6 +125,8 @@ def create_server(port=8765, snapshot_path=SNAPSHOT, refresh=retrieve):
                 self.send(503, {"error": "Saved snapshot unavailable"})
 
         def do_POST(self):
+            # The only writable route refreshes and saves one supported case.
+            # Validate the request before contacting the analysis service.
             if not self.trusted_request():
                 self.send(403, {"error": "Local requests only"})
                 return
@@ -199,6 +208,8 @@ def create_server(port=8765, snapshot_path=SNAPSHOT, refresh=retrieve):
 
 
 def main():
+    # Local CLI lifecycle: parse the port, load optional local credentials before
+    # service import, prepare snapshot assets and serve until interrupted.
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--port", type=int, default=8765)
     args = parser.parse_args()
