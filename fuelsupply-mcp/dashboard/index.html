@@ -1,4 +1,6 @@
 <!doctype html>
+<!-- Dashboard page structure. Stable element IDs connect this markup to app.js;
+     styles.css supplies responsive/print layouts, and snapshot.js supplies data. -->
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -26,6 +28,8 @@
     </aside>
     <main id="overview">
       <div class="page-heading"><div><div class="eyebrow">FUEL MARKETS / SUPPLY MONITOR</div><h1>A clearer view of fuel supply.</h1><p>Published observations, exact product definitions and traceable sources.</p></div><span class="snapshot-tag" id="snapshot-status">Saved EIA snapshot</span></div>
+      <!-- Filters choose one verified saved case and its displayed history;
+           refresh explicitly requests updated observations from the local API. -->
       <section class="filters" aria-label="Data selection">
         <label>Fuel product<select id="fuel"><option value="distillate">Distillate fuel oil</option><option value="finished_gasoline">Finished motor gasoline</option><option value="kerosene_jet">Kerosene-type jet fuel</option></select></label>
         <label>Frequency<select id="frequency"><option value="weekly">Weekly</option><option value="monthly">Monthly</option></select></label>

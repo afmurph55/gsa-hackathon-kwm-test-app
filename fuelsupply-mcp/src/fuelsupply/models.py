@@ -1,3 +1,6 @@
+# Application contracts: Query describes accepted input, Binding describes a
+# curated EIA series, and Result carries evidence plus interpretation limits.
+# FastMCP uses these typed contracts to publish input and output schemas.
 from datetime import date, datetime
 from typing import Literal
 

@@ -1,3 +1,5 @@
+# Coverage tool: show which exact EIA products, metrics, regions and frequencies
+# this build has verified before a client chooses an analytical tool.
 from fuelsupply.models import Result
 from fuelsupply.provenance import DEFINITIONS, LIMITATIONS
 from fuelsupply.registry import load_registry

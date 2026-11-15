@@ -1,3 +1,5 @@
+# Coverage loader: turn the versioned registry file into validated bindings.
+# This is the allowlist of supported analysis mappings, not a search of EIA.
 import json
 from pathlib import Path
 

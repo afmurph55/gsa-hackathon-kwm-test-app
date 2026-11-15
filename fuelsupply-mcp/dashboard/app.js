@@ -1,3 +1,6 @@
+// Browser view component: render a saved service response into controls, summary
+// statistics, SVG charts, an auditable observation table and source references.
+// The enclosing function keeps its state out of the global browser namespace.
 (() => {
   "use strict";
   // Review path: snapshot.js loads saved service results, controls select one
@@ -10,6 +13,7 @@
     $("message").textContent = "No saved observations are available. Start the local dashboard and refresh from EIA.";
     return;
   }
+  // Presentation dictionaries change display names/colors only, not metric IDs.
   const label = {
     stocks: "Ending stocks", production: "Net production",
     refinery_blender_production: "Refinery / blender production",
@@ -22,12 +26,17 @@
   // This UI gate enables local HTTP refresh. serve.py independently enforces
   // Host, Origin, allowed combinations and history bounds.
   const localServer = location.protocol === "http:" && ["localhost", "127.0.0.1"].includes(location.hostname);
+  // View state: selected case, table expansion, refresh-in-progress flag, and
+  // visible flow series. Saved observations remain in data.cases.
   let current, allPeriods = false, busy = false;
   let visible = new Set(["production", "refinery_blender_production", "product_supplied"]);
+  // Formatting helpers keep missing values visible and dates stable in UTC.
   const numeric = (value, digits=1) => value == null || !Number.isFinite(value)
     ? "—" : value.toLocaleString("en-US", {minimumFractionDigits:digits,maximumFractionDigits:digits});
   const dateText = (period, frequency) => new Date(period + (frequency === "monthly" ? "-01" : "") + "T12:00:00Z")
     .toLocaleDateString("en-US", {timeZone:"UTC",month:"short",...(frequency === "weekly" ? {day:"numeric"} : {year:"numeric"})});
+  // Case identity excludes history: the selected history is a window into one
+  // product/region/frequency case. Service observations arrive newest first.
   const keyOf = q => [q.fuel,q.geography,q.frequency].join("|");
   const metric = id => current.response.metrics.find(m => m.metric === id);
   const observations = id => (metric(id)?.observations || []).slice(0, Number($("history").value));
@@ -36,6 +45,7 @@
     frequency:$("frequency").value, lookback_periods:Number($("history").value)});
 
   function setMessage(message) {
+    // Update the accessible status notice without inserting HTML from data.
     $("message").textContent = message;
     $("message").hidden = !message;
   }
@@ -59,6 +69,8 @@
   }
 
   function renderStats() {
+    // Summarize the newest stock and supplied observations and stock movement.
+    // Convert stocks to million barrels only at this display boundary.
     const s=latest("stocks"), d=latest("product_supplied");
     $("stock-value").textContent = numeric(Number.isFinite(s?.value) ? s.value / 1000 : null, 2);
     $("supplied-value").textContent = numeric(d?.value, 1);
@@ -74,6 +86,7 @@
   }
 
   function svgNode(name, attributes={}, text) {
+    // Create chart elements in the SVG namespace; use textContent for labels.
     const node=document.createElementNS("http://www.w3.org/2000/svg",name);
     for(const [key,value] of Object.entries(attributes)) node.setAttribute(key,String(value));
     if(text!==undefined) node.textContent=text;
@@ -122,6 +135,7 @@
     const tip=document.createElement("div");tip.className="tooltip";tip.hidden=true;
     const overlay=svgNode("rect",{x:x0,y:y0,width:Math.max(1,x1-x0),height:y1-y0,fill:"transparent"});
     function show(event) {
+      // Map pointer position to the nearest recorded period for the tooltip.
       const bounds=svg.getBoundingClientRect();
       const px=Math.min(x1,Math.max(x0,(event.clientX-bounds.left)*width/bounds.width));
       const index=Math.min(periods.length-1,Math.max(0,Math.round((px-x0)/(x1-x0)*(periods.length-1))));
@@ -167,6 +181,8 @@
   }
 
   function render() {
+    // Main view refresh: update provenance, coverage warnings, controls and all
+    // evidence views from the selected case without retrieving new EIA data.
     const q=current.query,r=current.response;
     $("registry-count").textContent=`${data.binding_count} mappings`;
     $("registry-version").textContent=`Version ${data.registry_version}`;

@@ -1,5 +1,9 @@
 # FuelSupply evaluator code review
 
+The source now includes component comments at module boundaries as well as inline explanations. In particular, `src/fuelsupply/__init__.py` identifies the package entry points; each tool file names its capability; `dashboard/app.js` explains browser state and render helpers; `dashboard/serve.py` describes its request handlers; and `dashboard/styles.css` explains responsive and print behavior. These comments are part of the source files, not generated documentation.
+
+The component-comment follow-up passed the same 82 tests and 26 stdio cases on November 14, 2026. Its evidence is recorded separately in `eval/results/component-comments-protocol-summary.json` and `eval/results/component-comments-pytest.txt`. Python AST and comment-stripped JavaScript/HTML/CSS comparisons confirm unchanged behavior against the preceding comment commit.
+
 ## Reading order
 
 1. Start at `main.py`, then `src/fuelsupply/app.py`. FastMCP registers five tools, a methodology resource and a briefing prompt. The prompt supplies client guidance; it does not call a model.

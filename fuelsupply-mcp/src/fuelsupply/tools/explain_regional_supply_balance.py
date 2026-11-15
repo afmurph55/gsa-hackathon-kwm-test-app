@@ -1,3 +1,5 @@
+# Balance tool: inspect monthly supply/disposition accounting and expose missing
+# terms or residuals rather than presenting incomplete data as a closed balance.
 from fuelsupply.models import Query, Result
 from fuelsupply.service import service
 

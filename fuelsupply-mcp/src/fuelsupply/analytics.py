@@ -2,6 +2,9 @@
 
 from fuelsupply.normalization import number
 
+# Pure calculation layer: callers supply observations already normalized and
+# checked for compatibility. No function here retrieves data or calls a model.
+
 
 def inventory_coverage(stock, demand, compatible):
     # The service establishes product/period/unit compatibility. Reject unknown
@@ -63,6 +66,8 @@ def reconcile(components):
 
 
 def seasonal_comparison(observations, target_period, frequency):
+    # Build a historical comparison from the supplied window only. Report the
+    # available/missing years rather than fetching or inventing additional data.
     from datetime import date
 
     target = date.fromisoformat(

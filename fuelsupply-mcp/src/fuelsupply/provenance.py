@@ -1,3 +1,5 @@
+# Evidence vocabulary: exact product labels and market-analysis limitations
+# reused across discovery, analysis responses and the methodology resource.
 # Shared interpretation rules for tool results and the methodology resource.
 # Keep these attached to the evidence so consumers see what it cannot establish.
 LIMITATIONS = [
