@@ -4,6 +4,8 @@ from time import monotonic
 
 
 class Cache:
+    # Per-client, in-memory LRU cache. Monotonic time avoids wall-clock changes;
+    # copies prevent a caller from mutating a response held for the next request.
     def __init__(self, capacity=64, ttl=300):
         self.capacity, self.ttl = capacity, ttl
         self.entries = OrderedDict()

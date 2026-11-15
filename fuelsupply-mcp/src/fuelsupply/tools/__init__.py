@@ -8,6 +8,8 @@ from fuelsupply.tools import (
 
 
 def register_tools(mcp):
+    # Each public tool has its own module. Analytical wrappers select a purpose
+    # in the shared service, keeping MCP and dashboard calculation rules together.
     for module in (
         discover_fuel_coverage,
         assess_fuel_supply_conditions,

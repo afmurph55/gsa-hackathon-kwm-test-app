@@ -18,6 +18,8 @@ class EIAError(Exception):
 
 class EIAClient:
     def __init__(self, key=None, transport=None):
+        # Optional transport/key injection supports synthetic tests without real
+        # EIA traffic. Production takes the credential from server settings.
         self.key = settings.eia_api_key.get_secret_value() if key is None else key
         self.transport = transport
         self.cache = Cache()
@@ -27,6 +29,8 @@ class EIAClient:
     async def fetch(self, binding: Binding, cutoff=None, limit=12):
         if not 1 <= limit <= 260:
             raise EIAError("invalid_limit")
+        # The verified binding supplies the route/facets; callers choose only
+        # the observation cutoff and bounded history, never an arbitrary URL.
         params = {
             "frequency": binding.frequency,
             "data[0]": binding.value_column,
@@ -38,6 +42,8 @@ class EIAClient:
             params[f"facets[{facet}][]"] = values
         if cutoff:
             params["end"] = str(cutoff)
+        # Include the binding and query window, but never credentials, in the
+        # cache identity. Cache hits preserve the original retrieval timestamp.
         cache_key = json.dumps(
             [binding.model_dump(mode="json"), params, limit], sort_keys=True
         )
@@ -53,6 +59,9 @@ class EIAClient:
                 follow_redirects=False,
                 transport=self.transport,
             ) as client:
+                # At most three 100-row pages cover the 260-observation limit.
+                # Duplicate periods are errors because one binding must resolve
+                # to a single observation per period, not mixed series.
                 for _ in range(3):
                     params["offset"] = offset
                     params["api_key"] = self.key
@@ -103,6 +112,7 @@ class EIAClient:
                     "GET", "https://api.eia.gov/v2/" + route, params=params
                 )
                 streamed = await client.send(request, stream=True)
+                # Stream with a size cap before JSON parsing to bound memory.
                 body = bytearray()
                 try:
                     async for chunk in streamed.aiter_bytes():
@@ -119,10 +129,14 @@ class EIAClient:
                 finally:
                     await streamed.aclose()
             except httpx.HTTPError:
+                # HTTP exceptions can contain credential-bearing URLs. Replace
+                # them with fixed diagnostics and suppress the exception chain.
                 if attempt < 2:
                     await asyncio.sleep(0.1 * (2**attempt))
                     continue
                 raise EIAError("upstream_transport_failure") from None
+            # Retry only transient statuses, within three attempts and a local
+            # wait budget. Honor short Retry-After values in either HTTP format.
             if response.status_code in (429, 502, 503, 504) and attempt < 2:
                 retry = response.headers.get("Retry-After", "0.1")
                 try:

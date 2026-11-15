@@ -1,5 +1,8 @@
 (() => {
   "use strict";
+  // Review path: snapshot.js loads saved service results, controls select one
+  // case, and render() updates the views. Only refresh() uses HTTP; the browser
+  // never receives an EIA API key or contacts EIA directly.
   const $ = id => document.getElementById(id);
   const data = window.FUELSUPPLY_DATA;
   if (!data || !Array.isArray(data.cases) || !data.cases.length) {
@@ -16,6 +19,8 @@
   };
   const colors = {stocks:"#146b60", production:"#146b60", refinery_blender_production:"#146b60",
     product_supplied:"#bb8126", imports:"#427da7", exports:"#8c6596",net_receipts:"#527896"};
+  // This UI gate enables local HTTP refresh. serve.py independently enforces
+  // Host, Origin, allowed combinations and history bounds.
   const localServer = location.protocol === "http:" && ["localhost", "127.0.0.1"].includes(location.hostname);
   let current, allPeriods = false, busy = false;
   let visible = new Set(["production", "refinery_blender_production", "product_supplied"]);
@@ -35,6 +40,8 @@
     $("message").hidden = !message;
   }
   function updateControls(changed) {
+    // Select from saved combinations without inventing missing coverage.
+    // Changing history slices existing rows until the user requests a refresh.
     const fuel = $("fuel").value;
     for (const option of $("frequency").options) {
       option.disabled = !data.cases.some(c => c.query.fuel === fuel && c.query.frequency === option.value);
@@ -55,6 +62,8 @@
     const s=latest("stocks"), d=latest("product_supplied");
     $("stock-value").textContent = numeric(Number.isFinite(s?.value) ? s.value / 1000 : null, 2);
     $("supplied-value").textContent = numeric(d?.value, 1);
+    // Display-only ratio for the selected exact-product case. Recheck period
+    // and level/flow units; this is not official EIA days of supply.
     const aligned=s && d && Number.isFinite(s.value) && Number.isFinite(d.value) && s.period===d.period && s.units==="Thousand Barrels" && d.units==="Thousand Barrels per Day" && d.value>0;
     $("ratio-value").textContent = numeric(aligned ? s.value/d.value : null,2);
     const before = observations("stocks")[1];
@@ -71,6 +80,9 @@
     return node;
   }
   function chart(containerId, series, units, title) {
+    // Plot finite values at equally spaced observation periods. Missing values
+    // are omitted, so connecting lines may span gaps without supplying estimates.
+    // Tooltips show recorded values for the selected observation period.
     const host=$(containerId); host.replaceChildren();
     const width=Math.max(180,host.clientWidth), height=248;
     const left=54,right=12,top=24,bottom=54;
@@ -126,6 +138,8 @@
   }
 
   function drawCharts() {
+    // Convert stock display units only. The service already normalized daily
+    // flows; monthly refinery/blender output remains a production component.
     const stocks=observations("stocks").map(v=>({...v,value:v.value==null?null:v.value/1000}));
     $("stock-period-count").textContent=`${stocks.length} periods`;
     chart("stock-chart",[{name:"Stocks",color:colors.stocks,values:stocks}],"Million barrels","Ending stocks over the selected observation periods");
@@ -135,6 +149,8 @@
   }
 
   function renderTable() {
+    // Pair normalized and original EIA values for auditability. The all-periods
+    // toggle still respects the selected saved-history window.
     const host=$("observation-rows");host.replaceChildren();
     const latestPeriod=current.response.observation_periods[0];
     const rows=current.response.metrics.flatMap(m=>observations(m.metric).map(o=>({...o,metric:m.metric})))
@@ -168,6 +184,8 @@
       const swatch=document.createElement("span");swatch.className="swatch";swatch.style.background=colors[id];swatch.setAttribute("aria-hidden","true");
       button.append(swatch,document.createTextNode(label[id]));button.addEventListener("click",()=>{visible.has(id)?visible.delete(id):visible.add(id);render();});$("flow-legend").append(button);
     }
+    // Keep known limits visible: monthly production terms remain separate,
+    // and the mixed-product gasoline export series stays excluded.
     const monthly=q.frequency==="monthly",gas=q.fuel==="finished_gasoline";
     const coverage=document.querySelector(".coverage-note");coverage.classList.toggle("partial",monthly||gas||r.status!=="ok");
     $("coverage-label").textContent=monthly||gas?"Partial coverage":"Verified coverage";
@@ -177,6 +195,7 @@
     for(const b of r.source_bindings) {
       const item=document.createElement("div");item.className="source";
       const a=document.createElement("a");a.textContent=label[b.internal_metric_id]||b.internal_metric_id;
+      // Render labels as text and activate only published EIA page links.
       if(new URL(b.source_url).hostname==="www.eia.gov"){a.href=b.source_url;a.target="_blank";a.rel="noopener noreferrer";}
       const detail=document.createElement("span");detail.textContent=`${b.facets.series?.[0]||"EIA series"} · ${b.units} · verified ${b.verified_at.slice(0,10)}`;item.append(a,detail);$("source-list").append(item);
     }
@@ -196,6 +215,8 @@
   }
 
   async function refresh() {
+    // Freeze controls while retrieving one case. Replace browser state only
+    // after a successful response; other cases retain their retrieval dates.
     if(busy||!localServer)return;
     busy=true;$("refresh").disabled=true;$("refresh").textContent="Refreshing…";
     for(const id of ["fuel","frequency","geography","history"])$(id).disabled=true;
@@ -216,6 +237,8 @@
   }
 
   function exportCsv() {
+    // Export the selected saved history with original units and source links.
+    // CSV generation performs no new upstream retrieval.
     const q=current.query,r=current.response;
     const rows=[["fuel","geography","frequency","period","metric","value","units","original_value","original_units","retrieved_at","source_url"]];
     for(const m of r.metrics)for(const o of observations(m.metric)) {
@@ -226,6 +249,7 @@
     const url=URL.createObjectURL(new Blob([csv],{type:"text/csv;charset=utf-8"}));
     const a=document.createElement("a");a.href=url;a.download=`fuelsupply-${q.fuel}-${q.geography}-${q.frequency}.csv`;a.hidden=true;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),60000);
   }
+  // Attach controls once; renders replace only changing evidence views.
   for(const id of ["fuel","frequency","geography","history"])$(id).addEventListener("change",()=>updateControls(id));
   $("refresh").addEventListener("click",refresh);
   $("export-csv").addEventListener("click",exportCsv);

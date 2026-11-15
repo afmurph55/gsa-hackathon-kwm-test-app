@@ -13,6 +13,7 @@
     <span class="top-label">EIA petroleum · verified coverage</span>
   </header>
   <div class="layout">
+    <!-- Section anchors and control IDs form the interface used by app.js. -->
     <aside class="sidebar">
       <div class="nav-label">WORKSPACE</div>
       <nav aria-label="Dashboard sections">
@@ -34,11 +35,15 @@
       </section>
       <div class="data-meta" aria-live="polite"><span id="period-label"></span><span id="retrieved-label"></span></div>
       <div id="message" class="notice" role="status" hidden></div>
+      <!-- Stock levels and daily flows use different units. Keep the custom
+           ratio's interpretation limit visible alongside its value. -->
       <section class="stats" aria-label="Latest observations">
         <article class="stat"><span class="small-label">ENDING STOCKS</span><div class="stat-number"><span id="stock-value">—</span><span class="stat-unit">million bbl</span></div><div id="stock-change" class="stat-context"></div></article>
         <article class="stat"><span class="small-label">PRODUCT SUPPLIED</span><div class="stat-number"><span id="supplied-value">—</span><span class="stat-unit">thousand bbl/day</span></div><div class="stat-context">Implied demand · not direct customer sales</div></article>
         <article class="stat"><span class="small-label">CUSTOM INVENTORY RATIO</span><div class="stat-number"><span id="ratio-value">—</span><span class="stat-unit">days</span></div><div class="stat-context">Stocks ÷ product supplied · not official EIA days of supply</div></article>
       </section>
+      <!-- app.js creates SVG charts from the selected saved case. Source rows
+           and definitions below the charts support evaluator review. -->
       <section class="chart-grid" aria-label="Supply trends">
         <article class="panel"><div class="panel-heading"><div><h2>Inventory trend</h2><span class="chart-caption">Ending stocks · million barrels</span></div><span id="stock-period-count" class="small-label"></span></div><div id="stock-chart" class="chart"></div></article>
         <article class="panel"><div class="panel-heading"><div><h2>Production & implied demand</h2><span class="chart-caption">Daily average · thousand barrels/day</span></div></div><div id="flow-legend" class="legend" aria-label="Flow series"></div><div id="flow-chart" class="chart"></div></article>
@@ -49,6 +54,8 @@
       <footer>FuelSupply · Public EIA petroleum analysis · No purchasing, shortage prediction or spare-capacity claims.<span id="footer-source"></span></footer>
     </main>
   </div>
+  <!-- Data must precede the view code. export_snapshot.py replaces these exact
+       asset tags to produce a self-contained offline HTML file. -->
   <script src="data/snapshot.js"></script>
   <script src="app.js"></script>
 </body>
