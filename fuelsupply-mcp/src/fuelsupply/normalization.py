@@ -6,6 +6,8 @@ MISSING = {"", "--", "NA", "W", "(s)", "null", "None"}
 
 
 def number(value):
+    # Missing, withheld and non-finite values stay unknown rather than becoming
+    # zero, which would manufacture supply or distort a balance calculation.
     if value is None or str(value).strip() in MISSING:
         return None
     try:
@@ -16,6 +18,7 @@ def number(value):
 
 
 def period_end(period, frequency):
+    # Monthly API labels omit the day; cutoffs apply to the full month's end.
     if frequency == "monthly":
         d = date.fromisoformat(period + "-01")
         return d.replace(day=calendar.monthrange(d.year, d.month)[1])
@@ -36,6 +39,8 @@ def normalize(value, units, period, frequency, classification):
         and classification == "flow"
         and frequency == "monthly"
     ):
+        # Only monthly flow totals become daily averages. Stock levels remain
+        # period-end quantities, and already-daily flows are not divided again.
         return v / period_end(period, frequency).day, "Thousand Barrels per Day", None
     if units in {"Thousand Barrels", "Thousand Barrels per Day", "Percent"}:
         return v, units, None

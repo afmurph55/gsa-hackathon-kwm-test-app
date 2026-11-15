@@ -15,4 +15,6 @@ def register(mcp):
         net receipts where verified. Historical flows cannot confirm
         replacement supply, purchasing availability, refinery switching or
         spare pipeline capacity."""
+        # This purpose also requires net receipts for completeness. It reports
+        # historical evidence without selecting suppliers or inferring capacity.
         return await service.run(query, "sourcing")

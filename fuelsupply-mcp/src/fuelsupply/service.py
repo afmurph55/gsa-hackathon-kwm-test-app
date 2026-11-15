@@ -9,6 +9,8 @@ from fuelsupply.registry import load_registry
 
 
 class SupplyService:
+    # Shared orchestration for analytical MCP tools and dashboard refreshes.
+    # Calculation functions stay pure; the client owns network access and cache.
     def __init__(self, client=None, bindings=None):
         self.client = client or EIAClient()
         self.bindings = load_registry()[1] if bindings is None else bindings
@@ -24,6 +26,8 @@ class SupplyService:
                 "Clarify exact product definition",
             ],
         )
+        # Resolve ambiguous product names before consulting mappings or EIA.
+        # Similar fuel labels can represent materially different series.
         if query.fuel in {"diesel", "gasoline", "jet"}:
             out.status = "needs_clarification"
             out.text = {
@@ -41,6 +45,8 @@ class SupplyService:
                 "Regional balance requires monthly observations.",
             )
             return out
+        # Coverage is an exact match. Do not substitute another product, region
+        # or frequency when the requested combination has no verified mapping.
         selected = [
             b
             for b in self.bindings
@@ -70,6 +76,8 @@ class SupplyService:
             out.resolved_product_definition = next(iter(definitions))
         elif len(definitions) > 1:
             out.data_quality_diagnostics.append("incompatible_product_definitions")
+        # Preserve each metric independently, including partial retrievals.
+        # A failed or withheld observation must not silently become zero.
         modes, periods, retrieved = set(), set(), []
         for b in selected:
             try:
@@ -82,6 +90,8 @@ class SupplyService:
                 for row in data["rows"]:
                     try:
                         end = period_end(row["period"], b.frequency)
+                        # This filters observation dates only. Current EIA data
+                        # cannot reconstruct what was published at that cutoff.
                         if query.observation_cutoff and end > query.observation_cutoff:
                             continue
                         if row.get("units") != b.units:
@@ -105,6 +115,8 @@ class SupplyService:
                                 "period": row["period"],
                                 "value": value,
                                 "units": units,
+                                # Retain raw units/values alongside normalized
+                                # values so evaluators can audit conversions.
                                 "original_value": number(row.get(b.value_column)),
                                 "original_units": b.units,
                             }
@@ -135,6 +147,8 @@ class SupplyService:
         out.data_quality_diagnostics.append(
             "retrieval_modes:" + ",".join(sorted(modes))
         )
+        # Fetch returns newest first. Compare actual periods instead of assuming
+        # all metrics have updated together; a balance needs aligned evidence.
         latest = {
             m["metric"]: m["observations"][0] for m in out.metrics if m["observations"]
         }
@@ -144,6 +158,8 @@ class SupplyService:
             )
         if purpose == "inventory":
             s, d = latest.get("stocks"), latest.get("product_supplied")
+            # Stocks/daily demand is meaningful only for the same product and
+            # observation period, with compatible level-versus-flow units.
             compatible = bool(
                 s
                 and d
@@ -174,6 +190,8 @@ class SupplyService:
                     )
                 )
         if purpose == "balance":
+            # Reconciliation receives only aligned daily flows. Missing terms
+            # remain missing, even when other monthly components are available.
             aligned = (
                 len({x["period"] for x in latest.values()}) == 1
                 and len(definitions) == 1
@@ -188,6 +206,9 @@ class SupplyService:
                 else {}
             )
             out.calculations.append(reconcile(flow))
+        # Response status summarizes core evidence completeness, independently
+        # of whether any individual chart or custom calculation is available.
+        # Detailed diagnostics and calculation statuses explain partial results.
         required = {"production", "stocks", "product_supplied", "imports", "exports"}
         if purpose == "sourcing":
             required.add("net_receipts")

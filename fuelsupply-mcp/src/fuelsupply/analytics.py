@@ -4,6 +4,8 @@ from fuelsupply.normalization import number
 
 
 def inventory_coverage(stock, demand, compatible):
+    # The service establishes product/period/unit compatibility. Reject unknown
+    # values and a non-positive denominator before forming this custom ratio.
     s, d = number(stock), number(demand)
     if not compatible or s is None or d is None or s < 0 or d <= 0:
         return {"status": "insufficient_components", "value": None}
@@ -20,6 +22,8 @@ def inventory_coverage(stock, demand, compatible):
 
 
 def reconcile(components):
+    # A missing accounting term cannot be assumed to be zero. Current monthly
+    # mappings may expose useful components without supporting a full balance.
     required = {
         "production",
         "imports",
@@ -35,6 +39,8 @@ def reconcile(components):
     ):
         return {"status": "insufficient_components", "residual": None}
     c = {k: number(components[k]) for k in required}
+    # A positive stock change builds inventory and therefore reduces supply
+    # available for product supplied. Report any residual rather than hide it.
     residual = (
         c["production"]
         + c["imports"]
@@ -62,6 +68,8 @@ def seasonal_comparison(observations, target_period, frequency):
     target = date.fromisoformat(
         target_period if frequency == "weekly" else target_period + "-01"
     )
+    # Compare the same ISO week or calendar month in the five prior calendar
+    # years. Week 53 stays separate, and short histories return no baseline mean.
     key = target.isocalendar().week if frequency == "weekly" else target.month
     samples, years = [], []
     for period, value in observations.items():

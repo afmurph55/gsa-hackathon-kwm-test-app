@@ -8,10 +8,13 @@ HERE = Path(__file__).resolve().parent
 
 
 def export(output):
+    # Inline existing assets and saved public-data results, not credentials or
+    # a live API connection. Browser refresh stays disabled for file: URLs.
     page = (HERE / "index.html").read_text()
     css = (HERE / "styles.css").read_text()
     js = (HERE / "app.js").read_text()
     data = json.loads((HERE / "data/snapshot.json").read_text())
+    # Prevent embedded JSON text from terminating its surrounding script tag.
     payload = json.dumps(data).replace("</", "<\\/")
     page = page.replace(
         '<link rel="stylesheet" href="styles.css">', "<style>" + css + "</style>"

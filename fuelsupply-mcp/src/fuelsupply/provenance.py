@@ -1,3 +1,5 @@
+# Shared interpretation rules for tool results and the methodology resource.
+# Keep these attached to the evidence so consumers see what it cannot establish.
 LIMITATIONS = [
     "Product supplied is implied demand, not direct customer sales.",
     (
@@ -24,6 +26,8 @@ LIMITATIONS = [
         "separate; co-occurrence does not establish causation."
     ),
 ]
+# Public names deliberately distinguish products that casual fuel names conflate.
+# These labels do not enable coverage; verified registry bindings do that.
 DEFINITIONS = {
     "distillate": "Distillate fuel oil (broad product family; not ULSD)",
     ("ulsd"): (

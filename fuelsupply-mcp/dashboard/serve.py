@@ -27,6 +27,8 @@ class LocalHTTPServer(ThreadingHTTPServer):
 def save_snapshot(path, data):
     """Persist sanitized application results, never request URLs or credentials."""
     content = json.dumps(data, indent=2) + "\n"
+    # Replace the JSON file after writing it, then generate the browser's data
+    # script. The .js companion also supports the offline HTML export.
     temp = path.with_suffix(".tmp")
     temp.write_text(content)
     temp.replace(path)
@@ -35,12 +37,16 @@ def save_snapshot(path, data):
 
 
 def retrieve(query):
+    # Use the same typed service as MCP, directly in this local HTTP adapter.
+    # This dashboard path does not send a tool call through the MCP transport.
     from fuelsupply.models import Query
     from fuelsupply.service import SupplyService
 
     result = asyncio.run(SupplyService().run(Query.model_validate(query)))
     if result.status not in {"ok", "partial"} or not result.observation_periods:
         raise ValueError("No observations retrieved")
+    # Partial coverage is valid, but an upstream failure must not replace a
+    # saved snapshot with an incomplete refresh.
     if any(
         "upstream" in item or "missing_credentials" in item
         for item in result.data_quality_diagnostics
@@ -58,6 +64,8 @@ def create_server(port=8765, snapshot_path=SNAPSHOT, refresh=retrieve):
             pass
 
         def trusted_request(self):
+            # Check browser Host and any supplied Origin as well as binding
+            # loopback, restricting requests to this local server and port.
             port = self.server.server_address[1]
             hosts = {f"127.0.0.1:{port}", f"localhost:{port}"}
             origin = self.headers.get("Origin")
@@ -88,6 +96,8 @@ def create_server(port=8765, snapshot_path=SNAPSHOT, refresh=retrieve):
             if not self.trusted_request():
                 self.send(403, {"error": "Local requests only"})
                 return
+            # Serve an explicit allowlist, never arbitrary filesystem paths.
+            # Neither .env nor the source tree is a static asset.
             files = {
                 "/": (DASHBOARD / "index.html", "text/html; charset=utf-8"),
                 "/styles.css": (DASHBOARD / "styles.css", "text/css"),
@@ -117,6 +127,8 @@ def create_server(port=8765, snapshot_path=SNAPSHOT, refresh=retrieve):
             if self.headers.get("Content-Type", "").split(";")[0] != "application/json":
                 self.send(415, {"error": "JSON required"})
                 return
+            # Bound the JSON body and accept only UI query fields. The browser
+            # never supplies credentials, an upstream route or an arbitrary URL.
             try:
                 length = int(self.headers.get("Content-Length", "0"))
                 if not 0 < length <= 2048:
@@ -133,6 +145,8 @@ def create_server(port=8765, snapshot_path=SNAPSHOT, refresh=retrieve):
                 if type(history) is not int or history not in ALLOWED_HISTORY:
                     raise ValueError()
                 snapshot = json.loads(snapshot_path.read_text())
+                # Saved cases restrict the UI; the service still independently
+                # resolves each query against the current verified registry.
                 allowed = {
                     (
                         c["query"]["fuel"],
@@ -149,6 +163,8 @@ def create_server(port=8765, snapshot_path=SNAPSHOT, refresh=retrieve):
                     400, {"error": "Choose a verified combination and bounded history"}
                 )
                 return
+            # Serialize refresh/write work in this threaded server. Reject
+            # concurrent refreshes rather than building an unbounded queue.
             if not lock.acquire(blocking=False):
                 self.send(429, {"error": "A refresh is already running; retry shortly"})
                 return
@@ -164,6 +180,8 @@ def create_server(port=8765, snapshot_path=SNAPSHOT, refresh=retrieve):
                 save_snapshot(snapshot_path, snapshot)
                 self.send(200, {"case": case})
             except Exception:
+                # Fixed error text prevents leaking credential-bearing upstream
+                # URLs or other exception details to the browser.
                 self.send(
                     502,
                     {
@@ -176,6 +194,7 @@ def create_server(port=8765, snapshot_path=SNAPSHOT, refresh=retrieve):
             finally:
                 lock.release()
 
+    # This is a local review/demo server, not a remotely hosted dashboard.
     return LocalHTTPServer(("127.0.0.1", port), Handler)
 
 

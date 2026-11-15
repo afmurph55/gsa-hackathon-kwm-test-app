@@ -4,6 +4,8 @@ from fuelsupply.registry import load_registry
 
 
 def register(mcp):
+    # Discovery reads the local curated registry and needs no EIA request/key.
+    # Analytical tools use openWorldHint=True because they can contact EIA.
     @mcp.tool(
         annotations={
             "readOnlyHint": True,
@@ -16,6 +18,7 @@ def register(mcp):
         before analysis. Diesel, gasoline and jet require explicit product
         choice. Empty coverage means live discovery is blocked, not evidence
         that EIA lacks data."""
+        # Empty coverage describes this build, not the absence of data at EIA.
         registry, bindings = load_registry()
         return Result(
             text="Verified coverage only; no silent substitutions.",

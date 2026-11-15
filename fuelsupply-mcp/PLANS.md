@@ -1,5 +1,11 @@
 # Execution plan
 
+## Evaluator code comments — November 14, 2026
+
+Prepared local branch `docs/evaluator-code-comments` from hackathon repository main commit `7a54c069badfc798e1db18da4833c21a28bc003b`. Added explanatory comments to 21 server, tool, analytics, retrieval and dashboard source files. Python AST and comment-stripped JavaScript/HTML comparisons confirm unchanged executable content; existing tool docstrings and schemas are preserved. See `docs/evaluator-code-review.md` for reading order, reproducible commands and limitations.
+
+Validation: 82 unit/API tests passed, including three loopback dashboard tests; actual stdio MCP evaluation passed 26/26 cases with 25 schema-valid non-error results and one expected validation error. This run made 72 synthetic HTTP requests and zero real upstream requests. Ruff lint/format, JavaScript syntax and whitespace checks passed. Recorded summaries are `eval/results/evaluator-comments-protocol-summary.json` and `eval/results/evaluator-comments-pytest.txt`. No new live EIA or model-agent evaluation, mapping changes, deployment, push or hackathon submission. Existing dated evidence is retained.
+
 ## Current authenticated milestone — November 11, 2026
 
 The prior missing-key/network-blocker milestone below is historical. EIA authentication now succeeds. Registry 0.2.0 enables 29 metadata/sample/table-verified mappings across five combinations (58 matched observations). Final verification: 79 unit/API tests, 26/26 offline stdio cases, 5/5 latest-period live combinations (29 requests), and 18/18 authenticated stdio cases with 209 observation/calculation checks. Key presence and owner-only storage were verified without displaying it. No deployment, submission, push, publication, tracing, or global settings change.

@@ -3,6 +3,8 @@ from typing import Literal
 
 from pydantic import BaseModel, ConfigDict, Field, HttpUrl, field_validator
 
+# Broad labels remain valid inputs so the service can ask for clarification.
+# Acceptance by this schema does not imply verified coverage for that product.
 Fuel = Literal[
     "diesel",
     "distillate",
@@ -19,6 +21,8 @@ Frequency = Literal["weekly", "monthly"]
 
 
 class Query(BaseModel):
+    # Reject extra arguments and bound history before retrieval. Free-form text
+    # supplies context only; it never becomes a URL, route or EIA series selector.
     model_config = ConfigDict(extra="forbid")
     text: str = Field(default="", max_length=2000)
     fuel: Fuel
@@ -29,6 +33,8 @@ class Query(BaseModel):
 
 
 class Binding(BaseModel):
+    # A curated mapping ties a metric to its exact EIA meaning and provenance.
+    # Relative petroleum routes combine with the fixed origin in EIAClient.
     model_config = ConfigDict(extra="forbid")
     internal_metric_id: str
     fuel_family: Fuel
@@ -58,6 +64,8 @@ class Binding(BaseModel):
 
 
 class Result(BaseModel):
+    # One response envelope serves MCP and the dashboard. Keep observations,
+    # derived calculations, source bindings and quality issues distinguishable.
     text: str
     status: Literal[
         "ok",
